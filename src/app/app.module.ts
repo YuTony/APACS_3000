@@ -15,12 +15,17 @@ import { TreeComponent } from './tree/tree.component';
 import { MatTreeModule } from '@angular/material/tree';
 import { HTTP_INTERCEPTORS, HttpClientModule } from "@angular/common/http";
 import { AuthInterceptor } from "./auth.interceptor";
+import { Tree2Component } from './tree2/tree2.component';
+import { MatProgressBarModule } from "@angular/material/progress-bar";
+import { Tree3Component } from './tree3/tree3.component';
 
 @NgModule({
     declarations: [
         AppComponent,
         NavigationComponent,
-        TreeComponent
+        TreeComponent,
+        Tree2Component,
+        Tree3Component
     ],
     imports: [
         BrowserModule,
@@ -33,7 +38,8 @@ import { AuthInterceptor } from "./auth.interceptor";
         MatIconModule,
         MatListModule,
         MatTreeModule,
-        HttpClientModule
+        HttpClientModule,
+        MatProgressBarModule
     ],
     providers: [
         {provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true}

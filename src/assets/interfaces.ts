@@ -10,7 +10,7 @@ export interface RootData {
     "sysAddrID": string
 }
 
-export interface ListItem {
+export interface TreeChild {
     "strClassID": string,
     "sysAddrID": string
 }

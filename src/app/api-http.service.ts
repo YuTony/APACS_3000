@@ -1,7 +1,8 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from "@angular/common/http";
 
-import { Config, ListItem, RootData } from "../assets/interfaces";
+import { Config, TreeChild, RootData } from "../assets/interfaces";
+import { Observable } from "rxjs";
 
 
 @Injectable({
@@ -17,17 +18,17 @@ export class ApiHttpService {
         return id.replace(' ', '%20');
     }
 
-    getRoot() {
+    getRoot(): Observable<RootData> {
         const req = `${this.url}/object/root/`
         return this.http.get<RootData>(req);
     }
 
-    getChild(id: string) {
+    getChild(id: string): Observable<TreeChild[]> {
         const req = `${this.url}/object/children/${ApiHttpService.formatId(id)}`;
-        return this.http.get<ListItem[]>(req);
+        return this.http.get<TreeChild[]>(req);
     }
 
-    getConfigId(id: string) {
+    getConfigId(id: string): Observable<Config> {
         const req = `${this.url}/object/id/${ApiHttpService.formatId(id)}`;
         return this.http.get<Config>(req);
     }
