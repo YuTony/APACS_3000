@@ -13,7 +13,7 @@ export class AppComponent implements OnInit {
     }
 
     ngOnInit() {
-        this.auth.loginUser()
+        this.auth.login({login: 'inst', password: ''})
             .subscribe(
                 res => localStorage.setItem('token', res.token),
                 err => console.log(err)

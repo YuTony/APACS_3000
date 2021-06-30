@@ -40,7 +40,7 @@ export class DynamicDatabase {
     }
 
     async getItem(id: string) {
-        let conf = await this.api.getConfigId(id).toPromise();
+        let conf = await this.api.getObjectById(id).toPromise();
         let item: DataNode = {
             name: conf.strName,
             classId: conf.strClassID,
@@ -51,7 +51,12 @@ export class DynamicDatabase {
     }
 
     async getChildren(node: DataNode): Promise<DataNode[]> {
-        let proms = node.children.map(async ch => await this.getItem(ch.sysAddrID));
+        // let proms = node.children.map(async ch => await this.getItem(ch.sysAddrID));
+        let proms = node.children.reduce<Promise<DataNode>[]>((acc, val) => {
+            if (!['TApcAccount', 'TApcCardHolder'].includes(val.strClassID))
+                acc.push(this.getItem(val.sysAddrID))
+            return acc;
+        }, [])
         return Promise.all(proms);
     }
 
@@ -118,8 +123,14 @@ export class DynamicDataSource implements DataSource<DynamicFlatNode> {
             children.then(chn => {
                 const nodes = chn.map(item =>
                     new DynamicFlatNode(item, node.level + 1, this._database.isExpandable(item)));
+
+                // const nodes = chn.reduce<DynamicFlatNode[]>((acc, val) => {
+                //     if (!['TApcAccount', 'TApcCardHolder'].includes(val.classId)) {
+                //         acc.push(new DynamicFlatNode(val, node.level + 1, this._database.isExpandable(val)));
+                //     }
+                //     return acc;
+                // }, []);
                 this.data.splice(index + 1, 0, ...nodes);
-                console.log(expand);
                 this.dataChange.next(this.data);
                 node.isLoading = false;
             })

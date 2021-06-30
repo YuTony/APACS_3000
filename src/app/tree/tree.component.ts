@@ -34,11 +34,11 @@ export class TreeComponent implements OnInit {
     treeControl: FlatTreeControl<FlatTreeNode>;
 
     /** The TreeFlattener is used to generate the flat list of items from hierarchical data. */
-    treeFlattener: MatTreeFlattener<DataNode, FlatTreeNode>;
+    treeFlattener: MatTreeFlattener<any, FlatTreeNode>;
 
     /** The MatTreeFlatDataSource connects the control and flattener to provide data. */
-    dataSource: MatTreeFlatDataSource<DataNode, FlatTreeNode>;
-    data: DataNode[] = [];
+    dataSource: MatTreeFlatDataSource<any, FlatTreeNode>;
+    data: any[] = [];
 
     constructor(private api: ApiHttpService) {
         this.treeFlattener = new MatTreeFlattener(
@@ -53,7 +53,7 @@ export class TreeComponent implements OnInit {
     }
 
     /** Transform the data to something the tree can read. */
-    transformer(node: DataNode, level: number): FlatTreeNode {
+    transformer(node: any, level: number): FlatTreeNode {
         // console.log(!node.children.length);
         return {
             name: node.name,
@@ -87,8 +87,18 @@ export class TreeComponent implements OnInit {
         return node.children;
     }
 
-    async getChild(id: string): Promise<DataNode> {
-        let children = await this.api.getConfigId(id).toPromise();
+    types: Map<string, any> = new Map<string, any>();
+
+    getInterface(obj: any) {
+        let int = {};
+        // @ts-ignore
+        Object.keys(obj).forEach(key => int[key] = typeof obj[key]);
+        return int;
+    }
+
+    async getChild(id: string): Promise<any> {
+        let children = await this.api.getObjectById(id).toPromise();
+        this.types.set(children.strClassID, this.getInterface(children));
         return {
             name: children.strName,
             classId: children.strClassID,
@@ -96,7 +106,7 @@ export class TreeComponent implements OnInit {
         }
     }
 
-    async getChildren2(id: string): Promise<DataNode[]> {
+    async getChildren2(id: string): Promise<any[]> {
         let children = await this.api.getChild(id).toPromise();
         let proms = children.map(cur => {
             return this.getChild(cur.sysAddrID);
@@ -109,5 +119,16 @@ export class TreeComponent implements OnInit {
         this.dataSource.data = [await this.getChild(rootId)];
 
         console.log(this.dataSource.data);
+        console.log(this.types);
+
+        let ans = '';
+        this.types.forEach(((value, key) => {
+            ans += `
+export interface ${key} {${Object.keys(value).map(value1 => `\n\t${value1}: ${value[value1]}`)}
+}
+`;
+        }))
+        console.log(ans);
+        console.log(Array.from(this.types.keys()).join(' | '));
     }
 }
