@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MatTreeFlatDataSource, MatTreeFlattener } from '@angular/material/tree';
 import { FlatTreeControl } from '@angular/cdk/tree';
-import { ApiHttpService } from "../api-http.service";
+import { APACSStabService } from "../services/APACS-stab.service";
 
 
 /** File node data with possible child nodes. */
@@ -40,7 +40,7 @@ export class TreeComponent implements OnInit {
     dataSource: MatTreeFlatDataSource<any, FlatTreeNode>;
     data: any[] = [];
 
-    constructor(private api: ApiHttpService) {
+    constructor(private api: APACSStabService) {
         this.treeFlattener = new MatTreeFlattener(
             this.transformer,
             this.getLevel,
@@ -87,7 +87,7 @@ export class TreeComponent implements OnInit {
         return node.children;
     }
 
-    types: Map<string, any> = new Map<string, any>();
+    types: Map<String, any> = new Map<String, any>();
 
     getInterface(obj: any) {
         let int = {};
@@ -96,7 +96,7 @@ export class TreeComponent implements OnInit {
         return int;
     }
 
-    async getChild(id: string): Promise<any> {
+    async getChild(id: String): Promise<any> {
         let children = await this.api.getObjectById(id).toPromise();
         this.types.set(children.strClassID, this.getInterface(children));
         return {
@@ -106,7 +106,7 @@ export class TreeComponent implements OnInit {
         }
     }
 
-    async getChildren2(id: string): Promise<any[]> {
+    async getChildren2(id: String): Promise<any[]> {
         let children = await this.api.getChild(id).toPromise();
         let proms = children.map(cur => {
             return this.getChild(cur.sysAddrID);

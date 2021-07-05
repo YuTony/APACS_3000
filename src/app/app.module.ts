@@ -14,10 +14,20 @@ import { MatListModule } from '@angular/material/list';
 import { TreeComponent } from './tree/tree.component';
 import { MatTreeModule } from '@angular/material/tree';
 import { HTTP_INTERCEPTORS, HttpClientModule } from "@angular/common/http";
-import { AuthInterceptor } from "./auth.interceptor";
+import { AuthInterceptor } from "./services/auth.interceptor";
 import { Tree2Component } from './tree2/tree2.component';
 import { MatProgressBarModule } from "@angular/material/progress-bar";
-import { Tree3Component } from './tree3/tree3.component';
+import { MatMenuModule } from "@angular/material/menu";
+import { TreeMenuComponent } from './tree-menu/tree-menu.component';
+import { AddObjectComponent } from './add-object/add-object.component';
+import { InfoObjectComponent } from './info-object/info-object.component';
+import { MatFormFieldModule } from "@angular/material/form-field";
+import { MatInputModule } from "@angular/material/input";
+import { MatSelectModule } from "@angular/material/select";
+import { MatOptionModule } from "@angular/material/core";
+import { MatCheckboxModule } from "@angular/material/checkbox";
+import { FormsModule, ReactiveFormsModule } from "@angular/forms";
+import { MatProgressSpinnerModule } from "@angular/material/progress-spinner";
 
 @NgModule({
     declarations: [
@@ -25,7 +35,9 @@ import { Tree3Component } from './tree3/tree3.component';
         NavigationComponent,
         TreeComponent,
         Tree2Component,
-        Tree3Component
+        TreeMenuComponent,
+        AddObjectComponent,
+        InfoObjectComponent
     ],
     imports: [
         BrowserModule,
@@ -39,7 +51,16 @@ import { Tree3Component } from './tree3/tree3.component';
         MatListModule,
         MatTreeModule,
         HttpClientModule,
-        MatProgressBarModule
+        MatProgressBarModule,
+        MatMenuModule,
+        MatFormFieldModule,
+        MatInputModule,
+        MatSelectModule,
+        MatOptionModule,
+        MatCheckboxModule,
+        FormsModule,
+        MatProgressSpinnerModule,
+        ReactiveFormsModule
     ],
     providers: [
         {provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true}

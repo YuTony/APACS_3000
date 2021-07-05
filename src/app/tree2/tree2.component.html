@@ -2,6 +2,7 @@
     <mat-tree-node *matTreeNodeDef="let node" matTreeNodePadding>
         <button mat-icon-button disabled></button>
         {{node.item.name}}
+        <app-tree-menu [classList]="['tree-menu']" [actionHandler]="clickNodeHandler.bind(this, node.item.fullInfo)"></app-tree-menu>
     </mat-tree-node>
     <mat-tree-node *matTreeNodeDef="let node; when: hasChild" matTreeNodePadding>
         <button mat-icon-button
@@ -14,5 +15,6 @@
         <mat-progress-bar *ngIf="node.isLoading"
                           mode="indeterminate"
                           class="example-tree-progress-bar"></mat-progress-bar>
+        <app-tree-menu [classList]="['tree-menu']" [actionHandler]="clickNodeHandler.bind(this, node.item.fullInfo)"></app-tree-menu>
     </mat-tree-node>
 </mat-tree>

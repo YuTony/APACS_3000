@@ -3,7 +3,7 @@
 }
 
 .sidenav {
-  width: 200px;
+  width: 500px;
 }
 
 .sidenav .mat-toolbar {
@@ -14,4 +14,8 @@
   position: sticky;
   top: 0;
   z-index: 1;
+}
+
+.nav-main {
+  padding-left: 20px;
 }

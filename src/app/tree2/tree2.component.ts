@@ -1,9 +1,11 @@
 import { CollectionViewer, DataSource, SelectionChange } from '@angular/cdk/collections';
 import { FlatTreeControl } from '@angular/cdk/tree';
-import { Component, Injectable, OnInit } from '@angular/core';
+import { Component, Injectable, OnInit, Output, EventEmitter } from '@angular/core';
 import { BehaviorSubject, merge, Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
-import { ApiHttpService } from "../api-http.service";
+import { APACSStabService } from "../services/APACS-stab.service";
+import { Types } from "../models/APACSInterfaces";
+import { Action, Actions } from "../models/interfaces";
 
 export interface TreeChild {
     sysAddrID: string;
@@ -11,9 +13,10 @@ export interface TreeChild {
 }
 
 export interface DataNode {
-    name: string;
-    classId: string;
-    sysAddrID: string;
+    name: String;
+    strClassId: String;
+    sysAddrID: String;
+    fullInfo: Types;
     children: TreeChild[];
 }
 
@@ -30,7 +33,8 @@ export class DynamicFlatNode {
  */
 @Injectable({providedIn: 'root'})
 export class DynamicDatabase {
-    constructor(private api: ApiHttpService) {
+
+    constructor(private api: APACSStabService) {
     }
 
     /** Initial data from database */
@@ -39,12 +43,13 @@ export class DynamicDatabase {
         return [new DynamicFlatNode(await this.getItem(rootId), 0, true)];
     }
 
-    async getItem(id: string) {
+    async getItem(id: String) {
         let conf = await this.api.getObjectById(id).toPromise();
         let item: DataNode = {
             name: conf.strName,
-            classId: conf.strClassID,
+            strClassId: conf.strClassID,
             sysAddrID: id,
+            fullInfo: conf,
             children: await this.api.getChild(id).toPromise()
         }
         return item;
@@ -152,6 +157,12 @@ export class DynamicDataSource implements DataSource<DynamicFlatNode> {
     styleUrls: ['./tree2.component.scss']
 })
 export class Tree2Component implements OnInit {
+    @Output() clickNodeEvent = new EventEmitter<Action>();
+
+    clickNodeHandler(object: Types, action: Actions) {
+        this.clickNodeEvent.emit({object: object, action: action});
+    }
+
     treeControl: FlatTreeControl<DynamicFlatNode>;
     dataSource: DynamicDataSource;
 

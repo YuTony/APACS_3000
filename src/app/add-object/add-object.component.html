@@ -1,0 +1,74 @@
+<!--<div *ngIf="template; else waitingTemplate">-->
+<!--    <p>-->
+<!--        <mat-form-field appearance="standard">-->
+<!--            <mat-label>strClassID</mat-label>-->
+<!--            <input matInput placeholder="Placeholder"-->
+<!--                   [value]="template.strClassID"-->
+<!--                   [disabled]="template.strClassID !== ''">-->
+<!--            &lt;!&ndash;        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>&ndash;&gt;-->
+<!--            &lt;!&ndash;        <mat-hint>Hint</mat-hint>&ndash;&gt;-->
+<!--        </mat-form-field>-->
+<!--    </p>-->
+<!--    <p>-->
+<!--        <mat-form-field appearance="standard">-->
+<!--            <mat-label>sysAddrID</mat-label>-->
+<!--            <input matInput placeholder="Placeholder"-->
+<!--                   [value]="template.sysAddrID"-->
+<!--                   [disabled]="template.sysAddrID !== ''">-->
+<!--            &lt;!&ndash;        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>&ndash;&gt;-->
+<!--            &lt;!&ndash;        <mat-hint>Hint</mat-hint>&ndash;&gt;-->
+<!--        </mat-form-field>-->
+<!--    </p>-->
+<!--    <p>-->
+<!--        <mat-form-field appearance="standard">-->
+<!--            <mat-label>strName</mat-label>-->
+<!--            <input matInput placeholder="Placeholder"-->
+<!--                   [value]="template.strName"-->
+<!--                   [disabled]="template.strName !== ''">-->
+<!--            &lt;!&ndash;        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>&ndash;&gt;-->
+<!--            &lt;!&ndash;        <mat-hint>Hint</mat-hint>&ndash;&gt;-->
+<!--        </mat-form-field>-->
+<!--    </p>-->
+<!--    <p>-->
+<!--        <mat-form-field appearance="standard">-->
+<!--            <mat-label>strDesc</mat-label>-->
+<!--            <input matInput placeholder="Placeholder"-->
+<!--                   [value]="template.strDesc"-->
+<!--                   [disabled]="template.strDesc !== ''">-->
+<!--            &lt;!&ndash;        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>&ndash;&gt;-->
+<!--            &lt;!&ndash;        <mat-hint>Hint</mat-hint>&ndash;&gt;-->
+<!--        </mat-form-field>-->
+<!--    </p>-->
+<!--    <p>-->
+<!--        <mat-checkbox class="example-margin">IsActive</mat-checkbox>-->
+<!--    </p>-->
+<!--    <p>-->
+<!--        <mat-form-field appearance="standard">-->
+<!--            <mat-label>strAlias</mat-label>-->
+<!--            <input matInput placeholder="Placeholder"-->
+<!--                   [value]="template.strAlias"-->
+<!--                   [disabled]="template.strAlias !== ''">-->
+<!--            &lt;!&ndash;        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>&ndash;&gt;-->
+<!--            &lt;!&ndash;        <mat-hint>Hint</mat-hint>&ndash;&gt;-->
+<!--        </mat-form-field>-->
+<!--    </p>-->
+<!--</div>-->
+<div *ngIf="objectForm; else waitingTemplate">
+    <div [formGroup]="objectForm">
+        <div *ngFor="let elem of fields">
+            <p>
+                <mat-form-field appearance="standard">
+                    <mat-label>{{elem[0]}}</mat-label>
+                    <input matInput placeholder="Placeholder"
+                           formControlName="{{elem[1]}}">
+                    <!--        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>-->
+                    <!--        <mat-hint>Hint</mat-hint>-->
+                </mat-form-field>
+            </p>
+        </div>
+    </div>
+    <button mat-raised-button color="primary">Submit</button>
+</div>
+<ng-template #waitingTemplate>
+    <mat-spinner></mat-spinner>
+</ng-template>

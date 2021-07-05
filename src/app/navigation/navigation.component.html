@@ -4,7 +4,7 @@
                  [mode]="(isHandset$ | async) ? 'over' : 'side'"
                  [opened]="(isHandset$ | async) === false">
         <mat-toolbar>Menu</mat-toolbar>
-        <app-tree2></app-tree2>
+        <app-tree2 (clickNodeEvent)="actionHandler($event)"></app-tree2>
     </mat-sidenav>
     <mat-sidenav-content>
         <mat-toolbar color="primary">
@@ -19,5 +19,9 @@
             <span>APACS-test2</span>
         </mat-toolbar>
         <!-- Add Content Here -->
+        <div [ngSwitch]="action" [classList]="['nav-main']">
+            <app-info-object *ngSwitchCase="0" [object]="object"></app-info-object>
+            <app-add-object *ngSwitchCase="1" [object]="object"></app-add-object>
+        </div>
     </mat-sidenav-content>
 </mat-sidenav-container>

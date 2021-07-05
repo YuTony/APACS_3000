@@ -29,5 +29,6 @@ export class AuthService {
 
     logout() {
         this.http.delete(this.url);
+        localStorage.removeItem('token');
     }
 }

@@ -1,7 +1,15 @@
+//Generated with ./src/python/parseTypes.py
+
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcAbstrObjExt\Registrar\tApcFile.xml
 export interface TApcFile {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     blobData: String;
 }
 
@@ -9,6 +17,12 @@ export interface TApcFile {
 export interface TApcTAJob2HolderLink {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dtStart: String;
     dtEnd: String;
     SysAddrJobSysAddr: String;
@@ -21,6 +35,12 @@ export interface TApcTAJob2HolderLink {
 export interface TApcTAShiftMException {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dtStart: String;
     dtEnd: String;
     fChangeType: Boolean;
@@ -34,6 +54,12 @@ export interface TApcTAShiftMException {
 export interface TApcTAStructException {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dtStart: String;
     dtEnd: String;
     SysAddrScheduleSysAddr: String;
@@ -44,6 +70,12 @@ export interface TApcTAStructException {
 export interface TApcTATimeMException {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dtStart: String;
     dtEnd: String;
     fChangeType: Boolean;
@@ -58,6 +90,12 @@ export interface TApcTATimeMException {
 export interface TApcASP4AccessPoint {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     bNumber: Number;
     bInitMode: Number;
@@ -75,6 +113,12 @@ export interface TApcASP4AccessPoint {
 export interface TApcASP4AL {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     wNumber: Number;
 }
 
@@ -82,6 +126,12 @@ export interface TApcASP4AL {
 export interface TApcASP4ALElem {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     SysAddrALObject: String;
     SysAddrTZ: String;
     fHostGrantFlag: Boolean;
@@ -104,6 +154,12 @@ export interface TApcASP4ALElem {
 export interface TApcASP4APBZone {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     wNumber: Number;
     fCloseZone: Boolean;
@@ -120,6 +176,12 @@ export interface TApcASP4APBZone {
 export interface TApcASP4CardFormatList {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bNumber: Number;
     SysAddrFormat_0: String;
     SysAddrFormat_1: String;
@@ -142,6 +204,12 @@ export interface TApcASP4CardFormatList {
 export interface TApcASP4CmnInput {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     bNumber: Number;
     fMaskedFlag: Boolean;
@@ -159,6 +227,12 @@ export interface TApcASP4CmnInput {
 export interface TApcASP4ContrInput {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     bNumber: Number;
     fMaskedFlag: Boolean;
@@ -172,6 +246,12 @@ export interface TApcASP4ContrInput {
 export interface TApcASP4DoorContact {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     SysAddrHWComponent: String;
     bNumber: Number;
     bCurrStatus: Number;
@@ -181,6 +261,12 @@ export interface TApcASP4DoorContact {
 export interface TApcASP4EPB {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     SysAddrHWComponent: String;
     bNumber: Number;
     bCurrStatus: Number;
@@ -190,6 +276,12 @@ export interface TApcASP4EPB {
 export interface TApcASP4Holiday {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     wNumber: Number;
     dHolidayDate: String;
     blobHolidayTypes: String;
@@ -200,6 +292,12 @@ export interface TApcASP4Holiday {
 export interface TApcASP4HolidayType {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     wNumber: Number;
 }
 
@@ -207,6 +305,12 @@ export interface TApcASP4HolidayType {
 export interface TApcASP4HWInterf {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     fActivate: Boolean;
     dwSerialPort1Baud: Number;
     bSerialPort1Mode: Number;
@@ -232,6 +336,12 @@ export interface TApcASP4HWInterf {
 export interface TApcASP4MasterBoard {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     fActivate: Boolean;
     bCurrStatus: Number;
     bNodeID: Number;
@@ -264,6 +374,12 @@ export interface TApcASP4MasterBoard {
 export interface TApcASP4OSDPDevice {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     bNumber: Number;
     fActivate: Boolean;
@@ -279,6 +395,12 @@ export interface TApcASP4OSDPDevice {
 export interface TApcASP4OSDPInput {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     bNumber: Number;
     fMaskedFlag: Boolean;
@@ -296,6 +418,12 @@ export interface TApcASP4OSDPInput {
 export interface TApcASP4OSDPRelay {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     bNumber: Number;
     fPulseAtTZStart: Boolean;
@@ -312,6 +440,12 @@ export interface TApcASP4OSDPRelay {
 export interface TApcASP4Reader {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bNumber: Number;
 }
 
@@ -319,6 +453,12 @@ export interface TApcASP4Reader {
 export interface TApcASP4ReaderWrap {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bNumber: Number;
     bCurrStatus: Number;
     bThreatLevel: Number;
@@ -353,6 +493,12 @@ export interface TApcASP4ReaderWrap {
 export interface TApcASP4Relay {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     bNumber: Number;
     fPulseAtTZStart: Boolean;
@@ -369,6 +515,12 @@ export interface TApcASP4Relay {
 export interface TApcASP4RelayModule {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     bNumber: Number;
     fPulseAtTZStart: Boolean;
@@ -385,6 +537,12 @@ export interface TApcASP4RelayModule {
 export interface TApcASP4RelayWrap {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     SysAddrHWComponent: String;
     bNumber: Number;
 }
@@ -393,6 +551,12 @@ export interface TApcASP4RelayWrap {
 export interface TApcASP4Script {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     blobScript: String;
     wNumber: Number;
     fAutoStart: Boolean;
@@ -403,6 +567,12 @@ export interface TApcASP4Script {
 export interface TApcASP4Socket {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     strIPAddress: String;
     wPort: Number;
     dwReadTO: Number;
@@ -413,6 +583,12 @@ export interface TApcASP4Socket {
 export interface TApcASP4Strike {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bNumber: Number;
     fFireStrike: Boolean;
 }
@@ -421,6 +597,12 @@ export interface TApcASP4Strike {
 export interface TApcASP4TimeZone {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     wNumber: Number;
     dStartDate: String;
     bCycleLength: Number;
@@ -432,6 +614,12 @@ export interface TApcASP4TimeZone {
 export interface TApcASP4VGroup {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     wNumber: Number;
 }
 
@@ -439,6 +627,12 @@ export interface TApcASP4VGroup {
 export interface TApcASP4VGroupList {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bNumber: Number;
     SysAddrVisitorGroup0: String;
     SysAddrVisitorGroup1: String;
@@ -456,6 +650,12 @@ export interface TApcASP4VGroupList {
 export interface TApcASP4WCardFormat {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bNumber: Number;
     wLength: Number;
     bFacilityStartingBit: Number;
@@ -471,6 +671,12 @@ export interface TApcASP4WCardFormat {
 export interface TApcASP4ZoneGroup {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     wNumber: Number;
     SysAddrParentZone: String;
@@ -481,6 +687,12 @@ export interface TApcASP4ZoneGroup {
 export interface TApcASP4ZoneGroupElem {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     SysAddrInputLink: String;
     wNumber: Number;
 }
@@ -489,6 +701,12 @@ export interface TApcASP4ZoneGroupElem {
 export interface TApcAxisCamera {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dwNumber: Number;
 }
 
@@ -496,6 +714,12 @@ export interface TApcAxisCamera {
 export interface TApcAxisServer {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     strIpAddress: String;
     strUserName: String;
     strPassword: String;
@@ -505,6 +729,12 @@ export interface TApcAxisServer {
 export interface TApcBolidInput {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bInputNum: Number;
     wCurrStatus: Number;
 }
@@ -513,6 +743,12 @@ export interface TApcBolidInput {
 export interface TApcBolidPotok_3N {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dwAddress: Number;
     wCurrStatus: Number;
 }
@@ -521,6 +757,12 @@ export interface TApcBolidPotok_3N {
 export interface TApcBolidRelay {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bRelayNum: Number;
     bDelay: Number;
     wCurrStatus: Number;
@@ -530,6 +772,12 @@ export interface TApcBolidRelay {
 export interface TApcBolidRIP_12_2A_RS {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dwAddress: Number;
     wCurrStatus: Number;
 }
@@ -538,6 +786,12 @@ export interface TApcBolidRIP_12_2A_RS {
 export interface TApcBolidRIP_12_RS {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dwAddress: Number;
     wCurrStatus: Number;
 }
@@ -546,6 +800,12 @@ export interface TApcBolidRIP_12_RS {
 export interface TApcBolidRIP_24_2A_RS {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dwAddress: Number;
     wCurrStatus: Number;
 }
@@ -554,6 +814,12 @@ export interface TApcBolidRIP_24_2A_RS {
 export interface TApcBolidRupor {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dwAddress: Number;
     wCurrStatus: Number;
 }
@@ -562,6 +828,12 @@ export interface TApcBolidRupor {
 export interface TApcBolidRuporv01 {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dwAddress: Number;
     wCurrStatus: Number;
 }
@@ -570,6 +842,12 @@ export interface TApcBolidRuporv01 {
 export interface TApcBolidRupor_200 {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dwAddress: Number;
     wCurrStatus: Number;
 }
@@ -578,6 +856,12 @@ export interface TApcBolidRupor_200 {
 export interface TApcBolidS2000KSPult {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bPultNumber: Number;
     wCurrStatus: Number;
 }
@@ -586,6 +870,12 @@ export interface TApcBolidS2000KSPult {
 export interface TApcBolidS2000MPult {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bPultNumber: Number;
     wCurrStatus: Number;
 }
@@ -594,6 +884,12 @@ export interface TApcBolidS2000MPult {
 export interface TApcBolidS2000Pult {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bPultNumber: Number;
     wCurrStatus: Number;
 }
@@ -602,6 +898,12 @@ export interface TApcBolidS2000Pult {
 export interface TApcBolidS2000_2 {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dwAddress: Number;
     wCurrStatus: Number;
 }
@@ -610,6 +912,12 @@ export interface TApcBolidS2000_2 {
 export interface TApcBolidS2000_4 {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dwAddress: Number;
     wCurrStatus: Number;
 }
@@ -618,6 +926,12 @@ export interface TApcBolidS2000_4 {
 export interface TApcBolidS2000_Adem {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dwAddress: Number;
     wCurrStatus: Number;
 }
@@ -626,6 +940,12 @@ export interface TApcBolidS2000_Adem {
 export interface TApcBolidS2000_ASPT {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dwAddress: Number;
     wCurrStatus: Number;
 }
@@ -634,6 +954,12 @@ export interface TApcBolidS2000_ASPT {
 export interface TApcBolidS2000_BI {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dwAddress: Number;
     wCurrStatus: Number;
 }
@@ -642,6 +968,12 @@ export interface TApcBolidS2000_BI {
 export interface TApcBolidS2000_BIv01 {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dwAddress: Number;
     wCurrStatus: Number;
 }
@@ -650,6 +982,12 @@ export interface TApcBolidS2000_BIv01 {
 export interface TApcBolidS2000_BKI {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dwAddress: Number;
     wCurrStatus: Number;
 }
@@ -658,6 +996,12 @@ export interface TApcBolidS2000_BKI {
 export interface TApcBolidS2000_IT {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dwAddress: Number;
     wCurrStatus: Number;
 }
@@ -666,6 +1010,12 @@ export interface TApcBolidS2000_IT {
 export interface TApcBolidS2000_K {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dwAddress: Number;
     wCurrStatus: Number;
 }
@@ -674,6 +1024,12 @@ export interface TApcBolidS2000_K {
 export interface TApcBolidS2000_KC {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dwAddress: Number;
     wCurrStatus: Number;
 }
@@ -682,6 +1038,12 @@ export interface TApcBolidS2000_KC {
 export interface TApcBolidS2000_KDL {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dwAddress: Number;
     wCurrStatus: Number;
 }
@@ -690,6 +1052,12 @@ export interface TApcBolidS2000_KDL {
 export interface TApcBolidS2000_KDL_2I {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dwAddress: Number;
     wCurrStatus: Number;
 }
@@ -698,6 +1066,12 @@ export interface TApcBolidS2000_KDL_2I {
 export interface TApcBolidS2000_KPB {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dwAddress: Number;
     wCurrStatus: Number;
 }
@@ -706,6 +1080,12 @@ export interface TApcBolidS2000_KPB {
 export interface TApcBolidS2000_PCN {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dwAddress: Number;
     wCurrStatus: Number;
 }
@@ -714,6 +1094,12 @@ export interface TApcBolidS2000_PCN {
 export interface TApcBolidS2000_PGE {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dwAddress: Number;
     wCurrStatus: Number;
 }
@@ -722,6 +1108,12 @@ export interface TApcBolidS2000_PGE {
 export interface TApcBolidS2000_PT {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dwAddress: Number;
     wCurrStatus: Number;
 }
@@ -730,6 +1122,12 @@ export interface TApcBolidS2000_PT {
 export interface TApcBolidSerialPort {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bPortNumber: Number;
     bProtocolType: Number;
     bConverterType: Number;
@@ -741,6 +1139,12 @@ export interface TApcBolidSerialPort {
 export interface TApcBolidSignal10 {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dwAddress: Number;
     wCurrStatus: Number;
 }
@@ -749,6 +1153,12 @@ export interface TApcBolidSignal10 {
 export interface TApcBolidSignal20 {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dwAddress: Number;
     wCurrStatus: Number;
 }
@@ -757,6 +1167,12 @@ export interface TApcBolidSignal20 {
 export interface TApcBolidSignal20M {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dwAddress: Number;
     wCurrStatus: Number;
 }
@@ -765,6 +1181,12 @@ export interface TApcBolidSignal20M {
 export interface TApcBolidSignal20P {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dwAddress: Number;
     wCurrStatus: Number;
 }
@@ -773,6 +1195,12 @@ export interface TApcBolidSignal20P {
 export interface TApcBolidSignal20ser02 {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dwAddress: Number;
     wCurrStatus: Number;
 }
@@ -781,6 +1209,12 @@ export interface TApcBolidSignal20ser02 {
 export interface TApcBolidSocketDrv {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     strIPServer: String;
     dwPortServer: Number;
 }
@@ -789,6 +1223,12 @@ export interface TApcBolidSocketDrv {
 export interface TApcBolidUO_4S {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dwAddress: Number;
     wCurrStatus: Number;
 }
@@ -797,6 +1237,12 @@ export interface TApcBolidUO_4S {
 export interface TApcBolidXMLRPCSettings {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     fActivate: Boolean;
     strLogin: String;
     strPassword: String;
@@ -808,6 +1254,12 @@ export interface TApcBolidXMLRPCSettings {
 export interface TApcISSCam {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dwNumber: Number;
     bCurrStatus: Number;
 }
@@ -816,6 +1268,12 @@ export interface TApcISSCam {
 export interface TApcISSGrabber {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dwNumber: Number;
 }
 
@@ -823,6 +1281,12 @@ export interface TApcISSGrabber {
 export interface TApcISSSocketDrv {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     fActivate: Boolean;
     strIPServer: String;
     strPassword: String;
@@ -833,6 +1297,12 @@ export interface TApcISSSocketDrv {
 export interface TApcITVCam {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dwNumber: Number;
     bCurrStatus: Number;
 }
@@ -841,6 +1311,12 @@ export interface TApcITVCam {
 export interface TApcITVCamZone {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dwNumber: Number;
     bCurrStatus: Number;
 }
@@ -849,6 +1325,12 @@ export interface TApcITVCamZone {
 export interface TApcITVGrabber {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dwNumber: Number;
 }
 
@@ -856,6 +1338,12 @@ export interface TApcITVGrabber {
 export interface TApcITVSocketDrv {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     fActivate: Boolean;
     strIPServer: String;
     strPassword: String;
@@ -866,6 +1354,12 @@ export interface TApcITVSocketDrv {
 export interface TApcSatelACU100 {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     bAddress: Number;
 }
@@ -874,6 +1368,12 @@ export interface TApcSatelACU100 {
 export interface TApcSatelAdmin {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     strUserName: String;
     bUserNum: Number;
     strAccCode: String;
@@ -917,6 +1417,12 @@ export interface TApcSatelAdmin {
 export interface TApcSatelCA64ADR {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     bAddress: Number;
 }
@@ -925,6 +1431,12 @@ export interface TApcSatelCA64ADR {
 export interface TApcSatelCA64DR {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     bAddress: Number;
 }
@@ -933,6 +1445,12 @@ export interface TApcSatelCA64DR {
 export interface TApcSatelCA64E {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     bAddress: Number;
 }
@@ -941,6 +1459,12 @@ export interface TApcSatelCA64E {
 export interface TApcSatelCA64Ei {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     bAddress: Number;
 }
@@ -949,6 +1473,12 @@ export interface TApcSatelCA64Ei {
 export interface TApcSatelCA64EPS {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     bAddress: Number;
 }
@@ -957,6 +1487,12 @@ export interface TApcSatelCA64EPS {
 export interface TApcSatelCA64EPSi {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     bAddress: Number;
 }
@@ -965,6 +1501,12 @@ export interface TApcSatelCA64EPSi {
 export interface TApcSatelCA64O {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     bAddress: Number;
 }
@@ -973,6 +1515,12 @@ export interface TApcSatelCA64O {
 export interface TApcSatelCA64OPS {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     bAddress: Number;
 }
@@ -981,6 +1529,12 @@ export interface TApcSatelCA64OPS {
 export interface TApcSatelCA64PP {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     bAddress: Number;
 }
@@ -989,6 +1543,12 @@ export interface TApcSatelCA64PP {
 export interface TApcSatelCA64PTSA {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     bAddress: Number;
 }
@@ -997,6 +1557,12 @@ export interface TApcSatelCA64PTSA {
 export interface TApcSatelCA64SM {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     bAddress: Number;
 }
@@ -1005,6 +1571,12 @@ export interface TApcSatelCA64SM {
 export interface TApcSatelCA64SR {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     bAddress: Number;
 }
@@ -1013,6 +1585,12 @@ export interface TApcSatelCA64SR {
 export interface TApcSatelContrInput {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     bInputNum: Number;
 }
@@ -1021,6 +1599,12 @@ export interface TApcSatelContrInput {
 export interface TApcSatelDoorInput {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     bInputNum: Number;
 }
@@ -1029,6 +1613,12 @@ export interface TApcSatelDoorInput {
 export interface TApcSatelETHM1 {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     bAddress: Number;
 }
@@ -1037,6 +1627,12 @@ export interface TApcSatelETHM1 {
 export interface TApcSatelExtenderLink {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     SysAddrExtender: String;
 }
 
@@ -1044,6 +1640,12 @@ export interface TApcSatelExtenderLink {
 export interface TApcSatelInput {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     bInputNum: Number;
     bRealInputNum: Number;
@@ -1056,6 +1658,12 @@ export interface TApcSatelInput {
 export interface TApcSatelInputLink {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     SysAddrInput: String;
 }
 
@@ -1063,6 +1671,12 @@ export interface TApcSatelInputLink {
 export interface TApcSatelInputR {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     bInputNum: Number;
     bRealInputNum: Number;
@@ -1075,6 +1689,12 @@ export interface TApcSatelInputR {
 export interface TApcSatelInputsGroup {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     bAddress: Number;
 }
@@ -1083,6 +1703,12 @@ export interface TApcSatelInputsGroup {
 export interface TApcSatelIntegra128 {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     fActivate: Boolean;
     bCurrStatus: Number;
     bUniqueID: Number;
@@ -1105,6 +1731,12 @@ export interface TApcSatelIntegra128 {
 export interface TApcSatelIntegra128WRL {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     fActivate: Boolean;
     bCurrStatus: Number;
     bUniqueID: Number;
@@ -1127,6 +1759,12 @@ export interface TApcSatelIntegra128WRL {
 export interface TApcSatelIntegra24 {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     fActivate: Boolean;
     bCurrStatus: Number;
     bUniqueID: Number;
@@ -1149,6 +1787,12 @@ export interface TApcSatelIntegra24 {
 export interface TApcSatelIntegra32 {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     fActivate: Boolean;
     bCurrStatus: Number;
     bUniqueID: Number;
@@ -1171,6 +1815,12 @@ export interface TApcSatelIntegra32 {
 export interface TApcSatelIntegra64 {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     fActivate: Boolean;
     bCurrStatus: Number;
     bUniqueID: Number;
@@ -1193,6 +1843,12 @@ export interface TApcSatelIntegra64 {
 export interface TApcSatelINTENT {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     bAddress: Number;
 }
@@ -1201,6 +1857,12 @@ export interface TApcSatelINTENT {
 export interface TApcSatelINTIORS {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     bAddress: Number;
 }
@@ -1209,6 +1871,12 @@ export interface TApcSatelINTIORS {
 export interface TApcSatelINTIT {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     bAddress: Number;
 }
@@ -1217,6 +1885,12 @@ export interface TApcSatelINTIT {
 export interface TApcSatelINTKLCD {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     bAddress: Number;
 }
@@ -1225,6 +1899,12 @@ export interface TApcSatelINTKLCD {
 export interface TApcSatelINTKLCDR {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     bAddress: Number;
 }
@@ -1233,6 +1913,12 @@ export interface TApcSatelINTKLCDR {
 export interface TApcSatelINTORS {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     bAddress: Number;
 }
@@ -1241,6 +1927,12 @@ export interface TApcSatelINTORS {
 export interface TApcSatelINTRS {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     bAddress: Number;
 }
@@ -1249,6 +1941,12 @@ export interface TApcSatelINTRS {
 export interface TApcSatelINTRX {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     bAddress: Number;
 }
@@ -1257,6 +1955,12 @@ export interface TApcSatelINTRX {
 export interface TApcSatelINTS {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     bAddress: Number;
 }
@@ -1265,6 +1969,12 @@ export interface TApcSatelINTS {
 export interface TApcSatelINTSCR {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     bAddress: Number;
 }
@@ -1273,6 +1983,12 @@ export interface TApcSatelINTSCR {
 export interface TApcSatelINTSZ {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     bAddress: Number;
 }
@@ -1281,6 +1997,12 @@ export interface TApcSatelINTSZ {
 export interface TApcSatelJamInput {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     bInputNum: Number;
 }
@@ -1289,6 +2011,12 @@ export interface TApcSatelJamInput {
 export interface TApcSatelObject {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bObjNum: Number;
 }
 
@@ -1296,6 +2024,12 @@ export interface TApcSatelObject {
 export interface TApcSatelPartition {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     bPartitionNum: Number;
     bPartitionType: Number;
@@ -1305,6 +2039,12 @@ export interface TApcSatelPartition {
 export interface TApcSatelPartitionLink {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     SysAddrPartition: String;
 }
 
@@ -1312,6 +2052,12 @@ export interface TApcSatelPartitionLink {
 export interface TApcSatelRelay {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     bRelayNum: Number;
     bRealRelayNum: Number;
@@ -1323,6 +2069,12 @@ export interface TApcSatelRelay {
 export interface TApcSatelSerialPort {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     strPortName: String;
     dwBoudRate: Number;
     bByteSize: Number;
@@ -1345,6 +2097,12 @@ export interface TApcSatelSerialPort {
 export interface TApcSatelService {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     strUserName: String;
     bUserNum: Number;
     strAccCode: String;
@@ -1388,6 +2146,12 @@ export interface TApcSatelService {
 export interface TApcSatelStatusInput {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     bInputNum: Number;
 }
@@ -1396,6 +2160,12 @@ export interface TApcSatelStatusInput {
 export interface TApcSatelUser {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     strUserName: String;
     bUserNum: Number;
     strAccCode: String;
@@ -1439,6 +2209,12 @@ export interface TApcSatelUser {
 export interface TApcSatelUserLink {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     SysAddrUser: String;
 }
 
@@ -1446,6 +2222,12 @@ export interface TApcSatelUserLink {
 export interface TApcSatelVirtualExtender {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     bAddress: Number;
 }
@@ -1454,6 +2236,12 @@ export interface TApcSatelVirtualExtender {
 export interface TApcSatelWRLInputsGroup {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     bAddress: Number;
 }
@@ -1462,6 +2250,12 @@ export interface TApcSatelWRLInputsGroup {
 export interface TApcSatelWRLRelaysGroup {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCurrStatus: Number;
     bAddress: Number;
 }
@@ -1470,6 +2264,12 @@ export interface TApcSatelWRLRelaysGroup {
 export interface TApcAccount {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     fActive: Boolean;
     bStatus: Number;
     strSGList: String;
@@ -1509,6 +2309,12 @@ export interface TApcAccount {
 export interface TApcAccountExtension {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     blobSettings: String;
 }
 
@@ -1516,6 +2322,12 @@ export interface TApcAccountExtension {
 export interface TApcCardHolder {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     fActive: Boolean;
     bStatus: Number;
     strSGList: String;
@@ -1584,6 +2396,12 @@ export interface TApcCardHolder {
 export interface TApcSecurityGroup {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     blobProperties: String;
 }
 
@@ -1595,6 +2413,12 @@ export interface TApcSecurityGroup {
 export interface TApcSupremaBioData {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     blobBioData: String;
 }
 
@@ -1602,6 +2426,12 @@ export interface TApcSupremaBioData {
 export interface TApcVisEscortExtension {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     blobVisEscortCntr: String;
 }
 
@@ -1612,6 +2442,12 @@ export interface TApcVisEscortExtension {
 export interface TApcPC {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     strIPName: String;
     strIPPortName: String;
     wPCID: Number;
@@ -1621,6 +2457,12 @@ export interface TApcPC {
 export interface TApcRoot {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     nSiteID: Number;
 }
 
@@ -1628,6 +2470,12 @@ export interface TApcRoot {
 export interface TApcServiceRegistry {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     blobXML: String;
 }
 
@@ -1635,6 +2483,12 @@ export interface TApcServiceRegistry {
 export interface TApcV100 {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bAddress: Number;
     strEEPROMFileName: String;
     bCurrStatus: Number;
@@ -1647,6 +2501,12 @@ export interface TApcV100 {
 export interface TApcV1000 {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     fActivate: Boolean;
     dwPollInterval: Number;
     wInternalID: Number;
@@ -1664,6 +2524,12 @@ export interface TApcV1000 {
 export interface TApcV200 {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bAddress: Number;
     strEEPROMFileName: String;
     bCurrStatus: Number;
@@ -1673,6 +2539,12 @@ export interface TApcV200 {
 export interface TApcV2000 {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     fActivate: Boolean;
     dwPollInterval: Number;
     wInternalID: Number;
@@ -1690,6 +2562,12 @@ export interface TApcV2000 {
 export interface TApcV300 {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bAddress: Number;
     strEEPROMFileName: String;
     bCurrStatus: Number;
@@ -1699,6 +2577,12 @@ export interface TApcV300 {
 export interface TApcVAL {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     wALNum: Number;
 }
 
@@ -1706,6 +2590,12 @@ export interface TApcVAL {
 export interface TApcVALElem {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     SysAddrReaderGroup: String;
     SysAddrShedule: String;
 }
@@ -1714,6 +2604,12 @@ export interface TApcVALElem {
 export interface TApcVAPB {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bAPBNum: Number;
 }
 
@@ -1721,6 +2617,12 @@ export interface TApcVAPB {
 export interface TApcVAutomation {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     wPeerNotifyTO: Number;
     wSchedPollTO: Number;
     blobData: String;
@@ -1730,6 +2632,12 @@ export interface TApcVAutomation {
 export interface TApcVAuxInput {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bInputNum: Number;
     fNotifyOnChange: Boolean;
     bCurrStatus: Number;
@@ -1745,6 +2653,12 @@ export interface TApcVAuxInput {
 export interface TApcVCardFormat {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dwFormatNum: Number;
     strControllerPath: String;
     blobFormat: String;
@@ -1754,6 +2668,12 @@ export interface TApcVCardFormat {
 export interface TApcVCardSet {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCardSetNum: Number;
     fUseFixField0: Boolean;
     fUseFixField1: Boolean;
@@ -1778,6 +2698,12 @@ export interface TApcVCardSet {
 export interface TApcVContrInput {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bInputNum: Number;
     fNotifyOnChange: Boolean;
     bCurrStatus: Number;
@@ -1793,6 +2719,12 @@ export interface TApcVContrInput {
 export interface TApcVCtrlGroup {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dwCtrlGrpNum: Number;
 }
 
@@ -1800,6 +2732,12 @@ export interface TApcVCtrlGroup {
 export interface TApcVCtrlObjLink {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bState: Number;
     SysAddrCtrlObj: String;
     fInverse: Boolean;
@@ -1810,6 +2748,12 @@ export interface TApcVCtrlObjLink {
 export interface TApcVDoorInput {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bInputNum: Number;
     fNotifyOnChange: Boolean;
     bCurrStatus: Number;
@@ -1825,6 +2769,12 @@ export interface TApcVDoorInput {
 export interface TApcVEDGE {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     fActivate: Boolean;
     dwPollInterval: Number;
     wInternalID: Number;
@@ -1842,6 +2792,12 @@ export interface TApcVEDGE {
 export interface TApcVElevRelayGroup {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bElevRelayGroupNum: Number;
 }
 
@@ -1849,6 +2805,12 @@ export interface TApcVElevRelayGroup {
 export interface TApcVElevRelayGroupElem {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     SysAddrRelay: String;
 }
 
@@ -1856,6 +2818,12 @@ export interface TApcVElevRelayGroupElem {
 export interface TApcVertXSocket {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     strIPName: String;
     strIPPortName: String;
     dwReadTO: Number;
@@ -1866,6 +2834,12 @@ export interface TApcVertXSocket {
 export interface TApcVHolidayGroup {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dwHolidayGroupNum: Number;
     blobHolidays: String;
 }
@@ -1874,6 +2848,12 @@ export interface TApcVHolidayGroup {
 export interface TApcVHolidayGroupElem {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     SysAddrHoldayGroup: String;
     tStartTime0: String;
     tStartTime1: String;
@@ -1893,6 +2873,12 @@ export interface TApcVHolidayGroupElem {
 export interface TApcVInputCtrlObjLink {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bState: Number;
     SysAddrCtrlObj: String;
     fInverse: Boolean;
@@ -1903,6 +2889,12 @@ export interface TApcVInputCtrlObjLink {
 export interface TApcVKeyPad {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dwKeyPadNum: Number;
     blobRaw2DigitTransl: String;
 }
@@ -1911,6 +2903,12 @@ export interface TApcVKeyPad {
 export interface TApcVReader {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dwRdrNum: Number;
     bNumberOnPanel: Number;
     bPriority: Number;
@@ -1944,6 +2942,12 @@ export interface TApcVReader {
 export interface TApcVReaderCtrlObj {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     SysAddrCtrlObj: String;
     bFunc: Number;
     bParam: Number;
@@ -1953,6 +2957,12 @@ export interface TApcVReaderCtrlObj {
 export interface TApcVReaderElev {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dwRdrNum: Number;
     bNumberOnPanel: Number;
     bPriority: Number;
@@ -1986,6 +2996,12 @@ export interface TApcVReaderElev {
 export interface TApcVReaderGroup {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dwRdrGroupNum: Number;
 }
 
@@ -1993,6 +3009,12 @@ export interface TApcVReaderGroup {
 export interface TApcVReaderGroupElem {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     SysAddrReader: String;
 }
 
@@ -2000,6 +3022,12 @@ export interface TApcVReaderGroupElem {
 export interface TApcVReaderGrpCtrlObj {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     SysAddrCtrlObj: String;
     bFunc: Number;
     bParam: Number;
@@ -2009,6 +3037,12 @@ export interface TApcVReaderGrpCtrlObj {
 export interface TApcVReaderInput {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bInputNum: Number;
     fNotifyOnChange: Boolean;
     bCurrStatus: Number;
@@ -2019,6 +3053,12 @@ export interface TApcVReaderInput {
 export interface TApcVRelay {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bRelayNum: Number;
     wPulseTime: Number;
     bInitMode: Number;
@@ -2029,6 +3069,12 @@ export interface TApcVRelay {
 export interface TApcVRelayCtrlObj {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     SysAddrCtrlObj: String;
     bFunc: Number;
     bParam: Number;
@@ -2038,6 +3084,12 @@ export interface TApcVRelayCtrlObj {
 export interface TApcVRelayGrpCtrlObj {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     SysAddrCtrlObj: String;
     bFunc: Number;
     bParam: Number;
@@ -2047,6 +3099,12 @@ export interface TApcVRelayGrpCtrlObj {
 export interface TApcVRexInput {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bInputNum: Number;
     fNotifyOnChange: Boolean;
     bCurrStatus: Number;
@@ -2064,6 +3122,12 @@ export interface TApcVRexInput {
 export interface TApcVShedule {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dwSheduleNum: Number;
     tDay0_StartTime0: String;
     tDay0_StartTime1: String;
@@ -2155,6 +3219,12 @@ export interface TApcVShedule {
 export interface TAplAAN100Contr {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     fActivate: Boolean;
     bAddress: Number;
     dwPollInterval: Number;
@@ -2273,6 +3343,12 @@ export interface TAplAAN100Contr {
 export interface TAplAAN32Contr {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     fActivate: Boolean;
     bAddress: Number;
     dwPollInterval: Number;
@@ -2391,6 +3467,12 @@ export interface TAplAAN32Contr {
 export interface TAplMC6IntervalTZ {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bNumber: Number;
     bIntervalUsed: Number;
     bStartHour0: Number;
@@ -2477,6 +3559,12 @@ export interface TAplMC6IntervalTZ {
 export interface TAplMCAL {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bALNumber: Number;
     fAllowCmd0: Boolean;
     fAllowCmd1: Boolean;
@@ -2516,6 +3604,12 @@ export interface TAplMCAL {
 export interface TAplMCAlarmInput {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bInputNum: Number;
     fImmediateDialAtDay: Boolean;
     fImmediateDialAtNight: Boolean;
@@ -2535,6 +3629,12 @@ export interface TAplMCAlarmInput {
 export interface TAplMCAlarmPanelAIO16 {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bLUNType: Number;
     bLUNNumber: Number;
     bNumberOnPanel: Number;
@@ -2544,6 +3644,12 @@ export interface TAplMCAlarmPanelAIO16 {
 export interface TAplMCAlarmPanelAIO168 {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bLUNType: Number;
     bLUNNumber: Number;
     bNumberOnPanel: Number;
@@ -2553,6 +3659,12 @@ export interface TAplMCAlarmPanelAIO168 {
 export interface TAplMCAlarmPanelAIO8 {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bLUNType: Number;
     bLUNNumber: Number;
     bNumberOnPanel: Number;
@@ -2562,6 +3674,12 @@ export interface TAplMCAlarmPanelAIO8 {
 export interface TAplMCAlarmPanelAPA15 {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bLUNType: Number;
     bLUNNumber: Number;
     bNumberOnPanel: Number;
@@ -2571,6 +3689,12 @@ export interface TAplMCAlarmPanelAPA15 {
 export interface TAplMCAlarmPanelAPA16 {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bLUNType: Number;
     bLUNNumber: Number;
     bNumberOnPanel: Number;
@@ -2580,6 +3704,12 @@ export interface TAplMCAlarmPanelAPA16 {
 export interface TAplMCAlarmPanelAPD16 {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bLUNType: Number;
     bLUNNumber: Number;
     bNumberOnPanel: Number;
@@ -2589,6 +3719,12 @@ export interface TAplMCAlarmPanelAPD16 {
 export interface TAplMCAlarmRelay {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bRelayNum: Number;
     wPulseTime: Number;
     bInitMode: Number;
@@ -2623,6 +3759,12 @@ export interface TAplMCAlarmRelay {
 export interface TAplMCALElemElev {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     fDownloadAL: Boolean;
     fAllowCommands: Boolean;
     SysAddrReader: String;
@@ -2633,6 +3775,12 @@ export interface TAplMCALElemElev {
 export interface TAplMCALElemNorm {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     fDownloadAL: Boolean;
     fAllowCommands: Boolean;
     SysAddrReader: String;
@@ -2643,6 +3791,12 @@ export interface TAplMCALElemNorm {
 export interface TAplMCALElemZoneGroup {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     SysAddrZoneGroup: String;
 }
 
@@ -2650,6 +3804,12 @@ export interface TAplMCALElemZoneGroup {
 export interface TAplMCASA72 {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bLUNType: Number;
     bLUNNumber: Number;
     bNumberOnPanel: Number;
@@ -2670,6 +3830,12 @@ export interface TAplMCASA72 {
 export interface TAplMCCardFormat {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCardFormat: Number;
     bFormatNumber: Number;
     dwFCValue: Number;
@@ -2721,6 +3887,12 @@ export interface TAplMCCardFormat {
 export interface TAplMCCardFrmtList {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bListNumber: Number;
     SysAddrCardFormat0: String;
     SysAddrCardFormat1: String;
@@ -2736,6 +3908,12 @@ export interface TAplMCCardFrmtList {
 export interface TAplMCContrInput {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bInputNum: Number;
     fImmediateDialAtDay: Boolean;
     fImmediateDialAtNight: Boolean;
@@ -2746,6 +3924,12 @@ export interface TAplMCContrInput {
 export interface TAplMCDownlSpecRec {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bRecNumber: Number;
     dwNumberOfCards: Number;
     bCardType: Number;
@@ -2760,6 +3944,12 @@ export interface TAplMCDownlSpecRec {
 export interface TAplMCElevAL {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bElevALNum: Number;
     SysAddrCtrlTZ0: String;
     SysAddrCtrlTZ1: String;
@@ -2831,6 +4021,12 @@ export interface TAplMCElevAL {
 export interface TAplMCEscortGroupList {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bListNum: Number;
     SysAddrVisitorGroup0: String;
     SysAddrVisitorGroup1: String;
@@ -2848,6 +4044,12 @@ export interface TAplMCEscortGroupList {
 export interface TAplMCHoliday {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dHolidayDate: String;
     fType1: Boolean;
     fType2: Boolean;
@@ -2858,6 +4060,12 @@ export interface TAplMCHoliday {
 export interface TAplMCHostInput {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bInputNum: Number;
     fImmediateDialAtDay: Boolean;
     fImmediateDialAtNight: Boolean;
@@ -2868,6 +4076,12 @@ export interface TAplMCHostInput {
 export interface TAplMCIV {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bLUNType: Number;
     bLUNNumber: Number;
     bHandleType: Number;
@@ -2878,6 +4092,12 @@ export interface TAplMCIV {
 export interface TAplMCIVALElevFloors {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bListNumber: Number;
     blobArgs: String;
 }
@@ -2886,6 +4106,12 @@ export interface TAplMCIVALElevFloors {
 export interface TAplMCIVFuncAlarmRelayControl {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bFuncNumber: Number;
     SysAddrArg: String;
 }
@@ -2894,6 +4120,12 @@ export interface TAplMCIVFuncAlarmRelayControl {
 export interface TAplMCIVFuncAPBControl {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bFuncNumber: Number;
     SysAddrArg: String;
 }
@@ -2902,6 +4134,12 @@ export interface TAplMCIVFuncAPBControl {
 export interface TAplMCIVFuncChain {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bFuncNumber: Number;
     SysAddrArg: String;
 }
@@ -2910,6 +4148,12 @@ export interface TAplMCIVFuncChain {
 export interface TAplMCIVFuncDenyElevFloors {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bFuncNumber: Number;
     SysAddrArg: String;
 }
@@ -2918,6 +4162,12 @@ export interface TAplMCIVFuncDenyElevFloors {
 export interface TAplMCIVFuncEventLog {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bFuncNumber: Number;
 }
 
@@ -2925,6 +4175,12 @@ export interface TAplMCIVFuncEventLog {
 export interface TAplMCIVFuncMaskZoneGroup {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bFuncNumber: Number;
     SysAddrArg: String;
 }
@@ -2933,6 +4189,12 @@ export interface TAplMCIVFuncMaskZoneGroup {
 export interface TAplMCIVFuncReaderBeepControl {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bFuncNumber: Number;
     SysAddrArg: String;
     bAddParam: Number;
@@ -2942,6 +4204,12 @@ export interface TAplMCIVFuncReaderBeepControl {
 export interface TAplMCIVFuncReaderContBeepControl {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bFuncNumber: Number;
     SysAddrArg: String;
     bAddParam: Number;
@@ -2951,6 +4219,12 @@ export interface TAplMCIVFuncReaderContBeepControl {
 export interface TAplMCIVFuncReaderControl {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bFuncNumber: Number;
     SysAddrArg: String;
     bAddParam: Number;
@@ -2960,6 +4234,12 @@ export interface TAplMCIVFuncReaderControl {
 export interface TAplMCIVFuncReaderRelayControl {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bFuncNumber: Number;
     SysAddrArg: String;
 }
@@ -2968,6 +4248,12 @@ export interface TAplMCIVFuncReaderRelayControl {
 export interface TAplMCIVFuncTestZoneGroupAct {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bFuncNumber: Number;
     SysAddrArg: String;
 }
@@ -2976,6 +4262,12 @@ export interface TAplMCIVFuncTestZoneGroupAct {
 export interface TAplMCIVFuncTestZoneGroupMsk {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bFuncNumber: Number;
     SysAddrArg: String;
 }
@@ -2984,6 +4276,12 @@ export interface TAplMCIVFuncTestZoneGroupMsk {
 export interface TAplMCIVFuncToggleZoneGroupMsk {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bFuncNumber: Number;
     SysAddrArg: String;
 }
@@ -2992,6 +4290,12 @@ export interface TAplMCIVFuncToggleZoneGroupMsk {
 export interface TAplMCIVFuncTZControl {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bFuncNumber: Number;
     SysAddrArg: String;
 }
@@ -3000,6 +4304,12 @@ export interface TAplMCIVFuncTZControl {
 export interface TAplMCIVInitiator {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bIVInitType: Number;
     SysAddrIV: String;
     bTermNum: Number;
@@ -3013,6 +4323,12 @@ export interface TAplMCIVInitiator {
 export interface TAplMCIVInitiatorAccActiv {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bIVInitType: Number;
     SysAddrIV: String;
     bTermNum: Number;
@@ -3026,6 +4342,12 @@ export interface TAplMCIVInitiatorAccActiv {
 export interface TAplMCIVInitiatorAccDiddle {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bIVInitType: Number;
     SysAddrIV: String;
     bTermNum: Number;
@@ -3039,6 +4361,12 @@ export interface TAplMCIVInitiatorAccDiddle {
 export interface TAplMCIVInitiatorComm {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bIVInitType: Number;
     SysAddrIV: String;
     bTermNum: Number;
@@ -3052,6 +4380,12 @@ export interface TAplMCIVInitiatorComm {
 export interface TAplMCIVInitiatorReader {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bIVInitType: Number;
     SysAddrIV: String;
     bTermNum: Number;
@@ -3065,6 +4399,12 @@ export interface TAplMCIVInitiatorReader {
 export interface TAplMCIVInitiatorZoneAPB {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bIVInitType: Number;
     SysAddrIV: String;
     bTermNum: Number;
@@ -3078,6 +4418,12 @@ export interface TAplMCIVInitiatorZoneAPB {
 export interface TAplMCLED {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bLEDNum: Number;
     fNeedACKAtDay: Boolean;
     fNeedACKAtNight: Boolean;
@@ -3089,6 +4435,12 @@ export interface TAplMCLED {
 export interface TAplMCLEDLink {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     SysAddrLinkInput: String;
 }
 
@@ -3096,6 +4448,12 @@ export interface TAplMCLEDLink {
 export interface TAplMCReader {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bLUNType: Number;
     bLUNNumber: Number;
     bNumberOnPanel: Number;
@@ -3157,6 +4515,12 @@ export interface TAplMCReader {
 export interface TAplMCReaderCtrlTZ {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bStartMode: Number;
     bEndMode: Number;
     SysAddrCtrlTZ: String;
@@ -3166,6 +4530,12 @@ export interface TAplMCReaderCtrlTZ {
 export interface TAplMCReaderElev {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bLUNType: Number;
     bLUNNumber: Number;
     bNumberOnPanel: Number;
@@ -3227,6 +4597,12 @@ export interface TAplMCReaderElev {
 export interface TAplMCReaderInput {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bInputNum: Number;
     fImmediateDialAtDay: Boolean;
     fImmediateDialAtNight: Boolean;
@@ -3237,6 +4613,12 @@ export interface TAplMCReaderInput {
 export interface TAplMCReaderInputAccActiv {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bInputNum: Number;
     fImmediateDialAtDay: Boolean;
     fImmediateDialAtNight: Boolean;
@@ -3247,6 +4629,12 @@ export interface TAplMCReaderInputAccActiv {
 export interface TAplMCReaderInputAux {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bInputNum: Number;
     fImmediateDialAtDay: Boolean;
     fImmediateDialAtNight: Boolean;
@@ -3262,6 +4650,12 @@ export interface TAplMCReaderInputAux {
 export interface TAplMCReaderInputDiddle {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bInputNum: Number;
     fImmediateDialAtDay: Boolean;
     fImmediateDialAtNight: Boolean;
@@ -3272,6 +4666,12 @@ export interface TAplMCReaderInputDiddle {
 export interface TAplMCReaderInputM {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bInputNum: Number;
     fImmediateDialAtDay: Boolean;
     fImmediateDialAtNight: Boolean;
@@ -3284,6 +4684,12 @@ export interface TAplMCReaderInputM {
 export interface TAplMCReaderRelay {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bRelayNum: Number;
     wPulseTime: Number;
     bInitMode: Number;
@@ -3296,6 +4702,12 @@ export interface TAplMCReaderRelay {
 export interface TAplMCRemContrAHI10R {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bLUNType: Number;
     bLUNNumber: Number;
     fContrActive: Boolean;
@@ -3311,6 +4723,12 @@ export interface TAplMCRemContrAHI10R {
 export interface TAplMCRemContrAIM2DLR {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bLUNType: Number;
     bLUNNumber: Number;
     fContrActive: Boolean;
@@ -3326,6 +4744,12 @@ export interface TAplMCRemContrAIM2DLR {
 export interface TAplMCRemContrAIM2SLR {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bLUNType: Number;
     bLUNNumber: Number;
     fContrActive: Boolean;
@@ -3341,6 +4765,12 @@ export interface TAplMCRemContrAIM2SLR {
 export interface TAplMCRemContrAIM4SLR {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bLUNType: Number;
     bLUNNumber: Number;
     fContrActive: Boolean;
@@ -3356,6 +4786,12 @@ export interface TAplMCRemContrAIM4SLR {
 export interface TAplMCRemContrAMS100R {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bLUNType: Number;
     bLUNNumber: Number;
     fContrActive: Boolean;
@@ -3371,6 +4807,12 @@ export interface TAplMCRemContrAMS100R {
 export interface TAplMCRemContrAnalogAlarm {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bLUNType: Number;
     bLUNNumber: Number;
     fContrActive: Boolean;
@@ -3386,6 +4828,12 @@ export interface TAplMCRemContrAnalogAlarm {
 export interface TAplMCRemContrAP500R {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bLUNType: Number;
     bLUNNumber: Number;
     fContrActive: Boolean;
@@ -3401,6 +4849,12 @@ export interface TAplMCRemContrAP500R {
 export interface TAplMCRemContrAP510_520R {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bLUNType: Number;
     bLUNNumber: Number;
     fContrActive: Boolean;
@@ -3416,6 +4870,12 @@ export interface TAplMCRemContrAP510_520R {
 export interface TAplMCRemContrASA72 {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bLUNType: Number;
     bLUNNumber: Number;
     fContrActive: Boolean;
@@ -3431,6 +4891,12 @@ export interface TAplMCRemContrASA72 {
 export interface TAplMCRemContrCommonR {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bLUNType: Number;
     bLUNNumber: Number;
     fContrActive: Boolean;
@@ -3446,6 +4912,12 @@ export interface TAplMCRemContrCommonR {
 export interface TAplMCRemContrCommonRElev {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bLUNType: Number;
     bLUNNumber: Number;
     fContrActive: Boolean;
@@ -3461,6 +4933,12 @@ export interface TAplMCRemContrCommonRElev {
 export interface TAplMCRemContrDigitalAlarm {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bLUNType: Number;
     bLUNNumber: Number;
     fContrActive: Boolean;
@@ -3476,6 +4954,12 @@ export interface TAplMCRemContrDigitalAlarm {
 export interface TAplMCRemContrInput {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bInputNum: Number;
     fImmediateDialAtDay: Boolean;
     fImmediateDialAtNight: Boolean;
@@ -3486,6 +4970,12 @@ export interface TAplMCRemContrInput {
 export interface TAplMCRemContrInputComm {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bInputNum: Number;
     fImmediateDialAtDay: Boolean;
     fImmediateDialAtNight: Boolean;
@@ -3496,6 +4986,12 @@ export interface TAplMCRemContrInputComm {
 export interface TAplMCRemContrPrintUnit {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bLUNType: Number;
     bLUNNumber: Number;
     fContrActive: Boolean;
@@ -3511,6 +5007,12 @@ export interface TAplMCRemContrPrintUnit {
 export interface TAplMCSerialPort {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     strPortName: String;
     dwBoudRate: Number;
     bByteSize: Number;
@@ -3533,6 +5035,12 @@ export interface TAplMCSerialPort {
 export interface TAplMCSocket {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     strIPName: String;
     strIPPortName: String;
     dwConnectTO: Number;
@@ -3549,6 +5057,12 @@ export interface TAplMCSocket {
 export interface TAplMCVisitorGroup {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bGroupNum: Number;
 }
 
@@ -3556,6 +5070,12 @@ export interface TAplMCVisitorGroup {
 export interface TAplMCZoneAPB {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bLUNType: Number;
     bLUNNumber: Number;
     fMin2Man: Boolean;
@@ -3576,6 +5096,12 @@ export interface TAplMCZoneAPB {
 export interface TAplMCZoneGroup {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bLUNType: Number;
     bLUNNumber: Number;
     bInitMaskLevel: Number;
@@ -3588,6 +5114,12 @@ export interface TAplMCZoneGroup {
 export interface TAplMCZoneGroupElem {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     SysAddrZone: String;
 }
 
@@ -3595,6 +5127,12 @@ export interface TAplMCZoneGroupElem {
 export interface TAplAIM1SLContr {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     fActivate: Boolean;
     bAddress: Number;
     dwPollInterval: Number;
@@ -3621,6 +5159,12 @@ export interface TAplAIM1SLContr {
 export interface TAplAIM2SLContr {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     fActivate: Boolean;
     bAddress: Number;
     dwPollInterval: Number;
@@ -3647,6 +5191,12 @@ export interface TAplAIM2SLContr {
 export interface TAplAIM4SLContr {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     fActivate: Boolean;
     bAddress: Number;
     dwPollInterval: Number;
@@ -3673,6 +5223,12 @@ export interface TAplAIM4SLContr {
 export interface TAplAIM6IntervalTZ {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bNumber: Number;
     bIntervalUsed: Number;
     bStartHour0: Number;
@@ -3759,6 +5315,12 @@ export interface TAplAIM6IntervalTZ {
 export interface TAplAIMAL {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bALNumber: Number;
     SysAddrCtrlTZ0: String;
     SysAddrCtrlTZ1: String;
@@ -3770,6 +5332,12 @@ export interface TAplAIMAL {
 export interface TAplAIMAPB {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bAPBNumber: Number;
 }
 
@@ -3777,6 +5345,12 @@ export interface TAplAIMAPB {
 export interface TAplAIMCardFormat {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bCardFormat: Number;
     bFormatNumber: Number;
     dwFCValue: Number;
@@ -3828,6 +5402,12 @@ export interface TAplAIMCardFormat {
 export interface TAplAIMHoliday {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dHolidayDate: String;
     fType1: Boolean;
     fType2: Boolean;
@@ -3838,6 +5418,12 @@ export interface TAplAIMHoliday {
 export interface TAplAIMReader {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     wStrikeTime: Number;
     wHeldOpenTime: Number;
     wLongStrikeTime: Number;
@@ -3875,6 +5461,12 @@ export interface TAplAIMReader {
 export interface TAplAIMReaderCtrlTZ {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bStartMode: Number;
     bEndMode: Number;
     SysAddrCtrlTZ: String;
@@ -3884,6 +5476,12 @@ export interface TAplAIMReaderCtrlTZ {
 export interface TAplAIMReaderInput {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     fInitMasked: Boolean;
     bInputType: Number;
     bCurrStatus: Number;
@@ -3893,6 +5491,12 @@ export interface TAplAIMReaderInput {
 export interface TAplAIMReaderInputTZ {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     fInitMasked: Boolean;
     bInputType: Number;
     bCurrStatus: Number;
@@ -3903,6 +5507,12 @@ export interface TAplAIMReaderInputTZ {
 export interface TAplAIMReaderRelay {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bRelayNum: Number;
     wPulseTime: Number;
     bInitMode: Number;
@@ -3915,6 +5525,12 @@ export interface TAplAIMReaderRelay {
 export interface TAplAPN2IntervalTZ {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bNumber: Number;
     bIntervalUsed: Number;
     bStartHour0: Number;
@@ -4001,6 +5617,12 @@ export interface TAplAPN2IntervalTZ {
 export interface TAplAPN35Contr {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     fActivate: Boolean;
     bAddress: Number;
     dwPollInterval: Number;
@@ -4028,6 +5650,12 @@ export interface TAplAPN35Contr {
 export interface TAplAPNAL {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bALNumber: Number;
     SysAddrCtrlTZ0: String;
     SysAddrCtrlTZ1: String;
@@ -4037,6 +5665,12 @@ export interface TAplAPNAL {
 export interface TAplAPNCard {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dwCardNumber: Number;
     wSlotNumber: Number;
 }
@@ -4045,6 +5679,12 @@ export interface TAplAPNCard {
 export interface TAplAPNContrInput {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     SysAddrMaskTZ: String;
     bInputType: Number;
     fInitMasked: Boolean;
@@ -4055,6 +5695,12 @@ export interface TAplAPNContrInput {
 export interface TAplAPNContrRelay {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bRelayNum: Number;
     wPulseTime: Number;
     bInitMode: Number;
@@ -4066,6 +5712,12 @@ export interface TAplAPNContrRelay {
 export interface TAplAPNHoliday {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     dHolidayDate: String;
     fType1: Boolean;
     fType2: Boolean;
@@ -4076,6 +5728,12 @@ export interface TAplAPNHoliday {
 export interface TAplAPNReader {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     bInitMode: Number;
     bNumberOnPanel: Number;
     wStrikeTime: Number;
@@ -4091,6 +5749,12 @@ export interface TAplAPNReader {
 export interface TAplAPNReaderInput {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     SysAddrMaskTZ: String;
     bInputType: Number;
     fInitMasked: Boolean;
@@ -4101,6 +5765,12 @@ export interface TAplAPNReaderInput {
 export interface TAplSCSerialPort {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     strPortName: String;
     dwBoudRate: Number;
     bByteSize: Number;
@@ -4123,6 +5793,12 @@ export interface TAplSCSerialPort {
 export interface TAplSCSocket {
     strClassID: String;
     sysAddrID: String;
+    strName: String;
+    strDesc: String;
+    IsActive: Boolean;
+    dtCreateTime: String;
+    dtLastModifyTime: String;
+    strAlias: String;
     strIPName: String;
     strIPPortName: String;
     dwConnectTO: Number;
@@ -4135,3 +5811,283 @@ export interface TAplSCSocket {
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplSCExtension\Registrar\tAplSCTypeInfo.xml
+export type Types =
+    TApcFile
+    | TApcTAJob2HolderLink
+    | TApcTAShiftMException
+    | TApcTAStructException
+    | TApcTATimeMException
+    | TApcASP4AccessPoint
+    | TApcASP4AL
+    | TApcASP4ALElem
+    | TApcASP4APBZone
+    | TApcASP4CardFormatList
+    | TApcASP4CmnInput
+    | TApcASP4ContrInput
+    | TApcASP4DoorContact
+    | TApcASP4EPB
+    | TApcASP4Holiday
+    | TApcASP4HolidayType
+    | TApcASP4HWInterf
+    | TApcASP4MasterBoard
+    | TApcASP4OSDPDevice
+    | TApcASP4OSDPInput
+    | TApcASP4OSDPRelay
+    | TApcASP4Reader
+    | TApcASP4ReaderWrap
+    | TApcASP4Relay
+    | TApcASP4RelayModule
+    | TApcASP4RelayWrap
+    | TApcASP4Script
+    | TApcASP4Socket
+    | TApcASP4Strike
+    | TApcASP4TimeZone
+    | TApcASP4VGroup
+    | TApcASP4VGroupList
+    | TApcASP4WCardFormat
+    | TApcASP4ZoneGroup
+    | TApcASP4ZoneGroupElem
+    | TApcAxisCamera
+    | TApcAxisServer
+    | TApcBolidInput
+    | TApcBolidPotok_3N
+    | TApcBolidRelay
+    | TApcBolidRIP_12_2A_RS
+    | TApcBolidRIP_12_RS
+    | TApcBolidRIP_24_2A_RS
+    | TApcBolidRupor
+    | TApcBolidRuporv01
+    | TApcBolidRupor_200
+    | TApcBolidS2000KSPult
+    | TApcBolidS2000MPult
+    | TApcBolidS2000Pult
+    | TApcBolidS2000_2
+    | TApcBolidS2000_4
+    | TApcBolidS2000_Adem
+    | TApcBolidS2000_ASPT
+    | TApcBolidS2000_BI
+    | TApcBolidS2000_BIv01
+    | TApcBolidS2000_BKI
+    | TApcBolidS2000_IT
+    | TApcBolidS2000_K
+    | TApcBolidS2000_KC
+    | TApcBolidS2000_KDL
+    | TApcBolidS2000_KDL_2I
+    | TApcBolidS2000_KPB
+    | TApcBolidS2000_PCN
+    | TApcBolidS2000_PGE
+    | TApcBolidS2000_PT
+    | TApcBolidSerialPort
+    | TApcBolidSignal10
+    | TApcBolidSignal20
+    | TApcBolidSignal20M
+    | TApcBolidSignal20P
+    | TApcBolidSignal20ser02
+    | TApcBolidSocketDrv
+    | TApcBolidUO_4S
+    | TApcBolidXMLRPCSettings
+    | TApcISSCam
+    | TApcISSGrabber
+    | TApcISSSocketDrv
+    | TApcITVCam
+    | TApcITVCamZone
+    | TApcITVGrabber
+    | TApcITVSocketDrv
+    | TApcSatelACU100
+    | TApcSatelAdmin
+    | TApcSatelCA64ADR
+    | TApcSatelCA64DR
+    | TApcSatelCA64E
+    | TApcSatelCA64Ei
+    | TApcSatelCA64EPS
+    | TApcSatelCA64EPSi
+    | TApcSatelCA64O
+    | TApcSatelCA64OPS
+    | TApcSatelCA64PP
+    | TApcSatelCA64PTSA
+    | TApcSatelCA64SM
+    | TApcSatelCA64SR
+    | TApcSatelContrInput
+    | TApcSatelDoorInput
+    | TApcSatelETHM1
+    | TApcSatelExtenderLink
+    | TApcSatelInput
+    | TApcSatelInputLink
+    | TApcSatelInputR
+    | TApcSatelInputsGroup
+    | TApcSatelIntegra128
+    | TApcSatelIntegra128WRL
+    | TApcSatelIntegra24
+    | TApcSatelIntegra32
+    | TApcSatelIntegra64
+    | TApcSatelINTENT
+    | TApcSatelINTIORS
+    | TApcSatelINTIT
+    | TApcSatelINTKLCD
+    | TApcSatelINTKLCDR
+    | TApcSatelINTORS
+    | TApcSatelINTRS
+    | TApcSatelINTRX
+    | TApcSatelINTS
+    | TApcSatelINTSCR
+    | TApcSatelINTSZ
+    | TApcSatelJamInput
+    | TApcSatelObject
+    | TApcSatelPartition
+    | TApcSatelPartitionLink
+    | TApcSatelRelay
+    | TApcSatelSerialPort
+    | TApcSatelService
+    | TApcSatelStatusInput
+    | TApcSatelUser
+    | TApcSatelUserLink
+    | TApcSatelVirtualExtender
+    | TApcSatelWRLInputsGroup
+    | TApcSatelWRLRelaysGroup
+    | TApcAccount
+    | TApcAccountExtension
+    | TApcCardHolder
+    | TApcSecurityGroup
+    | TApcSupremaBioData
+    | TApcVisEscortExtension
+    | TApcPC
+    | TApcRoot
+    | TApcServiceRegistry
+    | TApcV100
+    | TApcV1000
+    | TApcV200
+    | TApcV2000
+    | TApcV300
+    | TApcVAL
+    | TApcVALElem
+    | TApcVAPB
+    | TApcVAutomation
+    | TApcVAuxInput
+    | TApcVCardFormat
+    | TApcVCardSet
+    | TApcVContrInput
+    | TApcVCtrlGroup
+    | TApcVCtrlObjLink
+    | TApcVDoorInput
+    | TApcVEDGE
+    | TApcVElevRelayGroup
+    | TApcVElevRelayGroupElem
+    | TApcVertXSocket
+    | TApcVHolidayGroup
+    | TApcVHolidayGroupElem
+    | TApcVInputCtrlObjLink
+    | TApcVKeyPad
+    | TApcVReader
+    | TApcVReaderCtrlObj
+    | TApcVReaderElev
+    | TApcVReaderGroup
+    | TApcVReaderGroupElem
+    | TApcVReaderGrpCtrlObj
+    | TApcVReaderInput
+    | TApcVRelay
+    | TApcVRelayCtrlObj
+    | TApcVRelayGrpCtrlObj
+    | TApcVRexInput
+    | TApcVShedule
+    | TAplAAN100Contr
+    | TAplAAN32Contr
+    | TAplMC6IntervalTZ
+    | TAplMCAL
+    | TAplMCAlarmInput
+    | TAplMCAlarmPanelAIO16
+    | TAplMCAlarmPanelAIO168
+    | TAplMCAlarmPanelAIO8
+    | TAplMCAlarmPanelAPA15
+    | TAplMCAlarmPanelAPA16
+    | TAplMCAlarmPanelAPD16
+    | TAplMCAlarmRelay
+    | TAplMCALElemElev
+    | TAplMCALElemNorm
+    | TAplMCALElemZoneGroup
+    | TAplMCASA72
+    | TAplMCCardFormat
+    | TAplMCCardFrmtList
+    | TAplMCContrInput
+    | TAplMCDownlSpecRec
+    | TAplMCElevAL
+    | TAplMCEscortGroupList
+    | TAplMCHoliday
+    | TAplMCHostInput
+    | TAplMCIV
+    | TAplMCIVALElevFloors
+    | TAplMCIVFuncAlarmRelayControl
+    | TAplMCIVFuncAPBControl
+    | TAplMCIVFuncChain
+    | TAplMCIVFuncDenyElevFloors
+    | TAplMCIVFuncEventLog
+    | TAplMCIVFuncMaskZoneGroup
+    | TAplMCIVFuncReaderBeepControl
+    | TAplMCIVFuncReaderContBeepControl
+    | TAplMCIVFuncReaderControl
+    | TAplMCIVFuncReaderRelayControl
+    | TAplMCIVFuncTestZoneGroupAct
+    | TAplMCIVFuncTestZoneGroupMsk
+    | TAplMCIVFuncToggleZoneGroupMsk
+    | TAplMCIVFuncTZControl
+    | TAplMCIVInitiator
+    | TAplMCIVInitiatorAccActiv
+    | TAplMCIVInitiatorAccDiddle
+    | TAplMCIVInitiatorComm
+    | TAplMCIVInitiatorReader
+    | TAplMCIVInitiatorZoneAPB
+    | TAplMCLED
+    | TAplMCLEDLink
+    | TAplMCReader
+    | TAplMCReaderCtrlTZ
+    | TAplMCReaderElev
+    | TAplMCReaderInput
+    | TAplMCReaderInputAccActiv
+    | TAplMCReaderInputAux
+    | TAplMCReaderInputDiddle
+    | TAplMCReaderInputM
+    | TAplMCReaderRelay
+    | TAplMCRemContrAHI10R
+    | TAplMCRemContrAIM2DLR
+    | TAplMCRemContrAIM2SLR
+    | TAplMCRemContrAIM4SLR
+    | TAplMCRemContrAMS100R
+    | TAplMCRemContrAnalogAlarm
+    | TAplMCRemContrAP500R
+    | TAplMCRemContrAP510_520R
+    | TAplMCRemContrASA72
+    | TAplMCRemContrCommonR
+    | TAplMCRemContrCommonRElev
+    | TAplMCRemContrDigitalAlarm
+    | TAplMCRemContrInput
+    | TAplMCRemContrInputComm
+    | TAplMCRemContrPrintUnit
+    | TAplMCSerialPort
+    | TAplMCSocket
+    | TAplMCVisitorGroup
+    | TAplMCZoneAPB
+    | TAplMCZoneGroup
+    | TAplMCZoneGroupElem
+    | TAplAIM1SLContr
+    | TAplAIM2SLContr
+    | TAplAIM4SLContr
+    | TAplAIM6IntervalTZ
+    | TAplAIMAL
+    | TAplAIMAPB
+    | TAplAIMCardFormat
+    | TAplAIMHoliday
+    | TAplAIMReader
+    | TAplAIMReaderCtrlTZ
+    | TAplAIMReaderInput
+    | TAplAIMReaderInputTZ
+    | TAplAIMReaderRelay
+    | TAplAPN2IntervalTZ
+    | TAplAPN35Contr
+    | TAplAPNAL
+    | TAplAPNCard
+    | TAplAPNContrInput
+    | TAplAPNContrRelay
+    | TAplAPNHoliday
+    | TAplAPNReader
+    | TAplAPNReaderInput
+    | TAplSCSerialPort
+    | TAplSCSocket;

@@ -1,0 +1,11 @@
+<button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+    <mat-icon>more_vert</mat-icon>
+</button>
+<mat-menu #menu="matMenu">
+    <button mat-menu-item (click)="actionHandler(0)">
+        <span>Вывести всю информацию</span>
+    </button>
+    <button mat-menu-item (click)="actionHandler(1)">
+        <span>Добавить дочерний элемент</span>
+    </button>
+</mat-menu>
