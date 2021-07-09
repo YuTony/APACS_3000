@@ -1,0 +1,12 @@
+<form>
+    <mat-form-field appearance="standard">
+        <mat-label>сисадрес серверного оборудования</mat-label>
+        <input matInput placeholder="Placeholder"
+               [formControl]="sysAddrID">
+    </mat-form-field>
+</form>
+<p>
+    <button mat-raised-button type="button" (click)="testCommand(sysAddrID.value)">add</button>
+    <button mat-raised-button type="button" (click)="execCmdOnReader()">exec</button>
+    <button mat-raised-button type="button" (click)="delSocket()">delete socket</button>
+</p>

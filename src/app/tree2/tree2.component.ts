@@ -145,7 +145,7 @@ export class DynamicDataSource implements DataSource<DynamicFlatNode> {
             && this.data[i].level > node.level; i++, count++) {
             }
             this.data.splice(index + 1, count);
-            console.log(expand)
+            // console.log(expand)
             this.dataChange.next(this.data);
         }
     }

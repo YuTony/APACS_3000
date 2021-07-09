@@ -21,6 +21,10 @@ export class NavigationComponent {
         // console.log(action.action)
     }
 
+    cancelFunc() {
+        this.action = undefined;
+    }
+
     isHandset$: Observable<boolean> = this.breakpointObserver.observe(Breakpoints.Handset)
         .pipe(
             map(result => result.matches),

@@ -8,12 +8,11 @@ import { Actions } from "../models/interfaces";
 })
 export class TreeMenuComponent implements OnInit {
 
-  @Input() actionHandler: (action: Actions) => void = (action) => undefined;
+  @Input() actionHandler: (action: Actions) => void = () => undefined;
 
   constructor() { }
 
   ngOnInit(): void {
-    console.log('')
   }
 
 }

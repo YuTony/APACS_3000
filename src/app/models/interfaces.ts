@@ -5,10 +5,12 @@ export interface TreeChild {
     "sysAddrID": string
 }
 
-export enum Actions {
-    PrintInfo,
-    AddPbject
-}
+// export enum Actions {
+//     PrintInfo,
+//     AddObject
+// }
+
+export type Actions = "getInfo" | "addObject" | "delObject" | "testQuery" | "editObject" | "changeActivity" | "commands" | "events";
 
 export interface Action {
     object: Types;

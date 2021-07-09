@@ -5,6 +5,13 @@
                  [opened]="(isHandset$ | async) === false">
         <mat-toolbar>Menu</mat-toolbar>
         <app-tree2 (clickNodeEvent)="actionHandler($event)"></app-tree2>
+        <p>
+            <button mat-raised-button style="margin-left: 20px" (click)="action='testQuery'">Запрос</button>
+            <button mat-raised-button style="margin-left: 20px" (click)="action='changeActivity'">changeActivity</button>
+            <button mat-raised-button style="margin-left: 20px" (click)="action='commands'">commands</button>
+            <button mat-raised-button style="margin-left: 20px" (click)="action='events'">events</button>
+        </p>
+        <app-tests></app-tests>
     </mat-sidenav>
     <mat-sidenav-content>
         <mat-toolbar color="primary">
@@ -16,12 +23,18 @@
                     *ngIf="isHandset$ | async">
                 <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
             </button>
-            <span>APACS-test2</span>
+            <span>APACS client</span>
         </mat-toolbar>
         <!-- Add Content Here -->
-        <div [ngSwitch]="action" [classList]="['nav-main']">
-            <app-info-object *ngSwitchCase="0" [object]="object"></app-info-object>
-            <app-add-object *ngSwitchCase="1" [object]="object"></app-add-object>
+        <div [ngSwitch]="action" [classList]="['nav-main']" style="padding-top: 8px">
+            <app-info-object *ngSwitchCase="'getInfo'" [object]="object"></app-info-object>
+            <app-add-object *ngSwitchCase="'addObject'" [object]="object" (cancelFunc)="cancelFunc()"></app-add-object>
+            <app-edit-object *ngSwitchCase="'editObject'" [object]="object" (cancelFunc)="cancelFunc()"></app-edit-object>
+            <app-delete-object *ngSwitchCase="'delObject'" [object]="object" (cancelFunc)="cancelFunc()"></app-delete-object>
+            <app-query *ngSwitchCase="'testQuery'"></app-query>
+            <app-change-activity *ngSwitchCase="'changeActivity'"></app-change-activity>
+            <app-test-commands *ngSwitchCase="'commands'"></app-test-commands>
+            <app-test-events *ngSwitchCase="'events'"></app-test-events>
         </div>
     </mat-sidenav-content>
 </mat-sidenav-container>

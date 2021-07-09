@@ -28,6 +28,13 @@ import { MatOptionModule } from "@angular/material/core";
 import { MatCheckboxModule } from "@angular/material/checkbox";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { MatProgressSpinnerModule } from "@angular/material/progress-spinner";
+import { DeleteObjectComponent } from './delete-object/delete-object.component';
+import { TestsComponent } from './tests/tests.component';
+import { QueryComponent } from './tests/query/query.component';
+import { EditObjectComponent } from './edit-object/edit-object.component';
+import { ChangeActivityComponent } from './tests/change-activity/change-activity.component';
+import { TestCommandsComponent } from './tests/test-commands/test-commands.component';
+import { TestEventsComponent } from './tests/test-events/test-events.component';
 
 @NgModule({
     declarations: [
@@ -37,7 +44,14 @@ import { MatProgressSpinnerModule } from "@angular/material/progress-spinner";
         Tree2Component,
         TreeMenuComponent,
         AddObjectComponent,
-        InfoObjectComponent
+        InfoObjectComponent,
+        DeleteObjectComponent,
+        TestsComponent,
+        QueryComponent,
+        EditObjectComponent,
+        ChangeActivityComponent,
+        TestCommandsComponent,
+        TestEventsComponent
     ],
     imports: [
         BrowserModule,

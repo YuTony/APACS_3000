@@ -2,10 +2,16 @@
     <mat-icon>more_vert</mat-icon>
 </button>
 <mat-menu #menu="matMenu">
-    <button mat-menu-item (click)="actionHandler(0)">
+    <button mat-menu-item (click)="actionHandler('getInfo')">
         <span>Вывести всю информацию</span>
     </button>
-    <button mat-menu-item (click)="actionHandler(1)">
+    <button mat-menu-item (click)="actionHandler('addObject')">
         <span>Добавить дочерний элемент</span>
+    </button>
+    <button mat-menu-item (click)="actionHandler('editObject')">
+        <span>Изменить элемент</span>
+    </button>
+    <button mat-menu-item (click)="actionHandler('delObject')">
+        <span>Удалить элемент</span>
     </button>
 </mat-menu>

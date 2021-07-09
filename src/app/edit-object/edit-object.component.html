@@ -1,0 +1,19 @@
+<form *ngIf="object; else waitingTemplate" (ngSubmit)="onSubmit()">
+    <div [formGroup]="objectForm" (ngSubmit)="onSubmit()" #addForm="ngForm">
+        <div *ngFor="let elem of fields">
+            <p>
+                <mat-form-field appearance="standard">
+                    <mat-label>{{elem}}</mat-label>
+                    <input matInput placeholder="Placeholder"
+                           formControlName="{{elem}}">
+                </mat-form-field>
+            </p>
+        </div>
+    </div>
+    <button mat-raised-button color="primary" type="submit">Submit</button>
+    <button mat-raised-button type="submit" (click)="cancelFunc.emit()">Cancel</button>
+</form>
+
+<ng-template #waitingTemplate>
+    <mat-spinner></mat-spinner>
+</ng-template>

@@ -1,8 +1,9 @@
-import { Component, Input, OnChanges, OnInit } from '@angular/core';
+import { Component, Input, OnChanges, OnInit, Output } from '@angular/core';
 import { Types } from "../models/APACSInterfaces";
 import { APACSStabService } from "../services/APACS-stab.service";
-import { FormBuilder, FormControl, FormGroup, Validators } from "@angular/forms";
+import { FormArray, FormBuilder, FormControl, FormGroup, ValidationErrors, Validators } from "@angular/forms";
 import { files } from "../tree/example-data";
+import { EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-add-object',
@@ -11,45 +12,39 @@ import { files } from "../tree/example-data";
 })
 export class AddObjectComponent implements OnChanges {
   @Input() object: Types | undefined;
+  @Output() cancelFunc = new EventEmitter<void>();
 
-  objectForm: FormGroup | undefined;
-
-  // fields: {name: String, disabled: boolean}[] | undefined;
-  // fields: Map<keyof Types, {value: String, disabled: boolean}> | undefined;
-  fields: (keyof Types | {value: String, disabled: boolean})[][] | undefined;
+  objectForm: FormGroup = new FormGroup({});
 
   template: Types | undefined;
+
+  fields: String[] = [];
 
   constructor(private api: APACSStabService, private fb: FormBuilder) { }
 
   generateForm(template: Types) {
 
-    // this.objectForm = this.fb.group({
-    //   strClassID: [this.template?.strClassID],
-    //   sysAddrID: [this.template?.sysAddrID],
-    //   strName: [this.template?.strName],
-    //   strDesc: [this.template?.strDesc],
-    //   IsActive: [this.template?.IsActive],
-    //   strAlias: [this.template?.strAlias]
-    // });
-    // this.objectForm = this.fb.group(Object.create())
-
-    this.fields = Object.keys(template).reduce<(keyof Types | {value: String, disabled: boolean})[][]>((acc, val) => {
+    let fields = Object.keys(template).reduce<{[key: string]: any}>((acc, val) => {
       // @ts-ignore
-      acc.push([val, template[val]])
+      acc[val] = {value: template[val], disabled: template[val] !== ''};
+      // console.log(acc)
       return acc;
-    }, [])
+    }, {})
 
-    console.log(this.fields);
-
-    this.objectForm = this.fb.group(this.fields)
+    this.objectForm = this.fb.group(fields);
+    this.fields = Object.keys(template);
   }
 
   async ngOnChanges() {
     this.template = undefined;
     this.template = await this.api.getObjectForAdd(this.object!.sysAddrID, 'TApcFolder').toPromise();
     this.generateForm(this.template);
-    console.log(this.template)
+    // console.log(this.template)
+  }
+
+  onSubmit() {
+    // console.log(this.objectForm.getRawValue())
+    this.api.addObject(this.object!.sysAddrID, this.objectForm.getRawValue()).subscribe(value => console.log(value));
   }
 
 }

@@ -9,12 +9,9 @@ import { Types } from "../models/APACSInterfaces";
 export class InfoObjectComponent implements OnChanges {
   @Input() object: Types | undefined;
 
-  strObject: String | undefined;
-
   constructor() { }
 
   ngOnChanges() {
-    this.strObject = JSON.stringify(this.object);
   }
 
 }

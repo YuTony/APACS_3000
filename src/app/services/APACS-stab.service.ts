@@ -19,10 +19,10 @@ export interface TObjectsId {
 }
 
 export interface TQuery {
-    select: String[];
+    select: String[] | String;
     from: String;
     where?: any;
-    "order by"?: Map<String, String>;
+    "order by"?: {[key: string]: "desc" | "asc"};
 }
 
 export interface TQueryId {
@@ -44,11 +44,11 @@ export interface TEventSub {
     "localEventBuffer": Number;
 }
 
-export  interface TWebhookSubscribe {
+export interface TWebhookSubscribe {
     "url_events" : String;
     "url_notifies" : String;
     "url_states" : String;
-    "replyTO": 1000;
+    "replyTO": number;
 }
 
 export interface TInitRMQproducer {
@@ -96,6 +96,11 @@ export class APACSStabService {
         return this.http.get<TApcRoot>(req);
     }
 
+    getParent(id: string): Observable<TreeChild> {
+        const req = `${this.url}/object/parentSA/${APACSStabService.formatId(id)}`;
+        return this.http.get<TreeChild>(req);
+    }
+
     getChild(id: String): Observable<TreeChild[]> {
         const req = `${this.url}/object/children/${APACSStabService.formatId(id)}`;
         return this.http.get<TreeChild[]>(req);
@@ -106,19 +111,49 @@ export class APACSStabService {
         return this.http.get<Types>(req);
     }
 
-    getObjectByAlias(alias: string): Observable<Types> {
+    getObjectByAlias(alias: String): Observable<Types> {
         const req = `${this.url}/object/alias/${APACSStabService.formatId(alias)}`;
         return this.http.get<any>(req);
     }
 
-    getParent(id: string): Observable<TreeChild> {
-        const req = `${this.url}/object/parentSA/${APACSStabService.formatId(id)}`;
-        return this.http.get<TreeChild>(req);
+    getObjects(objectsId: String[]): Observable<Types[]> {
+        const req = `${this.url}/objects/get`;
+        return this.http.post<Types[]>(req, objectsId);
     }
 
     getObjectForAdd(parentId: String, typeForAdd: string): Observable<Types> {
         const req = `${this.url}/object/forAdd/${APACSStabService.formatId(parentId)}/${typeForAdd}`;
         return this.http.get<Types>(req);
+    }
+
+    addObject(parentId: String, obj: Types): Observable<TObjectId> {
+        const req = `${this.url}/object/id/${APACSStabService.formatId(parentId)}`;
+        return this.http.post<TObjectId>(req, obj);
+    }
+
+    addObjects(parentId: String, objects: Types[]): Observable<TObjectsId> {
+        const req = `${this.url}/objects/add/${APACSStabService.formatId(parentId)}`;
+        return this.http.post<TObjectsId>(req, objects);
+    }
+
+    editObject(objId: String, data: any) {
+        const req = `${this.url}/object/id/${APACSStabService.formatId(objId)}`;
+        return this.http.put(req, data);
+    }
+
+    editObjects(data: any) {
+        const req = `${this.url}/objects/edit`;
+        return this.http.post(req, data);
+    }
+
+    deleteObject(objId: String) {
+        const req = `${this.url}/object/id/${APACSStabService.formatId(objId)}`;
+        return this.http.delete(req);
+    }
+
+    deleteObjects(objectsId: String[]) {
+        const req = `${this.url}/objects/del`;
+        return this.http.post(req, objectsId);
     }
 
     getEvent(eventId: string, eventType: string): Observable<any> {
@@ -131,24 +166,9 @@ export class APACSStabService {
         return this.http.get(req);
     }
 
-    getErrorCode(code: number): Observable<TError> {
-        const req = `${this.url}/error/${code}`;
-        return this.http.get<TError>(req);
-    }
-
-    execCmdOnObj(objId: string, cmdId: string, data: any = undefined) {
-        const req = `${this.url}/object/execCmd/${APACSStabService.formatId(objId)}/${cmdId}`;
-        return this.http.put(req, data);
-    }
-
-    editObject(objId: string, data: any) {
-        const req = `${this.url}/object/id/${APACSStabService.formatId(objId)}`;
-        return this.http.put(req, data);
-    }
-
-    deleteObject(objId: string) {
-        const req = `${this.url}/object/id/${APACSStabService.formatId(objId)}`;
-        return this.http.delete(req);
+    addEvent(event: Types): Observable<TObjectId> {
+        const req = `${this.url}/event/id/`;
+        return this.http.post<TObjectId>(req, event);
     }
 
     deleteEvent(eventId: string, eventType: string) {
@@ -156,14 +176,14 @@ export class APACSStabService {
         return this.http.delete(req);
     }
 
-    addObject(parentId: string, obj: Types): Observable<TObjectId> {
-        const req = `${this.url}/object/id/${APACSStabService.formatId(parentId)}`;
-        return this.http.post<TObjectId>(req, obj);
+    getErrorCode(code: number): Observable<TError> {
+        const req = `${this.url}/error/${code}`;
+        return this.http.get<TError>(req);
     }
 
-    addEvent(event: Types): Observable<TObjectId> {
-        const req = `${this.url}/event/id/`;
-        return this.http.post<TObjectId>(req, event);
+    execCmdOnObj(objId: String, cmdId: String, data: any = undefined) {
+        const req = `${this.url}/object/execCmd/${APACSStabService.formatId(objId)}/${cmdId}`;
+        return this.http.put(req, data);
     }
 
     openQuery(query: TQuery): Observable<TQueryId> {
@@ -181,29 +201,14 @@ export class APACSStabService {
         return this.http.delete(req);
     }
 
-    getObjects(objectsId: String[]): Observable<Types[]> {
-        const req = `${this.url}/objects/get`;
-        return this.http.post<Types[]>(req, objectsId);
-    }
-
-    deleteObjects(objectsId: String[]) {
-        const req = `${this.url}/objects/del`;
-        return this.http.post(req, objectsId);
-    }
-
-    addObjects(parentId: String, objects: Types[]): Observable<TObjectsId> {
-        const req = `${this.url}/objects/add/${APACSStabService.formatId(parentId)}`;
-        return this.http.post<TObjectsId>(req, objects);
-    }
-
-    editObjects(data: any) {
-        const req = `${this.url}/objects/edit`;
-        return this.http.post(req, data);
-    }
-
     subSdkToEvents(params: TEventSub) {
         const req = `${this.url}/event/subscribe`;
         return this.http.put(req, params);
+    }
+
+    getEventsAfter(eventId: String, size: Number): Observable<any> {
+        const req = `${this.url}/event/after/${APACSStabService.formatId(eventId)}/${size}`;
+        return this.http.get(req);
     }
 
     unsubSdkFromEvents() {
@@ -213,11 +218,6 @@ export class APACSStabService {
 
     getRecentEvent() {
         const req = `${this.url}/event/recent`;
-        return this.http.get(req);
-    }
-
-    getEventsAfter(eventId: String, size: Number): Observable<any> {
-        const req = `${this.url}/event/after/${APACSStabService.formatId(eventId)}/${size}`;
         return this.http.get(req);
     }
 
