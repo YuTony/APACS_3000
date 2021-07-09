@@ -1,11 +1,17 @@
 <form *ngIf="object; else waitingTemplate" (ngSubmit)="onSubmit()">
     <div [formGroup]="objectForm" (ngSubmit)="onSubmit()" #addForm="ngForm">
         <div *ngFor="let elem of fields">
-            <p>
-                <mat-form-field appearance="standard">
-                    <mat-label>{{elem}}</mat-label>
+            <p [ngSwitch]="elem.type">
+                <mat-form-field appearance="standard" *ngSwitchCase="'input'">
+                    <mat-label>{{elem.name}}</mat-label>
                     <input matInput placeholder="Placeholder"
-                           formControlName="{{elem}}">
+                           formControlName="{{elem.name}}">
+                </mat-form-field>
+                <mat-form-field appearance="standard" *ngSwitchCase="'select'">
+                    <mat-select formControlName="{{elem.name}}" (ngModelChange)="ConvertStringToNumber($event)">
+                        <mat-option *ngFor="let val of elem.valueList | keyvalue" [value]="ConvertStringToNumber(val.key)">{{val.value}}</mat-option>
+                    </mat-select>
+                    <mat-label>{{elem.name}}</mat-label>
                 </mat-form-field>
             </p>
         </div>

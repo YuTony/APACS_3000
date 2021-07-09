@@ -1,5 +1,3 @@
-import { TApcCardHolder } from "./APACSInterfaces";
-
 export let ApcBasePropObject = {
     strName: {
         ReadOnly: false,
@@ -44,7 +42,7 @@ export let ApcBasePropObject = {
     }
 }
 
-export let ApcCardHolderBounded = {
+export let TApcCardHolder = {
     strFirstName: {
         ReadOnly: false,
         Hidden: false,
