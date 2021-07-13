@@ -1,5 +1,5 @@
 import { Component, Input, OnChanges } from '@angular/core';
-import { Types } from "../models/APACSInterfaces";
+import { Types } from "../../models/APACSInterfaces";
 
 @Component({
   selector: 'app-info-object',

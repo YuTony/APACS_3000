@@ -1,6 +1,6 @@
-import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
-import { Types } from "../models/APACSInterfaces";
-import { APACSStabService } from "../services/APACS-stab.service";
+import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Types } from "../../models/APACSInterfaces";
+import { APACSStabService } from "../../services/APACS-stab.service";
 
 @Component({
   selector: 'app-delete-object',

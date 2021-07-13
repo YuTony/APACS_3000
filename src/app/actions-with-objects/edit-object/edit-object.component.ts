@@ -1,29 +1,25 @@
-import { Component, Input, OnChanges, Output } from '@angular/core';
-import { TApcCardHolder, Types } from "../models/APACSInterfaces";
-import { APACSStabService } from "../services/APACS-stab.service";
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { Types } from "../../models/APACSInterfaces";
 import { FormBuilder, FormGroup, Validators } from "@angular/forms";
-import * as bounded from "../models/bounded"
-import { EventEmitter } from '@angular/core';
+import { APACSStabService } from "../../services/APACS-stab.service";
+import * as bounded from "../../models/bounded";
 
 @Component({
-  selector: 'app-add-object',
-  templateUrl: './add-object.component.html',
-  styleUrls: ['./add-object.component.scss']
+  selector: 'app-edit-object',
+  templateUrl: './edit-object.component.html',
+  styleUrls: ['./edit-object.component.scss']
 })
-export class AddObjectComponent implements OnChanges {
+export class EditObjectComponent implements OnInit {
   @Input() object: Types | undefined;
   @Output() cancelFunc = new EventEmitter<void>();
 
   objectForm: FormGroup = new FormGroup({});
-
   template: Types | undefined;
-
   fields: {name: string, type: string, valueList?: {[key: number]: string}}[] = []
 
   constructor(private api: APACSStabService, private fb: FormBuilder) { }
 
   generateForm(template: Types) {
-
     let fields = Object.keys(template).reduce<{[key: string]: any}>((acc, val) => {
       let vals = []
       let valueList: {[key: number]: string} | undefined;
@@ -62,16 +58,15 @@ export class AddObjectComponent implements OnChanges {
     return Number(input);
   }
 
-  async ngOnChanges() {
-    this.template = undefined;
-    this.template = await this.api.getObjectForAdd(this.object!.sysAddrID, 'TApcCardHolder').toPromise();
-    this.generateForm(this.template);
-    // console.log(this.template)
+  ngOnInit(): void {
+    if (this.object) {
+      this.generateForm(this.object)
+    }
   }
 
   onSubmit() {
     // console.log(this.objectForm.getRawValue())
-    this.api.addObject(this.object!.sysAddrID, this.objectForm.getRawValue()).subscribe(value => console.log(value));
+    this.api.editObject(this.object!.sysAddrID, this.objectForm.getRawValue()).subscribe();
   }
 
 }

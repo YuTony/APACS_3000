@@ -87,7 +87,7 @@ export class TreeComponent implements OnInit {
         return node.children;
     }
 
-    types: Map<String, any> = new Map<String, any>();
+    types: Map<string, any> = new Map<string, any>();
 
     getInterface(obj: any) {
         let int = {};
@@ -96,7 +96,7 @@ export class TreeComponent implements OnInit {
         return int;
     }
 
-    async getChild(id: String): Promise<any> {
+    async getChild(id: string): Promise<any> {
         let children = await this.api.getObjectById(id).toPromise();
         this.types.set(children.strClassID, this.getInterface(children));
         return {
@@ -106,7 +106,7 @@ export class TreeComponent implements OnInit {
         }
     }
 
-    async getChildren2(id: String): Promise<any[]> {
+    async getChildren2(id: string): Promise<any[]> {
         let children = await this.api.getChild(id).toPromise();
         let proms = children.map(cur => {
             return this.getChild(cur.sysAddrID);

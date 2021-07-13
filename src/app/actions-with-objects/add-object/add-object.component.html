@@ -53,28 +53,40 @@
 <!--        </mat-form-field>-->
 <!--    </p>-->
 <!--</div>-->
-<form *ngIf="template; else waitingTemplate" (ngSubmit)="onSubmit()">
-    <div [formGroup]="objectForm" (ngSubmit)="onSubmit()" #addForm="ngForm">
-        <div *ngFor="let elem of fields">
-            <p [ngSwitch]="elem.type">
-                <mat-form-field appearance="standard" *ngSwitchCase="'input'">
-                    <mat-label>{{elem.name}}</mat-label>
-                    <input matInput placeholder="Placeholder"
-                           formControlName="{{elem.name}}">
-                </mat-form-field>
-                <mat-form-field appearance="standard" *ngSwitchCase="'select'">
-                    <mat-select formControlName="{{elem.name}}" (ngModelChange)="ConvertStringToNumber($event)">
-                        <mat-option *ngFor="let val of elem.valueList | keyvalue" [value]="ConvertStringToNumber(val.key)">{{val.value}}</mat-option>
-                    </mat-select>
-                    <mat-label>{{elem.name}}</mat-label>
-                </mat-form-field>
-            </p>
-        </div>
-    </div>
-    <button mat-raised-button color="primary" type="submit">Submit</button>
-    <button mat-raised-button type="submit" (click)="cancelFunc.emit()">Cancel</button>
-</form>
 
-<ng-template #waitingTemplate>
-    <mat-spinner></mat-spinner>
-</ng-template>
+<mat-form-field appearance="standard">
+    <mat-select [formControl]="type" (valueChange)="chooseTypeHandler($event)">
+        <mat-option *ngFor="let val of availableTypes" [value]="val">{{val}}</mat-option>
+    </mat-select>
+    <mat-label>Выберете тип для добавления</mat-label>
+</mat-form-field>
+
+<div *ngIf="type.value !== ''" [class]="'form'">
+    <form *ngIf="template; else waitingTemplate" (ngSubmit)="onSubmit()">
+        <div [formGroup]="objectForm" #addForm="ngForm">
+            <div *ngFor="let elem of fields">
+                <p [ngSwitch]="elem.type">
+                    <mat-form-field appearance="standard" *ngSwitchCase="'input'">
+                        <mat-label>{{elem.name}}</mat-label>
+                        <input matInput placeholder="Placeholder"
+                               formControlName="{{elem.name}}">
+                    </mat-form-field>
+                    <mat-form-field appearance="standard" *ngSwitchCase="'select'">
+                        <mat-select formControlName="{{elem.name}}">
+                            <mat-option *ngFor="let val of elem.valueList | keyvalue"
+                                        [value]="ConvertStringToNumber(val.key)">{{val.value}}</mat-option>
+                        </mat-select>
+                        <mat-label>{{elem.name}}</mat-label>
+                    </mat-form-field>
+                </p>
+            </div>
+        </div>
+        <!--    <app-object-form [(object)]="template"></app-object-form>-->
+        <button mat-raised-button color="primary" type="submit">Submit</button>
+        <button mat-raised-button type="submit" (click)="cancelFunc.emit()">Cancel</button>
+    </form>
+
+    <ng-template #waitingTemplate>
+        <mat-spinner></mat-spinner>
+    </ng-template>
+</div>

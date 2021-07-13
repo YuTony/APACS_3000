@@ -13,9 +13,9 @@ export interface TreeChild {
 }
 
 export interface DataNode {
-    name: String;
-    strClassId: String;
-    sysAddrID: String;
+    name: string;
+    strClassId: string;
+    sysAddrID: string;
     fullInfo: Types;
     children: TreeChild[];
 }
@@ -43,7 +43,7 @@ export class DynamicDatabase {
         return [new DynamicFlatNode(await this.getItem(rootId), 0, true)];
     }
 
-    async getItem(id: String) {
+    async getItem(id: string) {
         let conf = await this.api.getObjectById(id).toPromise();
         let item: DataNode = {
             name: conf.strName,
@@ -58,7 +58,7 @@ export class DynamicDatabase {
     async getChildren(node: DataNode): Promise<DataNode[]> {
         // let proms = node.children.map(async ch => await this.getItem(ch.sysAddrID));
         let proms = node.children.reduce<Promise<DataNode>[]>((acc, val) => {
-            if (!['TApcAccount', 'TApcCardHolder'].includes(val.strClassID))
+            if (!['TApcAccount', 'TApcCardHolder_remove'].includes(val.strClassID))
                 acc.push(this.getItem(val.sysAddrID))
             return acc;
         }, [])

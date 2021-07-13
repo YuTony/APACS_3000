@@ -1,8 +1,13 @@
-<form (ngSubmit)="onChange(this.sysAddrID.value)">
+<form (ngSubmit)="onChange()">
     <mat-form-field appearance="standard">
-        <mat-label>Id владельца карты</mat-label>
+        <mat-label>Фамилия владельца карты</mat-label>
         <input matInput placeholder="Placeholder"
-               [formControl]="sysAddrID">
+               [(ngModel)]="lastName" name="last">
+    </mat-form-field>\
+    <mat-form-field appearance="standard">
+        <mat-label>Имя владельца карты</mat-label>
+        <input matInput placeholder="Placeholder"
+               [(ngModel)]="firstName" name="first">
     </mat-form-field>
     <p>
         <button mat-raised-button type="submit">Change</button>

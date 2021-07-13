@@ -2,351 +2,351 @@
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcAbstrObjExt\Registrar\tApcFile.xml
 export interface TApcFile {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    blobData: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    blobData: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcAbstrObjExt\Registrar\tApcTAJob2HolderLink.xml
 export interface TApcTAJob2HolderLink {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dtStart: String;
-    dtEnd: String;
-    SysAddrJobSysAddr: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dtStart: string;
+    dtEnd: string;
+    SysAddrJobSysAddr: string;
     fFinished: Boolean;
     fUseScheduleStart: Boolean;
-    dtScheduleStart: String;
+    dtScheduleStart: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcAbstrObjExt\Registrar\tApcTAShiftMException.xml
 export interface TApcTAShiftMException {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dtStart: String;
-    dtEnd: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dtStart: string;
+    dtEnd: string;
     fChangeType: Boolean;
-    SysAddrType: String;
-    strComment: String;
+    SysAddrType: string;
+    strComment: string;
     fCount: Boolean;
     fSimpleSettings: Boolean;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcAbstrObjExt\Registrar\tApcTAStructException.xml
 export interface TApcTAStructException {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dtStart: String;
-    dtEnd: String;
-    SysAddrScheduleSysAddr: String;
-    dScheduleStart: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dtStart: string;
+    dtEnd: string;
+    SysAddrScheduleSysAddr: string;
+    dScheduleStart: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcAbstrObjExt\Registrar\tApcTATimeMException.xml
 export interface TApcTATimeMException {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dtStart: String;
-    dtEnd: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dtStart: string;
+    dtEnd: string;
     fChangeType: Boolean;
-    SysAddrType: String;
-    strComment: String;
+    SysAddrType: string;
+    strComment: string;
     fPlus: Boolean;
-    tTime: String;
+    tTime: string;
     fNoTolerance: Boolean;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcASP4Ext\Registrar\tApcASP4AccessPoint.xml
 export interface TApcASP4AccessPoint {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    bNumber: Number;
-    bInitMode: Number;
-    SysAddrZone1: String;
-    SysAddrZone2: String;
-    wShortStrikeTime: Number;
-    wLongStrikeTime: Number;
-    wShortHeldOpenTime: Number;
-    wLongHeldOpenTime: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    bNumber: number;
+    bInitMode: number;
+    SysAddrZone1: string;
+    SysAddrZone2: string;
+    wShortStrikeTime: number;
+    wLongStrikeTime: number;
+    wShortHeldOpenTime: number;
+    wLongHeldOpenTime: number;
     fHeldOpenMask: Boolean;
     fForcedOpenMask: Boolean;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcASP4Ext\Registrar\tApcASP4AL.xml
 export interface TApcASP4AL {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    wNumber: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    wNumber: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcASP4Ext\Registrar\tApcASP4ALElem.xml
 export interface TApcASP4ALElem {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    SysAddrALObject: String;
-    SysAddrTZ: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    SysAddrALObject: string;
+    SysAddrTZ: string;
     fHostGrantFlag: Boolean;
-    bHostGrantValue: Number;
+    bHostGrantValue: number;
     fHostDenyFlag: Boolean;
-    bHostDenyValue: Number;
+    bHostDenyValue: number;
     fSoftAPBFlag: Boolean;
-    bSoftAPBValue: Number;
+    bSoftAPBValue: number;
     fAPBExemptFlag: Boolean;
-    bAPBExemptValue: Number;
+    bAPBExemptValue: number;
     fEnterClosedAreaFlag: Boolean;
-    bEnterClosedAreaValue: Number;
+    bEnterClosedAreaValue: number;
     fVisitorEscortFlag: Boolean;
-    bVisitorEscortValue: Number;
+    bVisitorEscortValue: number;
     fUnlockReaderFlag: Boolean;
-    bUnlockReaderValue: Number;
+    bUnlockReaderValue: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcASP4Ext\Registrar\tApcASP4APBZone.xml
 export interface TApcASP4APBZone {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    wNumber: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    wNumber: number;
     fCloseZone: Boolean;
     fAPBExempt: Boolean;
-    bThreatLevel: Number;
-    dwTimedAPB: Number;
-    wMinOccupancy: Number;
-    wMaxOccupancy: Number;
-    wLimitOccupancy: Number;
-    wRequiredOccupancy: Number;
+    bThreatLevel: number;
+    dwTimedAPB: number;
+    wMinOccupancy: number;
+    wMaxOccupancy: number;
+    wLimitOccupancy: number;
+    wRequiredOccupancy: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcASP4Ext\Registrar\tApcASP4CardFormatList.xml
 export interface TApcASP4CardFormatList {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bNumber: Number;
-    SysAddrFormat_0: String;
-    SysAddrFormat_1: String;
-    SysAddrFormat_2: String;
-    SysAddrFormat_3: String;
-    SysAddrFormat_4: String;
-    SysAddrFormat_5: String;
-    SysAddrFormat_6: String;
-    SysAddrFormat_7: String;
-    SysAddrFormat_8: String;
-    SysAddrFormat_9: String;
-    SysAddrFormat_10: String;
-    SysAddrFormat_11: String;
-    SysAddrFormat_12: String;
-    SysAddrFormat_13: String;
-    SysAddrFormat_14: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bNumber: number;
+    SysAddrFormat_0: string;
+    SysAddrFormat_1: string;
+    SysAddrFormat_2: string;
+    SysAddrFormat_3: string;
+    SysAddrFormat_4: string;
+    SysAddrFormat_5: string;
+    SysAddrFormat_6: string;
+    SysAddrFormat_7: string;
+    SysAddrFormat_8: string;
+    SysAddrFormat_9: string;
+    SysAddrFormat_10: string;
+    SysAddrFormat_11: string;
+    SysAddrFormat_12: string;
+    SysAddrFormat_13: string;
+    SysAddrFormat_14: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcASP4Ext\Registrar\tApcASP4CmnInput.xml
 export interface TApcASP4CmnInput {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    bNumber: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    bNumber: number;
     fMaskedFlag: Boolean;
-    bNormalState: Number;
+    bNormalState: number;
     fConfiguredFlag: Boolean;
     fLatchedFlag: Boolean;
     fAckFlag: Boolean;
-    bAckReptTO: Number;
-    dwEntranceDelay: Number;
-    dwExitDelay: Number;
-    SysAddrMaskTZ: String;
+    bAckReptTO: number;
+    dwEntranceDelay: number;
+    dwExitDelay: number;
+    SysAddrMaskTZ: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcASP4Ext\Registrar\tApcASP4ContrInput.xml
 export interface TApcASP4ContrInput {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    bNumber: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    bNumber: number;
     fMaskedFlag: Boolean;
-    bNormalState: Number;
+    bNormalState: number;
     fAckFlag: Boolean;
-    bAckReptTO: Number;
-    SysAddrMaskTZ: String;
+    bAckReptTO: number;
+    SysAddrMaskTZ: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcASP4Ext\Registrar\tApcASP4DoorContact.xml
 export interface TApcASP4DoorContact {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    SysAddrHWComponent: String;
-    bNumber: Number;
-    bCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    SysAddrHWComponent: string;
+    bNumber: number;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcASP4Ext\Registrar\tApcASP4EPB.xml
 export interface TApcASP4EPB {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    SysAddrHWComponent: String;
-    bNumber: Number;
-    bCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    SysAddrHWComponent: string;
+    bNumber: number;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcASP4Ext\Registrar\tApcASP4Holiday.xml
 export interface TApcASP4Holiday {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    wNumber: Number;
-    dHolidayDate: String;
-    blobHolidayTypes: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    wNumber: number;
+    dHolidayDate: string;
+    blobHolidayTypes: string;
     fPermanent: Boolean;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcASP4Ext\Registrar\tApcASP4HolidayType.xml
 export interface TApcASP4HolidayType {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    wNumber: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    wNumber: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcASP4Ext\Registrar\tApcASP4HWInterf.xml
 export interface TApcASP4HWInterf {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
     fActivate: Boolean;
-    dwSerialPort1Baud: Number;
-    bSerialPort1Mode: Number;
-    bTXDSettleDelay1: Number;
-    bContrTO1: Number;
-    wPollTO1: Number;
-    bInterCharTO1: Number;
-    wOfflineTO1: Number;
-    dwSerialPort2Baud: Number;
-    bSerialPort2Mode: Number;
-    bTXDSettleDelay2: Number;
-    bContrTO2: Number;
-    wPollTO2: Number;
-    bInterCharTO2: Number;
-    wOfflineTO2: Number;
-    bCurrStatus: Number;
-    strNodeName: String;
-    bNodeID: Number;
+    dwSerialPort1Baud: number;
+    bSerialPort1Mode: number;
+    bTXDSettleDelay1: number;
+    bContrTO1: number;
+    wPollTO1: number;
+    bInterCharTO1: number;
+    wOfflineTO1: number;
+    dwSerialPort2Baud: number;
+    bSerialPort2Mode: number;
+    bTXDSettleDelay2: number;
+    bContrTO2: number;
+    wPollTO2: number;
+    bInterCharTO2: number;
+    wOfflineTO2: number;
+    bCurrStatus: number;
+    strNodeName: string;
+    bNodeID: number;
     fEnableWillGrantEvent: Boolean;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcASP4Ext\Registrar\tApcASP4MasterBoard.xml
 export interface TApcASP4MasterBoard {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
     fActivate: Boolean;
-    bCurrStatus: Number;
-    bNodeID: Number;
-    bHostAccessTO: Number;
-    bDuressOffset: Number;
+    bCurrStatus: number;
+    bNodeID: number;
+    bHostAccessTO: number;
+    bDuressOffset: number;
     fCardActivateDT: Boolean;
     fCardDeactivateDT: Boolean;
     fEveryDayActTime: Boolean;
@@ -362,9 +362,9 @@ export interface TApcASP4MasterBoard {
     fUseEscortVisitorMode: Boolean;
     fUseUseLimit: Boolean;
     fUseCardNumber: Boolean;
-    bPermissionCount: Number;
-    SysAddrResetAPBTimeZone: String;
-    wInitialThreatLevel: Number;
+    bPermissionCount: number;
+    SysAddrResetAPBTimeZone: string;
+    wInitialThreatLevel: number;
     fCardFormat: Boolean;
     fFlags: Boolean;
     fAlternativeTimeFlag: Boolean;
@@ -372,104 +372,104 @@ export interface TApcASP4MasterBoard {
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcASP4Ext\Registrar\tApcASP4OSDPDevice.xml
 export interface TApcASP4OSDPDevice {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    bNumber: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    bNumber: number;
     fActivate: Boolean;
-    bPortNumber: Number;
-    bDeviceLogicAddr: Number;
+    bPortNumber: number;
+    bDeviceLogicAddr: number;
     fUseSecureConnection: Boolean;
     fDisableSCBKD: Boolean;
-    strSecuredModePwd: String;
-    strAltSecuredModePwd: String;
+    strSecuredModePwd: string;
+    strAltSecuredModePwd: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcASP4Ext\Registrar\tApcASP4OSDPInput.xml
 export interface TApcASP4OSDPInput {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    bNumber: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    bNumber: number;
     fMaskedFlag: Boolean;
-    bNormalState: Number;
+    bNormalState: number;
     fConfiguredFlag: Boolean;
     fLatchedFlag: Boolean;
     fAckFlag: Boolean;
-    bAckReptTO: Number;
-    dwEntranceDelay: Number;
-    dwExitDelay: Number;
-    SysAddrMaskTZ: String;
+    bAckReptTO: number;
+    dwEntranceDelay: number;
+    dwExitDelay: number;
+    SysAddrMaskTZ: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcASP4Ext\Registrar\tApcASP4OSDPRelay.xml
 export interface TApcASP4OSDPRelay {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    bNumber: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    bNumber: number;
     fPulseAtTZStart: Boolean;
     fPulseAtTZEnd: Boolean;
     fTurnOnWhileTZActive: Boolean;
     fConfigured: Boolean;
-    SysAddrControlTZ: String;
-    wPulseDuration: Number;
+    SysAddrControlTZ: string;
+    wPulseDuration: number;
     fInitialState: Boolean;
     fRelayOffTerminatesPulse: Boolean;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcASP4Ext\Registrar\tApcASP4Reader.xml
 export interface TApcASP4Reader {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bNumber: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bNumber: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcASP4Ext\Registrar\tApcASP4ReaderWrap.xml
 export interface TApcASP4ReaderWrap {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bNumber: Number;
-    bCurrStatus: Number;
-    bThreatLevel: Number;
-    dwTimedAPB: Number;
-    bNextTO: Number;
-    bSignalType: Number;
-    bNumOfCards: Number;
-    bReaderMode: Number;
-    bUseLimit: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bNumber: number;
+    bCurrStatus: number;
+    bThreatLevel: number;
+    dwTimedAPB: number;
+    bNextTO: number;
+    bSignalType: number;
+    bNumOfCards: number;
+    bReaderMode: number;
+    bUseLimit: number;
     fUseCardFormatList: Boolean;
-    SysAddrCardFormatList: String;
+    SysAddrCardFormatList: string;
     fDenyAccessUnderDuress: Boolean;
     fHostRequestOnDeny: Boolean;
     fHostRequestOnNotInFile: Boolean;
@@ -479,906 +479,906 @@ export interface TApcASP4ReaderWrap {
     fDisableKeyEcho: Boolean;
     fDisableAccessPointCtrl: Boolean;
     fEnableHeldOpenAlarm: Boolean;
-    SysAddrReaderLink: String;
-    bReaderDir: Number;
-    blobFacilityStrikes: String;
-    dwCypherCode: Number;
-    SysAddrCtrlTimeZone: String;
-    bTZStartMode: Number;
-    bTZEndMode: Number;
-    dwLockTimeout: Number;
+    SysAddrReaderLink: string;
+    bReaderDir: number;
+    blobFacilityStrikes: string;
+    dwCypherCode: number;
+    SysAddrCtrlTimeZone: string;
+    bTZStartMode: number;
+    bTZEndMode: number;
+    dwLockTimeout: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcASP4Ext\Registrar\tApcASP4Relay.xml
 export interface TApcASP4Relay {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    bNumber: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    bNumber: number;
     fPulseAtTZStart: Boolean;
     fPulseAtTZEnd: Boolean;
     fTurnOnWhileTZActive: Boolean;
     fConfigured: Boolean;
-    SysAddrControlTZ: String;
-    wPulseDuration: Number;
+    SysAddrControlTZ: string;
+    wPulseDuration: number;
     fInitialState: Boolean;
     fRelayOffTerminatesPulse: Boolean;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcASP4Ext\Registrar\tApcASP4RelayModule.xml
 export interface TApcASP4RelayModule {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    bNumber: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    bNumber: number;
     fPulseAtTZStart: Boolean;
     fPulseAtTZEnd: Boolean;
     fTurnOnWhileTZActive: Boolean;
     fConfigured: Boolean;
-    SysAddrControlTZ: String;
-    wPulseDuration: Number;
+    SysAddrControlTZ: string;
+    wPulseDuration: number;
     fInitialState: Boolean;
     fRelayOffTerminatesPulse: Boolean;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcASP4Ext\Registrar\tApcASP4RelayWrap.xml
 export interface TApcASP4RelayWrap {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    SysAddrHWComponent: String;
-    bNumber: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    SysAddrHWComponent: string;
+    bNumber: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcASP4Ext\Registrar\tApcASP4Script.xml
 export interface TApcASP4Script {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    blobScript: String;
-    wNumber: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    blobScript: string;
+    wNumber: number;
     fAutoStart: Boolean;
-    bCurrStatus: Number;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcASP4Ext\Registrar\tApcASP4Socket.xml
 export interface TApcASP4Socket {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    strIPAddress: String;
-    wPort: Number;
-    dwReadTO: Number;
-    dwReconnectTO: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    strIPAddress: string;
+    wPort: number;
+    dwReadTO: number;
+    dwReconnectTO: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcASP4Ext\Registrar\tApcASP4Strike.xml
 export interface TApcASP4Strike {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bNumber: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bNumber: number;
     fFireStrike: Boolean;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcASP4Ext\Registrar\tApcASP4TimeZone.xml
 export interface TApcASP4TimeZone {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    wNumber: Number;
-    dStartDate: String;
-    bCycleLength: Number;
-    blobIntervalsBlob: String;
-    blobHolidayIntervals: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    wNumber: number;
+    dStartDate: string;
+    bCycleLength: number;
+    blobIntervalsBlob: string;
+    blobHolidayIntervals: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcASP4Ext\Registrar\tApcASP4VGroup.xml
 export interface TApcASP4VGroup {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    wNumber: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    wNumber: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcASP4Ext\Registrar\tApcASP4VGroupList.xml
 export interface TApcASP4VGroupList {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bNumber: Number;
-    SysAddrVisitorGroup0: String;
-    SysAddrVisitorGroup1: String;
-    SysAddrVisitorGroup2: String;
-    SysAddrVisitorGroup3: String;
-    SysAddrVisitorGroup4: String;
-    SysAddrVisitorGroup5: String;
-    SysAddrVisitorGroup6: String;
-    SysAddrVisitorGroup7: String;
-    SysAddrVisitorGroup8: String;
-    SysAddrVisitorGroup9: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bNumber: number;
+    SysAddrVisitorGroup0: string;
+    SysAddrVisitorGroup1: string;
+    SysAddrVisitorGroup2: string;
+    SysAddrVisitorGroup3: string;
+    SysAddrVisitorGroup4: string;
+    SysAddrVisitorGroup5: string;
+    SysAddrVisitorGroup6: string;
+    SysAddrVisitorGroup7: string;
+    SysAddrVisitorGroup8: string;
+    SysAddrVisitorGroup9: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcASP4Ext\Registrar\tApcASP4WCardFormat.xml
 export interface TApcASP4WCardFormat {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bNumber: Number;
-    wLength: Number;
-    bFacilityStartingBit: Number;
-    bFacilityLength: Number;
-    bCardNumberStartingBit: Number;
-    wCardNumberLength: Number;
-    dwFacilityCodeValue: Number;
-    bBitsCountEvenParity: Number;
-    bBitsCountOddParity: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bNumber: number;
+    wLength: number;
+    bFacilityStartingBit: number;
+    bFacilityLength: number;
+    bCardNumberStartingBit: number;
+    wCardNumberLength: number;
+    dwFacilityCodeValue: number;
+    bBitsCountEvenParity: number;
+    bBitsCountOddParity: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcASP4Ext\Registrar\tApcASP4ZoneGroup.xml
 export interface TApcASP4ZoneGroup {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    wNumber: Number;
-    SysAddrParentZone: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    wNumber: number;
+    SysAddrParentZone: string;
     fMaskedFlag: Boolean;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcASP4Ext\Registrar\tApcASP4ZoneGroupElem.xml
 export interface TApcASP4ZoneGroupElem {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    SysAddrInputLink: String;
-    wNumber: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    SysAddrInputLink: string;
+    wNumber: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcAxisDriver\Registrar\tApcAxisCamera.xml
 export interface TApcAxisCamera {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dwNumber: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dwNumber: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcAxisDriver\Registrar\tApcAxisServer.xml
 export interface TApcAxisServer {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    strIpAddress: String;
-    strUserName: String;
-    strPassword: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    strIpAddress: string;
+    strUserName: string;
+    strPassword: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcBolidExt\Registrar\tApcBolidInput.xml
 export interface TApcBolidInput {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bInputNum: Number;
-    wCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bInputNum: number;
+    wCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcBolidExt\Registrar\tApcBolidPotok_3N.xml
 export interface TApcBolidPotok_3N {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dwAddress: Number;
-    wCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dwAddress: number;
+    wCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcBolidExt\Registrar\tApcBolidRelay.xml
 export interface TApcBolidRelay {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bRelayNum: Number;
-    bDelay: Number;
-    wCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bRelayNum: number;
+    bDelay: number;
+    wCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcBolidExt\Registrar\tApcBolidRIP_12_2A_RS.xml
 export interface TApcBolidRIP_12_2A_RS {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dwAddress: Number;
-    wCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dwAddress: number;
+    wCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcBolidExt\Registrar\tApcBolidRIP_12_RS.xml
 export interface TApcBolidRIP_12_RS {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dwAddress: Number;
-    wCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dwAddress: number;
+    wCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcBolidExt\Registrar\tApcBolidRIP_24_2A_RS.xml
 export interface TApcBolidRIP_24_2A_RS {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dwAddress: Number;
-    wCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dwAddress: number;
+    wCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcBolidExt\Registrar\tApcBolidRupor.xml
 export interface TApcBolidRupor {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dwAddress: Number;
-    wCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dwAddress: number;
+    wCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcBolidExt\Registrar\tApcBolidRuporv01.xml
 export interface TApcBolidRuporv01 {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dwAddress: Number;
-    wCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dwAddress: number;
+    wCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcBolidExt\Registrar\tApcBolidRupor_200.xml
 export interface TApcBolidRupor_200 {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dwAddress: Number;
-    wCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dwAddress: number;
+    wCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcBolidExt\Registrar\tApcBolidS2000KSPult.xml
 export interface TApcBolidS2000KSPult {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bPultNumber: Number;
-    wCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bPultNumber: number;
+    wCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcBolidExt\Registrar\tApcBolidS2000MPult.xml
 export interface TApcBolidS2000MPult {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bPultNumber: Number;
-    wCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bPultNumber: number;
+    wCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcBolidExt\Registrar\tApcBolidS2000Pult.xml
 export interface TApcBolidS2000Pult {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bPultNumber: Number;
-    wCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bPultNumber: number;
+    wCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcBolidExt\Registrar\tApcBolidS2000_2.xml
 export interface TApcBolidS2000_2 {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dwAddress: Number;
-    wCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dwAddress: number;
+    wCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcBolidExt\Registrar\tApcBolidS2000_4.xml
 export interface TApcBolidS2000_4 {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dwAddress: Number;
-    wCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dwAddress: number;
+    wCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcBolidExt\Registrar\tApcBolidS2000_Adem.xml
 export interface TApcBolidS2000_Adem {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dwAddress: Number;
-    wCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dwAddress: number;
+    wCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcBolidExt\Registrar\tApcBolidS2000_ASPT.xml
 export interface TApcBolidS2000_ASPT {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dwAddress: Number;
-    wCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dwAddress: number;
+    wCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcBolidExt\Registrar\tApcBolidS2000_BI.xml
 export interface TApcBolidS2000_BI {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dwAddress: Number;
-    wCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dwAddress: number;
+    wCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcBolidExt\Registrar\tApcBolidS2000_BIv01.xml
 export interface TApcBolidS2000_BIv01 {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dwAddress: Number;
-    wCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dwAddress: number;
+    wCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcBolidExt\Registrar\tApcBolidS2000_BKI.xml
 export interface TApcBolidS2000_BKI {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dwAddress: Number;
-    wCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dwAddress: number;
+    wCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcBolidExt\Registrar\tApcBolidS2000_IT.xml
 export interface TApcBolidS2000_IT {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dwAddress: Number;
-    wCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dwAddress: number;
+    wCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcBolidExt\Registrar\tApcBolidS2000_K.xml
 export interface TApcBolidS2000_K {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dwAddress: Number;
-    wCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dwAddress: number;
+    wCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcBolidExt\Registrar\tApcBolidS2000_KC.xml
 export interface TApcBolidS2000_KC {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dwAddress: Number;
-    wCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dwAddress: number;
+    wCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcBolidExt\Registrar\tApcBolidS2000_KDL.xml
 export interface TApcBolidS2000_KDL {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dwAddress: Number;
-    wCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dwAddress: number;
+    wCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcBolidExt\Registrar\tApcBolidS2000_KDL_2I.xml
 export interface TApcBolidS2000_KDL_2I {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dwAddress: Number;
-    wCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dwAddress: number;
+    wCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcBolidExt\Registrar\tApcBolidS2000_KPB.xml
 export interface TApcBolidS2000_KPB {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dwAddress: Number;
-    wCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dwAddress: number;
+    wCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcBolidExt\Registrar\tApcBolidS2000_PCN.xml
 export interface TApcBolidS2000_PCN {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dwAddress: Number;
-    wCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dwAddress: number;
+    wCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcBolidExt\Registrar\tApcBolidS2000_PGE.xml
 export interface TApcBolidS2000_PGE {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dwAddress: Number;
-    wCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dwAddress: number;
+    wCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcBolidExt\Registrar\tApcBolidS2000_PT.xml
 export interface TApcBolidS2000_PT {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dwAddress: Number;
-    wCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dwAddress: number;
+    wCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcBolidExt\Registrar\tApcBolidSerialPort.xml
 export interface TApcBolidSerialPort {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bPortNumber: Number;
-    bProtocolType: Number;
-    bConverterType: Number;
-    dwBaudRate: Number;
-    bPriority: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bPortNumber: number;
+    bProtocolType: number;
+    bConverterType: number;
+    dwBaudRate: number;
+    bPriority: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcBolidExt\Registrar\tApcBolidSignal10.xml
 export interface TApcBolidSignal10 {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dwAddress: Number;
-    wCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dwAddress: number;
+    wCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcBolidExt\Registrar\tApcBolidSignal20.xml
 export interface TApcBolidSignal20 {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dwAddress: Number;
-    wCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dwAddress: number;
+    wCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcBolidExt\Registrar\tApcBolidSignal20M.xml
 export interface TApcBolidSignal20M {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dwAddress: Number;
-    wCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dwAddress: number;
+    wCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcBolidExt\Registrar\tApcBolidSignal20P.xml
 export interface TApcBolidSignal20P {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dwAddress: Number;
-    wCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dwAddress: number;
+    wCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcBolidExt\Registrar\tApcBolidSignal20ser02.xml
 export interface TApcBolidSignal20ser02 {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dwAddress: Number;
-    wCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dwAddress: number;
+    wCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcBolidExt\Registrar\tApcBolidSocketDrv.xml
 export interface TApcBolidSocketDrv {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    strIPServer: String;
-    dwPortServer: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    strIPServer: string;
+    dwPortServer: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcBolidExt\Registrar\tApcBolidUO_4S.xml
 export interface TApcBolidUO_4S {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dwAddress: Number;
-    wCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dwAddress: number;
+    wCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcBolidExt\Registrar\tApcBolidXMLRPCSettings.xml
 export interface TApcBolidXMLRPCSettings {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
     fActivate: Boolean;
-    strLogin: String;
-    strPassword: String;
-    wCallbackEventPort: Number;
-    bCurrStatus: Number;
+    strLogin: string;
+    strPassword: string;
+    wCallbackEventPort: number;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcISSExt\Registrar\tApcISSCam.xml
 export interface TApcISSCam {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dwNumber: Number;
-    bCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dwNumber: number;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcISSExt\Registrar\tApcISSGrabber.xml
 export interface TApcISSGrabber {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dwNumber: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dwNumber: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcISSExt\Registrar\tApcISSSocketDrv.xml
 export interface TApcISSSocketDrv {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
     fActivate: Boolean;
-    strIPServer: String;
-    strPassword: String;
-    bCurrStatus: Number;
+    strIPServer: string;
+    strPassword: string;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcITVExt\Registrar\tApcITVCam.xml
 export interface TApcITVCam {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dwNumber: Number;
-    bCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dwNumber: number;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcITVExt\Registrar\tApcITVCamZone.xml
 export interface TApcITVCamZone {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dwNumber: Number;
-    bCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dwNumber: number;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcITVExt\Registrar\tApcITVGrabber.xml
 export interface TApcITVGrabber {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dwNumber: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dwNumber: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcITVExt\Registrar\tApcITVSocketDrv.xml
 export interface TApcITVSocketDrv {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
     fActivate: Boolean;
-    strIPServer: String;
-    strPassword: String;
-    bCurrStatus: Number;
+    strIPServer: string;
+    strPassword: string;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelACU100.xml
 export interface TApcSatelACU100 {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    bAddress: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    bAddress: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelAdmin.xml
 export interface TApcSatelAdmin {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    strUserName: String;
-    bUserNum: Number;
-    strAccCode: String;
-    strPhoneCode: String;
-    bUserType: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    strUserName: string;
+    bUserNum: number;
+    strAccCode: string;
+    strPhoneCode: string;
+    bUserType: number;
     fArm: Boolean;
     fDisarm: Boolean;
     fACOwnPartn: Boolean;
@@ -1403,711 +1403,711 @@ export interface TApcSatelAdmin {
     fEnter2Code: Boolean;
     fOutControl: Boolean;
     fClearLatchOut: Boolean;
-    bUserTime: Number;
-    bUserSchedule: Number;
+    bUserTime: number;
+    bUserSchedule: number;
     fUseProxCard: Boolean;
-    strProxCardNum: String;
+    strProxCardNum: string;
     fUseDallasCard: Boolean;
-    strDallasCardNum: String;
+    strDallasCardNum: string;
     fUseTime: Boolean;
-    bPartBlockTime: Number;
+    bPartBlockTime: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelCA64ADR.xml
 export interface TApcSatelCA64ADR {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    bAddress: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    bAddress: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelCA64DR.xml
 export interface TApcSatelCA64DR {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    bAddress: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    bAddress: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelCA64E.xml
 export interface TApcSatelCA64E {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    bAddress: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    bAddress: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelCA64Ei.xml
 export interface TApcSatelCA64Ei {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    bAddress: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    bAddress: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelCA64EPS.xml
 export interface TApcSatelCA64EPS {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    bAddress: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    bAddress: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelCA64EPSi.xml
 export interface TApcSatelCA64EPSi {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    bAddress: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    bAddress: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelCA64O.xml
 export interface TApcSatelCA64O {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    bAddress: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    bAddress: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelCA64OPS.xml
 export interface TApcSatelCA64OPS {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    bAddress: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    bAddress: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelCA64PP.xml
 export interface TApcSatelCA64PP {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    bAddress: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    bAddress: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelCA64PTSA.xml
 export interface TApcSatelCA64PTSA {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    bAddress: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    bAddress: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelCA64SM.xml
 export interface TApcSatelCA64SM {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    bAddress: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    bAddress: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelCA64SR.xml
 export interface TApcSatelCA64SR {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    bAddress: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    bAddress: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelContrInput.xml
 export interface TApcSatelContrInput {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    bInputNum: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    bInputNum: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelDoorInput.xml
 export interface TApcSatelDoorInput {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    bInputNum: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    bInputNum: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelETHM1.xml
 export interface TApcSatelETHM1 {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    bAddress: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    bAddress: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelExtenderLink.xml
 export interface TApcSatelExtenderLink {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    SysAddrExtender: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    SysAddrExtender: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelInput.xml
 export interface TApcSatelInput {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    bInputNum: Number;
-    bRealInputNum: Number;
-    bInputType: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    bInputNum: number;
+    bRealInputNum: number;
+    bInputType: number;
     fActive: Boolean;
     fConfigured: Boolean;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelInputLink.xml
 export interface TApcSatelInputLink {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    SysAddrInput: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    SysAddrInput: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelInputR.xml
 export interface TApcSatelInputR {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    bInputNum: Number;
-    bRealInputNum: Number;
-    bInputType: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    bInputNum: number;
+    bRealInputNum: number;
+    bInputType: number;
     fActive: Boolean;
     fConfigured: Boolean;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelInputsGroup.xml
 export interface TApcSatelInputsGroup {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    bAddress: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    bAddress: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelIntegra128.xml
 export interface TApcSatelIntegra128 {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
     fActivate: Boolean;
-    bCurrStatus: Number;
-    bUniqueID: Number;
-    bControlMode: Number;
-    bCfgMode: Number;
-    SysAddrControlUser: String;
-    SysAddrCfgUser: String;
+    bCurrStatus: number;
+    bUniqueID: number;
+    bControlMode: number;
+    bCfgMode: number;
+    SysAddrControlUser: string;
+    SysAddrCfgUser: string;
     fUsePrefix: Boolean;
-    strStdPrefix: String;
-    wFirstCodeTO: Number;
+    strStdPrefix: string;
+    wFirstCodeTO: number;
     fLoadCfg: Boolean;
-    dwLastEvIndex: Number;
-    blobEventsRead: String;
-    blobInputExtOrder: String;
-    blobRelayExtOrder: String;
-    blobCurrUserCode: String;
+    dwLastEvIndex: number;
+    blobEventsRead: string;
+    blobInputExtOrder: string;
+    blobRelayExtOrder: string;
+    blobCurrUserCode: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelIntegra128WRL.xml
 export interface TApcSatelIntegra128WRL {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
     fActivate: Boolean;
-    bCurrStatus: Number;
-    bUniqueID: Number;
-    bControlMode: Number;
-    bCfgMode: Number;
-    SysAddrControlUser: String;
-    SysAddrCfgUser: String;
+    bCurrStatus: number;
+    bUniqueID: number;
+    bControlMode: number;
+    bCfgMode: number;
+    SysAddrControlUser: string;
+    SysAddrCfgUser: string;
     fUsePrefix: Boolean;
-    strStdPrefix: String;
-    wFirstCodeTO: Number;
+    strStdPrefix: string;
+    wFirstCodeTO: number;
     fLoadCfg: Boolean;
-    dwLastEvIndex: Number;
-    blobEventsRead: String;
-    blobInputExtOrder: String;
-    blobRelayExtOrder: String;
-    blobCurrUserCode: String;
+    dwLastEvIndex: number;
+    blobEventsRead: string;
+    blobInputExtOrder: string;
+    blobRelayExtOrder: string;
+    blobCurrUserCode: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelIntegra24.xml
 export interface TApcSatelIntegra24 {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
     fActivate: Boolean;
-    bCurrStatus: Number;
-    bUniqueID: Number;
-    bControlMode: Number;
-    bCfgMode: Number;
-    SysAddrControlUser: String;
-    SysAddrCfgUser: String;
+    bCurrStatus: number;
+    bUniqueID: number;
+    bControlMode: number;
+    bCfgMode: number;
+    SysAddrControlUser: string;
+    SysAddrCfgUser: string;
     fUsePrefix: Boolean;
-    strStdPrefix: String;
-    wFirstCodeTO: Number;
+    strStdPrefix: string;
+    wFirstCodeTO: number;
     fLoadCfg: Boolean;
-    dwLastEvIndex: Number;
-    blobEventsRead: String;
-    blobInputExtOrder: String;
-    blobRelayExtOrder: String;
-    blobCurrUserCode: String;
+    dwLastEvIndex: number;
+    blobEventsRead: string;
+    blobInputExtOrder: string;
+    blobRelayExtOrder: string;
+    blobCurrUserCode: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelIntegra32.xml
 export interface TApcSatelIntegra32 {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
     fActivate: Boolean;
-    bCurrStatus: Number;
-    bUniqueID: Number;
-    bControlMode: Number;
-    bCfgMode: Number;
-    SysAddrControlUser: String;
-    SysAddrCfgUser: String;
+    bCurrStatus: number;
+    bUniqueID: number;
+    bControlMode: number;
+    bCfgMode: number;
+    SysAddrControlUser: string;
+    SysAddrCfgUser: string;
     fUsePrefix: Boolean;
-    strStdPrefix: String;
-    wFirstCodeTO: Number;
+    strStdPrefix: string;
+    wFirstCodeTO: number;
     fLoadCfg: Boolean;
-    dwLastEvIndex: Number;
-    blobEventsRead: String;
-    blobInputExtOrder: String;
-    blobRelayExtOrder: String;
-    blobCurrUserCode: String;
+    dwLastEvIndex: number;
+    blobEventsRead: string;
+    blobInputExtOrder: string;
+    blobRelayExtOrder: string;
+    blobCurrUserCode: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelIntegra64.xml
 export interface TApcSatelIntegra64 {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
     fActivate: Boolean;
-    bCurrStatus: Number;
-    bUniqueID: Number;
-    bControlMode: Number;
-    bCfgMode: Number;
-    SysAddrControlUser: String;
-    SysAddrCfgUser: String;
+    bCurrStatus: number;
+    bUniqueID: number;
+    bControlMode: number;
+    bCfgMode: number;
+    SysAddrControlUser: string;
+    SysAddrCfgUser: string;
     fUsePrefix: Boolean;
-    strStdPrefix: String;
-    wFirstCodeTO: Number;
+    strStdPrefix: string;
+    wFirstCodeTO: number;
     fLoadCfg: Boolean;
-    dwLastEvIndex: Number;
-    blobEventsRead: String;
-    blobInputExtOrder: String;
-    blobRelayExtOrder: String;
-    blobCurrUserCode: String;
+    dwLastEvIndex: number;
+    blobEventsRead: string;
+    blobInputExtOrder: string;
+    blobRelayExtOrder: string;
+    blobCurrUserCode: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelINTENT.xml
 export interface TApcSatelINTENT {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    bAddress: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    bAddress: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelINTIORS.xml
 export interface TApcSatelINTIORS {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    bAddress: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    bAddress: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelINTIT.xml
 export interface TApcSatelINTIT {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    bAddress: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    bAddress: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelINTKLCD.xml
 export interface TApcSatelINTKLCD {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    bAddress: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    bAddress: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelINTKLCDR.xml
 export interface TApcSatelINTKLCDR {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    bAddress: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    bAddress: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelINTORS.xml
 export interface TApcSatelINTORS {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    bAddress: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    bAddress: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelINTRS.xml
 export interface TApcSatelINTRS {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    bAddress: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    bAddress: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelINTRX.xml
 export interface TApcSatelINTRX {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    bAddress: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    bAddress: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelINTS.xml
 export interface TApcSatelINTS {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    bAddress: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    bAddress: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelINTSCR.xml
 export interface TApcSatelINTSCR {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    bAddress: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    bAddress: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelINTSZ.xml
 export interface TApcSatelINTSZ {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    bAddress: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    bAddress: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelJamInput.xml
 export interface TApcSatelJamInput {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    bInputNum: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    bInputNum: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelObject.xml
 export interface TApcSatelObject {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bObjNum: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bObjNum: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelPartition.xml
 export interface TApcSatelPartition {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    bPartitionNum: Number;
-    bPartitionType: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    bPartitionNum: number;
+    bPartitionType: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelPartitionLink.xml
 export interface TApcSatelPartitionLink {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    SysAddrPartition: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    SysAddrPartition: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelRelay.xml
 export interface TApcSatelRelay {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    bRelayNum: Number;
-    bRealRelayNum: Number;
-    bRelayType: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    bRelayNum: number;
+    bRealRelayNum: number;
+    bRelayType: number;
     fConfigured: Boolean;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelSerialPort.xml
 export interface TApcSatelSerialPort {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    strPortName: String;
-    dwBoudRate: Number;
-    bByteSize: Number;
-    bParity: Number;
-    bNumStopBits: Number;
-    bFlowControl: Number;
-    dwReadTo: Number;
-    dwReadToMultiplier: Number;
-    dwReadToConstant: Number;
-    dwWriteToMultiplier: Number;
-    dwWriteToConstant: Number;
-    dwInQueue: Number;
-    dwOutQueue: Number;
-    dwMaxReadTO: Number;
-    dwMaxWriteTO: Number;
-    dwDelayBeforeSend: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    strPortName: string;
+    dwBoudRate: number;
+    bByteSize: number;
+    bParity: number;
+    bNumStopBits: number;
+    bFlowControl: number;
+    dwReadTo: number;
+    dwReadToMultiplier: number;
+    dwReadToConstant: number;
+    dwWriteToMultiplier: number;
+    dwWriteToConstant: number;
+    dwInQueue: number;
+    dwOutQueue: number;
+    dwMaxReadTO: number;
+    dwMaxWriteTO: number;
+    dwDelayBeforeSend: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelService.xml
 export interface TApcSatelService {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    strUserName: String;
-    bUserNum: Number;
-    strAccCode: String;
-    strPhoneCode: String;
-    bUserType: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    strUserName: string;
+    bUserNum: number;
+    strAccCode: string;
+    strPhoneCode: string;
+    bUserType: number;
     fArm: Boolean;
     fDisarm: Boolean;
     fACOwnPartn: Boolean;
@@ -2132,45 +2132,45 @@ export interface TApcSatelService {
     fEnter2Code: Boolean;
     fOutControl: Boolean;
     fClearLatchOut: Boolean;
-    bUserTime: Number;
-    bUserSchedule: Number;
+    bUserTime: number;
+    bUserSchedule: number;
     fUseProxCard: Boolean;
-    strProxCardNum: String;
+    strProxCardNum: string;
     fUseDallasCard: Boolean;
-    strDallasCardNum: String;
+    strDallasCardNum: string;
     fUseTime: Boolean;
-    bPartBlockTime: Number;
+    bPartBlockTime: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelStatusInput.xml
 export interface TApcSatelStatusInput {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    bInputNum: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    bInputNum: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelUser.xml
 export interface TApcSatelUser {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    strUserName: String;
-    bUserNum: Number;
-    strAccCode: String;
-    strPhoneCode: String;
-    bUserType: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    strUserName: string;
+    bUserNum: number;
+    strAccCode: string;
+    strPhoneCode: string;
+    bUserType: number;
     fArm: Boolean;
     fDisarm: Boolean;
     fACOwnPartn: Boolean;
@@ -2195,214 +2195,214 @@ export interface TApcSatelUser {
     fEnter2Code: Boolean;
     fOutControl: Boolean;
     fClearLatchOut: Boolean;
-    bUserTime: Number;
-    bUserSchedule: Number;
+    bUserTime: number;
+    bUserSchedule: number;
     fUseProxCard: Boolean;
-    strProxCardNum: String;
+    strProxCardNum: string;
     fUseDallasCard: Boolean;
-    strDallasCardNum: String;
+    strDallasCardNum: string;
     fUseTime: Boolean;
-    bPartBlockTime: Number;
+    bPartBlockTime: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelUserLink.xml
 export interface TApcSatelUserLink {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    SysAddrUser: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    SysAddrUser: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelVirtualExtender.xml
 export interface TApcSatelVirtualExtender {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    bAddress: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    bAddress: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelWRLInputsGroup.xml
 export interface TApcSatelWRLInputsGroup {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    bAddress: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    bAddress: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSatelExt\Registrar\tApcSatelWRLRelaysGroup.xml
 export interface TApcSatelWRLRelaysGroup {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCurrStatus: Number;
-    bAddress: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCurrStatus: number;
+    bAddress: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSecurityManager\Registrar\tApcAccount.xml
 export interface TApcAccount {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
     fActive: Boolean;
-    bStatus: Number;
-    strSGList: String;
-    blobOwnSG: String;
-    dtActDateTime: String;
-    dtDeactDateTime: String;
-    tEveryDayActTime: String;
-    tEveryDayDeactTime: String;
+    bStatus: number;
+    strSGList: string;
+    blobOwnSG: string;
+    dtActDateTime: string;
+    dtDeactDateTime: string;
+    tEveryDayActTime: string;
+    tEveryDayDeactTime: string;
     fHostCheckBeforeDenied: Boolean;
     fHostCheckBeforeGrant: Boolean;
     fAPBExempt: Boolean;
     fUseLongTimes: Boolean;
-    strPIN: String;
+    strPIN: string;
     fPINExempt: Boolean;
     fAllowPINCmds: Boolean;
     fEnterClosedAPB: Boolean;
     fSoftAPB: Boolean;
-    bThreatLevel: Number;
-    SysAddrBadgeModel: String;
-    SysAddrVisEscortExt: String;
+    bThreatLevel: number;
+    SysAddrBadgeModel: string;
+    SysAddrVisEscortExt: string;
     fUnlockReader: Boolean;
     fUseOwnSG: Boolean;
-    SysAddrTemplate: String;
-    u64CardNumber: Number;
-    u64FC: Number;
-    bIssueCode: Number;
-    SysAddrAccExt: String;
-    strAdd1: String;
-    strAdd2: String;
-    strAdd3: String;
-    nAdd4: Number;
-    nAdd5: Number;
-    nAdd6: Number;
+    SysAddrTemplate: string;
+    u64CardNumber: number;
+    u64FC: number;
+    bIssueCode: number;
+    SysAddrAccExt: string;
+    strAdd1: string;
+    strAdd2: string;
+    strAdd3: string;
+    nAdd4: number;
+    nAdd5: number;
+    nAdd6: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSecurityManager\Registrar\tApcAccountExtension.xml
 export interface TApcAccountExtension {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    blobSettings: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    blobSettings: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSecurityManager\Registrar\tApcCardHolder.xml
 export interface TApcCardHolder {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
     fActive: Boolean;
-    bStatus: Number;
-    strSGList: String;
-    blobOwnSG: String;
-    dtActDateTime: String;
-    dtDeactDateTime: String;
-    tEveryDayActTime: String;
-    tEveryDayDeactTime: String;
+    bStatus: number;
+    strSGList: string;
+    blobOwnSG: string;
+    dtActDateTime: string;
+    dtDeactDateTime: string;
+    tEveryDayActTime: string;
+    tEveryDayDeactTime: string;
     fHostCheckBeforeDenied: Boolean;
     fHostCheckBeforeGrant: Boolean;
     fAPBExempt: Boolean;
     fUseLongTimes: Boolean;
-    strPIN: String;
+    strPIN: string;
     fPINExempt: Boolean;
     fAllowPINCmds: Boolean;
     fEnterClosedAPB: Boolean;
     fSoftAPB: Boolean;
-    bThreatLevel: Number;
-    SysAddrBadgeModel: String;
-    SysAddrVisEscortExt: String;
+    bThreatLevel: number;
+    SysAddrBadgeModel: string;
+    SysAddrVisEscortExt: string;
     fUnlockReader: Boolean;
-    strFirstName: String;
-    strMiddleName: String;
-    strLastName: String;
-    bGender: Number;
-    SysAddrDepartment: String;
-    SysAddrJobTitle: String;
-    SysAddrCompany: String;
-    SysAddrSegment: String;
-    strPhoneNumber: String;
-    strEMailAddress: String;
-    strAdd1: String;
-    strAdd2: String;
-    strAdd3: String;
-    strAdd4: String;
-    strAdd5: String;
-    strAdd6: String;
-    strAdd7: String;
-    strAdd8: String;
-    strAdd9: String;
-    strAdd10: String;
-    strAdd11: String;
-    strAdd12: String;
-    strAdd13: String;
-    strAdd14: String;
-    strAdd15: String;
-    strAdd16: String;
-    strAdd17: String;
-    strAdd18: String;
-    strAdd19: String;
-    strAdd20: String;
-    SysAddrRef1: String;
-    SysAddrRef2: String;
-    dwNumber: Number;
-    bEmployee: Number;
-    bAdminLevel: Number;
-    bSecurityLevel: Number;
-    bFingerAuthMode: Number;
-    bCardAuthMode: Number;
-    bIdAuthMode: Number;
-    bFaceAuthGroup: Number;
+    strFirstName: string;
+    strMiddleName: string;
+    strLastName: string;
+    bGender: number;
+    SysAddrDepartment: string;
+    SysAddrJobTitle: string;
+    SysAddrCompany: string;
+    SysAddrSegment: string;
+    strPhoneNumber: string;
+    strEMailAddress: string;
+    strAdd1: string;
+    strAdd2: string;
+    strAdd3: string;
+    strAdd4: string;
+    strAdd5: string;
+    strAdd6: string;
+    strAdd7: string;
+    strAdd8: string;
+    strAdd9: string;
+    strAdd10: string;
+    strAdd11: string;
+    strAdd12: string;
+    strAdd13: string;
+    strAdd14: string;
+    strAdd15: string;
+    strAdd16: string;
+    strAdd17: string;
+    strAdd18: string;
+    strAdd19: string;
+    strAdd20: string;
+    SysAddrRef1: string;
+    SysAddrRef2: string;
+    dwNumber: number;
+    bEmployee: number;
+    bAdminLevel: number;
+    bSecurityLevel: number;
+    bFingerAuthMode: number;
+    bCardAuthMode: number;
+    bIdAuthMode: number;
+    bFaceAuthGroup: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSecurityManager\Registrar\tApcClientFactory.xml
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSecurityManager\Registrar\tApcSecurityGroup.xml
 export interface TApcSecurityGroup {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    blobProperties: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    blobProperties: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSecurityManager\Registrar\tApcSecurityManagerCheck.xml
@@ -2411,28 +2411,28 @@ export interface TApcSecurityGroup {
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSecurityManager\Registrar\tApcSecurityManagerTypeInfo.xml
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSecurityManager\Registrar\tApcSupremaBioData.xml
 export interface TApcSupremaBioData {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    blobBioData: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    blobBioData: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSecurityManager\Registrar\tApcVisEscortExtension.xml
 export interface TApcVisEscortExtension {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    blobVisEscortCntr: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    blobVisEscortCntr: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSrvMainObjectExt\Registrar\tApcMainObjDBInfo.xml
@@ -2440,241 +2440,241 @@ export interface TApcVisEscortExtension {
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSrvMainObjectExt\Registrar\tApcMainObjTypeInfo.xml
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSrvMainObjectExt\Registrar\tApcPC.xml
 export interface TApcPC {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    strIPName: String;
-    strIPPortName: String;
-    wPCID: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    strIPName: string;
+    strIPPortName: string;
+    wPCID: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSrvMainObjectExt\Registrar\tApcRoot.xml
 export interface TApcRoot {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    nSiteID: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    nSiteID: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcSrvMainObjectExt\Registrar\tApcServiceRegistry.xml
 export interface TApcServiceRegistry {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    blobXML: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    blobXML: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcVertXExt\Registrar\tApcV100.xml
 export interface TApcV100 {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bAddress: Number;
-    strEEPROMFileName: String;
-    bCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bAddress: number;
+    strEEPROMFileName: string;
+    bCurrStatus: number;
     fMasterSlave: Boolean;
     fEnableVisualAlarms: Boolean;
-    blobCardFrmtTable: String;
+    blobCardFrmtTable: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcVertXExt\Registrar\tApcV1000.xml
 export interface TApcV1000 {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
     fActivate: Boolean;
-    dwPollInterval: Number;
-    wInternalID: Number;
-    bPollDelay: Number;
-    bResponseTimeout: Number;
-    bNumberPrimaryPolls: Number;
-    bMaxTries: Number;
-    dwMaxNumCards: Number;
+    dwPollInterval: number;
+    wInternalID: number;
+    bPollDelay: number;
+    bResponseTimeout: number;
+    bNumberPrimaryPolls: number;
+    bMaxTries: number;
+    dwMaxNumCards: number;
     fAutoRestartTasks: Boolean;
     fLoadEEPROM: Boolean;
-    bCurrStatus: Number;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcVertXExt\Registrar\tApcV200.xml
 export interface TApcV200 {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bAddress: Number;
-    strEEPROMFileName: String;
-    bCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bAddress: number;
+    strEEPROMFileName: string;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcVertXExt\Registrar\tApcV2000.xml
 export interface TApcV2000 {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
     fActivate: Boolean;
-    dwPollInterval: Number;
-    wInternalID: Number;
-    bPollDelay: Number;
-    bResponseTimeout: Number;
-    bNumberPrimaryPolls: Number;
-    bMaxTries: Number;
-    dwMaxNumCards: Number;
+    dwPollInterval: number;
+    wInternalID: number;
+    bPollDelay: number;
+    bResponseTimeout: number;
+    bNumberPrimaryPolls: number;
+    bMaxTries: number;
+    dwMaxNumCards: number;
     fAutoRestartTasks: Boolean;
     fLoadEEPROM: Boolean;
-    bCurrStatus: Number;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcVertXExt\Registrar\tApcV300.xml
 export interface TApcV300 {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bAddress: Number;
-    strEEPROMFileName: String;
-    bCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bAddress: number;
+    strEEPROMFileName: string;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcVertXExt\Registrar\tApcVAL.xml
 export interface TApcVAL {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    wALNum: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    wALNum: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcVertXExt\Registrar\tApcVALElem.xml
 export interface TApcVALElem {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    SysAddrReaderGroup: String;
-    SysAddrShedule: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    SysAddrReaderGroup: string;
+    SysAddrShedule: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcVertXExt\Registrar\tApcVAPB.xml
 export interface TApcVAPB {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bAPBNum: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bAPBNum: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcVertXExt\Registrar\tApcVAutomation.xml
 export interface TApcVAutomation {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    wPeerNotifyTO: Number;
-    wSchedPollTO: Number;
-    blobData: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    wPeerNotifyTO: number;
+    wSchedPollTO: number;
+    blobData: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcVertXExt\Registrar\tApcVAuxInput.xml
 export interface TApcVAuxInput {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bInputNum: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bInputNum: number;
     fNotifyOnChange: Boolean;
-    bCurrStatus: Number;
-    bHRUL: Number;
-    bHRLL: Number;
-    bLRUL: Number;
-    bLRLL: Number;
-    bDebounce: Number;
+    bCurrStatus: number;
+    bHRUL: number;
+    bHRLL: number;
+    bLRUL: number;
+    bLRLL: number;
+    bDebounce: number;
     fActive: Boolean;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcVertXExt\Registrar\tApcVCardFormat.xml
 export interface TApcVCardFormat {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dwFormatNum: Number;
-    strControllerPath: String;
-    blobFormat: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dwFormatNum: number;
+    strControllerPath: string;
+    blobFormat: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcVertXExt\Registrar\tApcVCardSet.xml
 export interface TApcVCardSet {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCardSetNum: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCardSetNum: number;
     fUseFixField0: Boolean;
     fUseFixField1: Boolean;
     fUseFixField2: Boolean;
@@ -2683,559 +2683,559 @@ export interface TApcVCardSet {
     fUseFixField5: Boolean;
     fUseFixField6: Boolean;
     fUseFixField7: Boolean;
-    dwFixFieldValue0: Number;
-    dwFixFieldValue1: Number;
-    dwFixFieldValue2: Number;
-    dwFixFieldValue3: Number;
-    dwFixFieldValue4: Number;
-    dwFixFieldValue5: Number;
-    dwFixFieldValue6: Number;
-    dwFixFieldValue7: Number;
-    SysAddrFormat: String;
+    dwFixFieldValue0: number;
+    dwFixFieldValue1: number;
+    dwFixFieldValue2: number;
+    dwFixFieldValue3: number;
+    dwFixFieldValue4: number;
+    dwFixFieldValue5: number;
+    dwFixFieldValue6: number;
+    dwFixFieldValue7: number;
+    SysAddrFormat: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcVertXExt\Registrar\tApcVContrInput.xml
 export interface TApcVContrInput {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bInputNum: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bInputNum: number;
     fNotifyOnChange: Boolean;
-    bCurrStatus: Number;
-    bHRUL: Number;
-    bHRLL: Number;
-    bLRUL: Number;
-    bLRLL: Number;
-    bDebounce: Number;
+    bCurrStatus: number;
+    bHRUL: number;
+    bHRLL: number;
+    bLRUL: number;
+    bLRLL: number;
+    bDebounce: number;
     fActive: Boolean;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcVertXExt\Registrar\tApcVCtrlGroup.xml
 export interface TApcVCtrlGroup {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dwCtrlGrpNum: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dwCtrlGrpNum: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcVertXExt\Registrar\tApcVCtrlObjLink.xml
 export interface TApcVCtrlObjLink {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bState: Number;
-    SysAddrCtrlObj: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bState: number;
+    SysAddrCtrlObj: string;
     fInverse: Boolean;
-    bTransitionType: Number;
+    bTransitionType: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcVertXExt\Registrar\tApcVDoorInput.xml
 export interface TApcVDoorInput {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bInputNum: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bInputNum: number;
     fNotifyOnChange: Boolean;
-    bCurrStatus: Number;
-    bHRUL: Number;
-    bHRLL: Number;
-    bLRUL: Number;
-    bLRLL: Number;
-    bDebounce: Number;
+    bCurrStatus: number;
+    bHRUL: number;
+    bHRLL: number;
+    bLRUL: number;
+    bLRLL: number;
+    bDebounce: number;
     fActive: Boolean;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcVertXExt\Registrar\tApcVEDGE.xml
 export interface TApcVEDGE {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
     fActivate: Boolean;
-    dwPollInterval: Number;
-    wInternalID: Number;
-    bPollDelay: Number;
-    bResponseTimeout: Number;
-    bNumberPrimaryPolls: Number;
-    bMaxTries: Number;
-    dwMaxNumCards: Number;
+    dwPollInterval: number;
+    wInternalID: number;
+    bPollDelay: number;
+    bResponseTimeout: number;
+    bNumberPrimaryPolls: number;
+    bMaxTries: number;
+    dwMaxNumCards: number;
     fAutoRestartTasks: Boolean;
     fLoadEEPROM: Boolean;
-    bCurrStatus: Number;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcVertXExt\Registrar\tApcVElevRelayGroup.xml
 export interface TApcVElevRelayGroup {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bElevRelayGroupNum: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bElevRelayGroupNum: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcVertXExt\Registrar\tApcVElevRelayGroupElem.xml
 export interface TApcVElevRelayGroupElem {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    SysAddrRelay: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    SysAddrRelay: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcVertXExt\Registrar\tApcVertXSocket.xml
 export interface TApcVertXSocket {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    strIPName: String;
-    strIPPortName: String;
-    dwReadTO: Number;
-    dwWriteTO: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    strIPName: string;
+    strIPPortName: string;
+    dwReadTO: number;
+    dwWriteTO: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcVertXExt\Registrar\tApcVHolidayGroup.xml
 export interface TApcVHolidayGroup {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dwHolidayGroupNum: Number;
-    blobHolidays: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dwHolidayGroupNum: number;
+    blobHolidays: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcVertXExt\Registrar\tApcVHolidayGroupElem.xml
 export interface TApcVHolidayGroupElem {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    SysAddrHoldayGroup: String;
-    tStartTime0: String;
-    tStartTime1: String;
-    tStartTime2: String;
-    tStartTime3: String;
-    tStartTime4: String;
-    tStartTime5: String;
-    tEndTime0: String;
-    tEndTime1: String;
-    tEndTime2: String;
-    tEndTime3: String;
-    tEndTime4: String;
-    tEndTime5: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    SysAddrHoldayGroup: string;
+    tStartTime0: string;
+    tStartTime1: string;
+    tStartTime2: string;
+    tStartTime3: string;
+    tStartTime4: string;
+    tStartTime5: string;
+    tEndTime0: string;
+    tEndTime1: string;
+    tEndTime2: string;
+    tEndTime3: string;
+    tEndTime4: string;
+    tEndTime5: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcVertXExt\Registrar\tApcVInputCtrlObjLink.xml
 export interface TApcVInputCtrlObjLink {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bState: Number;
-    SysAddrCtrlObj: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bState: number;
+    SysAddrCtrlObj: string;
     fInverse: Boolean;
-    bTransitionType: Number;
+    bTransitionType: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcVertXExt\Registrar\tApcVKeyPad.xml
 export interface TApcVKeyPad {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dwKeyPadNum: Number;
-    blobRaw2DigitTransl: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dwKeyPadNum: number;
+    blobRaw2DigitTransl: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcVertXExt\Registrar\tApcVReader.xml
 export interface TApcVReader {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dwRdrNum: Number;
-    bNumberOnPanel: Number;
-    bPriority: Number;
-    bInitMode: Number;
-    SysAddrNoPINTZ: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dwRdrNum: number;
+    bNumberOnPanel: number;
+    bPriority: number;
+    bInitMode: number;
+    SysAddrNoPINTZ: string;
     fAllowPINCmds: Boolean;
-    bHardwareType: Number;
+    bHardwareType: number;
     fIsElevator: Boolean;
-    bAPBMode: Number;
-    wAPBTime: Number;
-    bActOnAPBViol: Number;
-    SysAddrAPBEntering: String;
-    SysAddrAPBLeaving: String;
+    bAPBMode: number;
+    wAPBTime: number;
+    bActOnAPBViol: number;
+    SysAddrAPBEntering: string;
+    SysAddrAPBLeaving: string;
     fSendRequestToHost: Boolean;
-    bMaxPINLength: Number;
-    bPINTO: Number;
-    bEndCode: Number;
-    bClearCode: Number;
-    bTryLimit: Number;
-    bLockoutTO: Number;
-    SysAddrKeyPad: String;
-    wGrantAccTime: Number;
-    wGrantAccExtTime: Number;
-    wMinOpenTime: Number;
-    wHeldOpenTime: Number;
-    wFloorSelectTO: Number;
+    bMaxPINLength: number;
+    bPINTO: number;
+    bEndCode: number;
+    bClearCode: number;
+    bTryLimit: number;
+    bLockoutTO: number;
+    SysAddrKeyPad: string;
+    wGrantAccTime: number;
+    wGrantAccExtTime: number;
+    wMinOpenTime: number;
+    wHeldOpenTime: number;
+    wFloorSelectTO: number;
     fInvertFloorRelays: Boolean;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcVertXExt\Registrar\tApcVReaderCtrlObj.xml
 export interface TApcVReaderCtrlObj {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    SysAddrCtrlObj: String;
-    bFunc: Number;
-    bParam: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    SysAddrCtrlObj: string;
+    bFunc: number;
+    bParam: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcVertXExt\Registrar\tApcVReaderElev.xml
 export interface TApcVReaderElev {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dwRdrNum: Number;
-    bNumberOnPanel: Number;
-    bPriority: Number;
-    bInitMode: Number;
-    SysAddrNoPINTZ: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dwRdrNum: number;
+    bNumberOnPanel: number;
+    bPriority: number;
+    bInitMode: number;
+    SysAddrNoPINTZ: string;
     fAllowPINCmds: Boolean;
-    bHardwareType: Number;
+    bHardwareType: number;
     fIsElevator: Boolean;
-    bAPBMode: Number;
-    wAPBTime: Number;
-    bActOnAPBViol: Number;
-    SysAddrAPBEntering: String;
-    SysAddrAPBLeaving: String;
+    bAPBMode: number;
+    wAPBTime: number;
+    bActOnAPBViol: number;
+    SysAddrAPBEntering: string;
+    SysAddrAPBLeaving: string;
     fSendRequestToHost: Boolean;
-    bMaxPINLength: Number;
-    bPINTO: Number;
-    bEndCode: Number;
-    bClearCode: Number;
-    bTryLimit: Number;
-    bLockoutTO: Number;
-    SysAddrKeyPad: String;
-    wGrantAccTime: Number;
-    wGrantAccExtTime: Number;
-    wMinOpenTime: Number;
-    wHeldOpenTime: Number;
-    wFloorSelectTO: Number;
+    bMaxPINLength: number;
+    bPINTO: number;
+    bEndCode: number;
+    bClearCode: number;
+    bTryLimit: number;
+    bLockoutTO: number;
+    SysAddrKeyPad: string;
+    wGrantAccTime: number;
+    wGrantAccExtTime: number;
+    wMinOpenTime: number;
+    wHeldOpenTime: number;
+    wFloorSelectTO: number;
     fInvertFloorRelays: Boolean;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcVertXExt\Registrar\tApcVReaderGroup.xml
 export interface TApcVReaderGroup {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dwRdrGroupNum: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dwRdrGroupNum: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcVertXExt\Registrar\tApcVReaderGroupElem.xml
 export interface TApcVReaderGroupElem {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    SysAddrReader: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    SysAddrReader: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcVertXExt\Registrar\tApcVReaderGrpCtrlObj.xml
 export interface TApcVReaderGrpCtrlObj {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    SysAddrCtrlObj: String;
-    bFunc: Number;
-    bParam: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    SysAddrCtrlObj: string;
+    bFunc: number;
+    bParam: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcVertXExt\Registrar\tApcVReaderInput.xml
 export interface TApcVReaderInput {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bInputNum: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bInputNum: number;
     fNotifyOnChange: Boolean;
-    bCurrStatus: Number;
+    bCurrStatus: number;
     fBeepOnAlarm: Boolean;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcVertXExt\Registrar\tApcVRelay.xml
 export interface TApcVRelay {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bRelayNum: Number;
-    wPulseTime: Number;
-    bInitMode: Number;
-    bCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bRelayNum: number;
+    wPulseTime: number;
+    bInitMode: number;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcVertXExt\Registrar\tApcVRelayCtrlObj.xml
 export interface TApcVRelayCtrlObj {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    SysAddrCtrlObj: String;
-    bFunc: Number;
-    bParam: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    SysAddrCtrlObj: string;
+    bFunc: number;
+    bParam: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcVertXExt\Registrar\tApcVRelayGrpCtrlObj.xml
 export interface TApcVRelayGrpCtrlObj {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    SysAddrCtrlObj: String;
-    bFunc: Number;
-    bParam: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    SysAddrCtrlObj: string;
+    bFunc: number;
+    bParam: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcVertXExt\Registrar\tApcVRexInput.xml
 export interface TApcVRexInput {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bInputNum: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bInputNum: number;
     fNotifyOnChange: Boolean;
-    bCurrStatus: Number;
-    bHRUL: Number;
-    bHRLL: Number;
-    bLRUL: Number;
-    bLRLL: Number;
-    bDebounce: Number;
+    bCurrStatus: number;
+    bHRUL: number;
+    bHRLL: number;
+    bLRUL: number;
+    bLRLL: number;
+    bDebounce: number;
     fActive: Boolean;
     fUnlockDoor: Boolean;
-    wOpenTime: Number;
+    wOpenTime: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\ApcVertXExt\Registrar\tApcVShedule.xml
 export interface TApcVShedule {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dwSheduleNum: Number;
-    tDay0_StartTime0: String;
-    tDay0_StartTime1: String;
-    tDay0_StartTime2: String;
-    tDay0_StartTime3: String;
-    tDay0_StartTime4: String;
-    tDay0_StartTime5: String;
-    tDay1_StartTime0: String;
-    tDay1_StartTime1: String;
-    tDay1_StartTime2: String;
-    tDay1_StartTime3: String;
-    tDay1_StartTime4: String;
-    tDay1_StartTime5: String;
-    tDay2_StartTime0: String;
-    tDay2_StartTime1: String;
-    tDay2_StartTime2: String;
-    tDay2_StartTime3: String;
-    tDay2_StartTime4: String;
-    tDay2_StartTime5: String;
-    tDay3_StartTime0: String;
-    tDay3_StartTime1: String;
-    tDay3_StartTime2: String;
-    tDay3_StartTime3: String;
-    tDay3_StartTime4: String;
-    tDay3_StartTime5: String;
-    tDay4_StartTime0: String;
-    tDay4_StartTime1: String;
-    tDay4_StartTime2: String;
-    tDay4_StartTime3: String;
-    tDay4_StartTime4: String;
-    tDay4_StartTime5: String;
-    tDay5_StartTime0: String;
-    tDay5_StartTime1: String;
-    tDay5_StartTime2: String;
-    tDay5_StartTime3: String;
-    tDay5_StartTime4: String;
-    tDay5_StartTime5: String;
-    tDay6_StartTime0: String;
-    tDay6_StartTime1: String;
-    tDay6_StartTime2: String;
-    tDay6_StartTime3: String;
-    tDay6_StartTime4: String;
-    tDay6_StartTime5: String;
-    tDay0_EndTime0: String;
-    tDay0_EndTime1: String;
-    tDay0_EndTime2: String;
-    tDay0_EndTime3: String;
-    tDay0_EndTime4: String;
-    tDay0_EndTime5: String;
-    tDay1_EndTime0: String;
-    tDay1_EndTime1: String;
-    tDay1_EndTime2: String;
-    tDay1_EndTime3: String;
-    tDay1_EndTime4: String;
-    tDay1_EndTime5: String;
-    tDay2_EndTime0: String;
-    tDay2_EndTime1: String;
-    tDay2_EndTime2: String;
-    tDay2_EndTime3: String;
-    tDay2_EndTime4: String;
-    tDay2_EndTime5: String;
-    tDay3_EndTime0: String;
-    tDay3_EndTime1: String;
-    tDay3_EndTime2: String;
-    tDay3_EndTime3: String;
-    tDay3_EndTime4: String;
-    tDay3_EndTime5: String;
-    tDay4_EndTime0: String;
-    tDay4_EndTime1: String;
-    tDay4_EndTime2: String;
-    tDay4_EndTime3: String;
-    tDay4_EndTime4: String;
-    tDay4_EndTime5: String;
-    tDay5_EndTime0: String;
-    tDay5_EndTime1: String;
-    tDay5_EndTime2: String;
-    tDay5_EndTime3: String;
-    tDay5_EndTime4: String;
-    tDay5_EndTime5: String;
-    tDay6_EndTime0: String;
-    tDay6_EndTime1: String;
-    tDay6_EndTime2: String;
-    tDay6_EndTime3: String;
-    tDay6_EndTime4: String;
-    tDay6_EndTime5: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dwSheduleNum: number;
+    tDay0_StartTime0: string;
+    tDay0_StartTime1: string;
+    tDay0_StartTime2: string;
+    tDay0_StartTime3: string;
+    tDay0_StartTime4: string;
+    tDay0_StartTime5: string;
+    tDay1_StartTime0: string;
+    tDay1_StartTime1: string;
+    tDay1_StartTime2: string;
+    tDay1_StartTime3: string;
+    tDay1_StartTime4: string;
+    tDay1_StartTime5: string;
+    tDay2_StartTime0: string;
+    tDay2_StartTime1: string;
+    tDay2_StartTime2: string;
+    tDay2_StartTime3: string;
+    tDay2_StartTime4: string;
+    tDay2_StartTime5: string;
+    tDay3_StartTime0: string;
+    tDay3_StartTime1: string;
+    tDay3_StartTime2: string;
+    tDay3_StartTime3: string;
+    tDay3_StartTime4: string;
+    tDay3_StartTime5: string;
+    tDay4_StartTime0: string;
+    tDay4_StartTime1: string;
+    tDay4_StartTime2: string;
+    tDay4_StartTime3: string;
+    tDay4_StartTime4: string;
+    tDay4_StartTime5: string;
+    tDay5_StartTime0: string;
+    tDay5_StartTime1: string;
+    tDay5_StartTime2: string;
+    tDay5_StartTime3: string;
+    tDay5_StartTime4: string;
+    tDay5_StartTime5: string;
+    tDay6_StartTime0: string;
+    tDay6_StartTime1: string;
+    tDay6_StartTime2: string;
+    tDay6_StartTime3: string;
+    tDay6_StartTime4: string;
+    tDay6_StartTime5: string;
+    tDay0_EndTime0: string;
+    tDay0_EndTime1: string;
+    tDay0_EndTime2: string;
+    tDay0_EndTime3: string;
+    tDay0_EndTime4: string;
+    tDay0_EndTime5: string;
+    tDay1_EndTime0: string;
+    tDay1_EndTime1: string;
+    tDay1_EndTime2: string;
+    tDay1_EndTime3: string;
+    tDay1_EndTime4: string;
+    tDay1_EndTime5: string;
+    tDay2_EndTime0: string;
+    tDay2_EndTime1: string;
+    tDay2_EndTime2: string;
+    tDay2_EndTime3: string;
+    tDay2_EndTime4: string;
+    tDay2_EndTime5: string;
+    tDay3_EndTime0: string;
+    tDay3_EndTime1: string;
+    tDay3_EndTime2: string;
+    tDay3_EndTime3: string;
+    tDay3_EndTime4: string;
+    tDay3_EndTime5: string;
+    tDay4_EndTime0: string;
+    tDay4_EndTime1: string;
+    tDay4_EndTime2: string;
+    tDay4_EndTime3: string;
+    tDay4_EndTime4: string;
+    tDay4_EndTime5: string;
+    tDay5_EndTime0: string;
+    tDay5_EndTime1: string;
+    tDay5_EndTime2: string;
+    tDay5_EndTime3: string;
+    tDay5_EndTime4: string;
+    tDay5_EndTime5: string;
+    tDay6_EndTime0: string;
+    tDay6_EndTime1: string;
+    tDay6_EndTime2: string;
+    tDay6_EndTime3: string;
+    tDay6_EndTime4: string;
+    tDay6_EndTime5: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplAAN100Contr.xml
 export interface TAplAAN100Contr {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
     fActivate: Boolean;
-    bAddress: Number;
-    dwPollInterval: Number;
-    wHostLostTO: Number;
-    wInterCharTO: Number;
-    wReplyLine: Number;
-    wClear2SendDelay: Number;
-    wReceiveDelay: Number;
-    dwMaxNumCards: Number;
-    bCardLenType: Number;
-    bPinType: Number;
+    bAddress: number;
+    dwPollInterval: number;
+    wHostLostTO: number;
+    wInterCharTO: number;
+    wReplyLine: number;
+    wClear2SendDelay: number;
+    wReceiveDelay: number;
+    dwMaxNumCards: number;
+    bCardLenType: number;
+    bPinType: number;
     fStoreExpireDate: Boolean;
     fStoreActivationDate: Boolean;
     fStoreAPBLocation: Boolean;
@@ -3252,114 +3252,114 @@ export interface TAplAAN100Contr {
     fUseVisitorEscort: Boolean;
     fUse32AccLevels: Boolean;
     fUseZoneGrpNames: Boolean;
-    bDuressOffsetCode: Number;
+    bDuressOffsetCode: number;
     fDisableDuressReport: Boolean;
-    scClockCorrection: Number;
-    SysAddrResetAPBTZ: String;
-    b2CardControlTO: Number;
+    scClockCorrection: number;
+    SysAddrResetAPBTZ: string;
+    b2CardControlTO: number;
     fDisableGrandReaderOnCmd: Boolean;
     fNeedZoneGroupAuth: Boolean;
     fNeedSpecCmdAuth: Boolean;
-    bTimedAPBSettings: Number;
+    bTimedAPBSettings: number;
     fDenyCardIfInGrandCycle: Boolean;
     fUseNetProtocol: Boolean;
-    bHostAccReqTO: Number;
+    bHostAccReqTO: number;
     fActTimeEachDay: Boolean;
-    strPhone1: String;
-    strPhone2: String;
-    bRegS0: Number;
-    bRegS6: Number;
-    bRegS7: Number;
-    bRegS8: Number;
-    bRegS9: Number;
-    bRegS10: Number;
-    bCallRetryCount: Number;
-    bTimeBetweenRetry: Number;
-    wAAMDialSiteAddress: Number;
-    wHostDialSiteAddress: Number;
+    strPhone1: string;
+    strPhone2: string;
+    bRegS0: number;
+    bRegS6: number;
+    bRegS7: number;
+    bRegS8: number;
+    bRegS9: number;
+    bRegS10: number;
+    bCallRetryCount: number;
+    bTimeBetweenRetry: number;
+    wAAMDialSiteAddress: number;
+    wHostDialSiteAddress: number;
     fRestrictCommand: Boolean;
     fCallback: Boolean;
-    SysAddrDayNightTZ: String;
-    SysAddrRegularCallTZ1: String;
-    SysAddrRegularCallTZ2: String;
-    bCurrStatus: Number;
-    bModePort_2: Number;
-    bModePort_3: Number;
-    bModePort_4: Number;
-    bModePort_5: Number;
-    bTXDDrvDelay_2: Number;
-    bTXDDrvDelay_3: Number;
-    bTXDDrvDelay_4: Number;
-    bTXDDrvDelay_5: Number;
-    bReceiveDelay_2: Number;
-    bReceiveDelay_3: Number;
-    bReceiveDelay_4: Number;
-    bReceiveDelay_5: Number;
-    bInterCharTO_2: Number;
-    bInterCharTO_3: Number;
-    bInterCharTO_4: Number;
-    bInterCharTO_5: Number;
-    bReplyTO_2: Number;
-    bReplyTO_3: Number;
-    bReplyTO_4: Number;
-    bReplyTO_5: Number;
-    wPollInterval_2: Number;
-    wPollInterval_3: Number;
-    wPollInterval_4: Number;
-    wPollInterval_5: Number;
-    wOffPollInterval_2: Number;
-    wOffPollInterval_3: Number;
-    wOffPollInterval_4: Number;
-    wOffPollInterval_5: Number;
-    bUndefCurrColor: Number;
-    bUndefNextColor: Number;
-    bUndefPulseTime: Number;
-    bSafeCurrColor: Number;
-    bSafeNextColor: Number;
-    bSafePulseTime: Number;
-    bFaultCurrColor: Number;
-    bFaultNextColor: Number;
-    bFaultPulseTime: Number;
-    bAlarmCurrColor: Number;
-    bAlarmNextColor: Number;
-    bAlarmPulseTime: Number;
-    bAccGrantCurrColor: Number;
-    bAccGrantNextColor: Number;
-    bAccGrantPulseTime: Number;
-    bAccDenyCurrColor: Number;
-    bAccDenyNextColor: Number;
-    bAccDenyPulseTime: Number;
-    bAccDuressCurrColor: Number;
-    bAccDuressNextColor: Number;
-    bAccDuressPulseTime: Number;
-    bMaskedCurrColor: Number;
-    bMaskedNextColor: Number;
-    bMaskedPulseTime: Number;
-    bUseCustomTime: Number;
-    nCustomTimeZone: Number;
+    SysAddrDayNightTZ: string;
+    SysAddrRegularCallTZ1: string;
+    SysAddrRegularCallTZ2: string;
+    bCurrStatus: number;
+    bModePort_2: number;
+    bModePort_3: number;
+    bModePort_4: number;
+    bModePort_5: number;
+    bTXDDrvDelay_2: number;
+    bTXDDrvDelay_3: number;
+    bTXDDrvDelay_4: number;
+    bTXDDrvDelay_5: number;
+    bReceiveDelay_2: number;
+    bReceiveDelay_3: number;
+    bReceiveDelay_4: number;
+    bReceiveDelay_5: number;
+    bInterCharTO_2: number;
+    bInterCharTO_3: number;
+    bInterCharTO_4: number;
+    bInterCharTO_5: number;
+    bReplyTO_2: number;
+    bReplyTO_3: number;
+    bReplyTO_4: number;
+    bReplyTO_5: number;
+    wPollInterval_2: number;
+    wPollInterval_3: number;
+    wPollInterval_4: number;
+    wPollInterval_5: number;
+    wOffPollInterval_2: number;
+    wOffPollInterval_3: number;
+    wOffPollInterval_4: number;
+    wOffPollInterval_5: number;
+    bUndefCurrColor: number;
+    bUndefNextColor: number;
+    bUndefPulseTime: number;
+    bSafeCurrColor: number;
+    bSafeNextColor: number;
+    bSafePulseTime: number;
+    bFaultCurrColor: number;
+    bFaultNextColor: number;
+    bFaultPulseTime: number;
+    bAlarmCurrColor: number;
+    bAlarmNextColor: number;
+    bAlarmPulseTime: number;
+    bAccGrantCurrColor: number;
+    bAccGrantNextColor: number;
+    bAccGrantPulseTime: number;
+    bAccDenyCurrColor: number;
+    bAccDenyNextColor: number;
+    bAccDenyPulseTime: number;
+    bAccDuressCurrColor: number;
+    bAccDuressNextColor: number;
+    bAccDuressPulseTime: number;
+    bMaskedCurrColor: number;
+    bMaskedNextColor: number;
+    bMaskedPulseTime: number;
+    bUseCustomTime: number;
+    nCustomTimeZone: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplAAN32Contr.xml
 export interface TAplAAN32Contr {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
     fActivate: Boolean;
-    bAddress: Number;
-    dwPollInterval: Number;
-    wHostLostTO: Number;
-    wInterCharTO: Number;
-    wReplyLine: Number;
-    wClear2SendDelay: Number;
-    wReceiveDelay: Number;
-    dwMaxNumCards: Number;
-    bCardLenType: Number;
-    bPinType: Number;
+    bAddress: number;
+    dwPollInterval: number;
+    wHostLostTO: number;
+    wInterCharTO: number;
+    wReplyLine: number;
+    wClear2SendDelay: number;
+    wReceiveDelay: number;
+    dwMaxNumCards: number;
+    bCardLenType: number;
+    bPinType: number;
     fStoreExpireDate: Boolean;
     fStoreActivationDate: Boolean;
     fStoreAPBLocation: Boolean;
@@ -3376,117 +3376,117 @@ export interface TAplAAN32Contr {
     fUseVisitorEscort: Boolean;
     fUse32AccLevels: Boolean;
     fUseZoneGrpNames: Boolean;
-    bDuressOffsetCode: Number;
+    bDuressOffsetCode: number;
     fDisableDuressReport: Boolean;
-    scClockCorrection: Number;
-    SysAddrResetAPBTZ: String;
-    b2CardControlTO: Number;
+    scClockCorrection: number;
+    SysAddrResetAPBTZ: string;
+    b2CardControlTO: number;
     fDisableGrandReaderOnCmd: Boolean;
     fNeedZoneGroupAuth: Boolean;
     fNeedSpecCmdAuth: Boolean;
-    bTimedAPBSettings: Number;
+    bTimedAPBSettings: number;
     fDenyCardIfInGrandCycle: Boolean;
     fUseNetProtocol: Boolean;
-    bHostAccReqTO: Number;
+    bHostAccReqTO: number;
     fActTimeEachDay: Boolean;
-    strPhone1: String;
-    strPhone2: String;
-    bRegS0: Number;
-    bRegS6: Number;
-    bRegS7: Number;
-    bRegS8: Number;
-    bRegS9: Number;
-    bRegS10: Number;
-    bCallRetryCount: Number;
-    bTimeBetweenRetry: Number;
-    wAAMDialSiteAddress: Number;
-    wHostDialSiteAddress: Number;
+    strPhone1: string;
+    strPhone2: string;
+    bRegS0: number;
+    bRegS6: number;
+    bRegS7: number;
+    bRegS8: number;
+    bRegS9: number;
+    bRegS10: number;
+    bCallRetryCount: number;
+    bTimeBetweenRetry: number;
+    wAAMDialSiteAddress: number;
+    wHostDialSiteAddress: number;
     fRestrictCommand: Boolean;
     fCallback: Boolean;
-    SysAddrDayNightTZ: String;
-    SysAddrRegularCallTZ1: String;
-    SysAddrRegularCallTZ2: String;
-    bCurrStatus: Number;
-    bModePort_2: Number;
-    bModePort_3: Number;
-    bModePort_4: Number;
-    bModePort_5: Number;
-    bTXDDrvDelay_2: Number;
-    bTXDDrvDelay_3: Number;
-    bTXDDrvDelay_4: Number;
-    bTXDDrvDelay_5: Number;
-    bReceiveDelay_2: Number;
-    bReceiveDelay_3: Number;
-    bReceiveDelay_4: Number;
-    bReceiveDelay_5: Number;
-    bInterCharTO_2: Number;
-    bInterCharTO_3: Number;
-    bInterCharTO_4: Number;
-    bInterCharTO_5: Number;
-    bReplyTO_2: Number;
-    bReplyTO_3: Number;
-    bReplyTO_4: Number;
-    bReplyTO_5: Number;
-    wPollInterval_2: Number;
-    wPollInterval_3: Number;
-    wPollInterval_4: Number;
-    wPollInterval_5: Number;
-    wOffPollInterval_2: Number;
-    wOffPollInterval_3: Number;
-    wOffPollInterval_4: Number;
-    wOffPollInterval_5: Number;
-    bUndefCurrColor: Number;
-    bUndefNextColor: Number;
-    bUndefPulseTime: Number;
-    bSafeCurrColor: Number;
-    bSafeNextColor: Number;
-    bSafePulseTime: Number;
-    bFaultCurrColor: Number;
-    bFaultNextColor: Number;
-    bFaultPulseTime: Number;
-    bAlarmCurrColor: Number;
-    bAlarmNextColor: Number;
-    bAlarmPulseTime: Number;
-    bAccGrantCurrColor: Number;
-    bAccGrantNextColor: Number;
-    bAccGrantPulseTime: Number;
-    bAccDenyCurrColor: Number;
-    bAccDenyNextColor: Number;
-    bAccDenyPulseTime: Number;
-    bAccDuressCurrColor: Number;
-    bAccDuressNextColor: Number;
-    bAccDuressPulseTime: Number;
-    bMaskedCurrColor: Number;
-    bMaskedNextColor: Number;
-    bMaskedPulseTime: Number;
-    bUseCustomTime: Number;
-    nCustomTimeZone: Number;
+    SysAddrDayNightTZ: string;
+    SysAddrRegularCallTZ1: string;
+    SysAddrRegularCallTZ2: string;
+    bCurrStatus: number;
+    bModePort_2: number;
+    bModePort_3: number;
+    bModePort_4: number;
+    bModePort_5: number;
+    bTXDDrvDelay_2: number;
+    bTXDDrvDelay_3: number;
+    bTXDDrvDelay_4: number;
+    bTXDDrvDelay_5: number;
+    bReceiveDelay_2: number;
+    bReceiveDelay_3: number;
+    bReceiveDelay_4: number;
+    bReceiveDelay_5: number;
+    bInterCharTO_2: number;
+    bInterCharTO_3: number;
+    bInterCharTO_4: number;
+    bInterCharTO_5: number;
+    bReplyTO_2: number;
+    bReplyTO_3: number;
+    bReplyTO_4: number;
+    bReplyTO_5: number;
+    wPollInterval_2: number;
+    wPollInterval_3: number;
+    wPollInterval_4: number;
+    wPollInterval_5: number;
+    wOffPollInterval_2: number;
+    wOffPollInterval_3: number;
+    wOffPollInterval_4: number;
+    wOffPollInterval_5: number;
+    bUndefCurrColor: number;
+    bUndefNextColor: number;
+    bUndefPulseTime: number;
+    bSafeCurrColor: number;
+    bSafeNextColor: number;
+    bSafePulseTime: number;
+    bFaultCurrColor: number;
+    bFaultNextColor: number;
+    bFaultPulseTime: number;
+    bAlarmCurrColor: number;
+    bAlarmNextColor: number;
+    bAlarmPulseTime: number;
+    bAccGrantCurrColor: number;
+    bAccGrantNextColor: number;
+    bAccGrantPulseTime: number;
+    bAccDenyCurrColor: number;
+    bAccDenyNextColor: number;
+    bAccDenyPulseTime: number;
+    bAccDuressCurrColor: number;
+    bAccDuressNextColor: number;
+    bAccDuressPulseTime: number;
+    bMaskedCurrColor: number;
+    bMaskedNextColor: number;
+    bMaskedPulseTime: number;
+    bUseCustomTime: number;
+    nCustomTimeZone: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMC6IntervalTZ.xml
 export interface TAplMC6IntervalTZ {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bNumber: Number;
-    bIntervalUsed: Number;
-    bStartHour0: Number;
-    bStartHour1: Number;
-    bStartHour2: Number;
-    bStartHour3: Number;
-    bStartHour4: Number;
-    bStartHour5: Number;
-    bStartMinute0: Number;
-    bStartMinute1: Number;
-    bStartMinute2: Number;
-    bStartMinute3: Number;
-    bStartMinute4: Number;
-    bStartMinute5: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bNumber: number;
+    bIntervalUsed: number;
+    bStartHour0: number;
+    bStartHour1: number;
+    bStartHour2: number;
+    bStartHour3: number;
+    bStartHour4: number;
+    bStartHour5: number;
+    bStartMinute0: number;
+    bStartMinute1: number;
+    bStartMinute2: number;
+    bStartMinute3: number;
+    bStartMinute4: number;
+    bStartMinute5: number;
     fDayOfWeekMo0: Boolean;
     fDayOfWeekMo1: Boolean;
     fDayOfWeekMo2: Boolean;
@@ -3529,18 +3529,18 @@ export interface TAplMC6IntervalTZ {
     fDayOfWeekSu3: Boolean;
     fDayOfWeekSu4: Boolean;
     fDayOfWeekSu5: Boolean;
-    bEndMinute0: Number;
-    bEndMinute1: Number;
-    bEndMinute2: Number;
-    bEndMinute3: Number;
-    bEndMinute4: Number;
-    bEndMinute5: Number;
-    bEndHour0: Number;
-    bEndHour1: Number;
-    bEndHour2: Number;
-    bEndHour3: Number;
-    bEndHour4: Number;
-    bEndHour5: Number;
+    bEndMinute0: number;
+    bEndMinute1: number;
+    bEndMinute2: number;
+    bEndMinute3: number;
+    bEndMinute4: number;
+    bEndMinute5: number;
+    bEndHour0: number;
+    bEndHour1: number;
+    bEndHour2: number;
+    bEndHour3: number;
+    bEndHour4: number;
+    bEndHour5: number;
     fHoliday1_0: Boolean;
     fHoliday1_1: Boolean;
     fHoliday1_2: Boolean;
@@ -3557,15 +3557,15 @@ export interface TAplMC6IntervalTZ {
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCAL.xml
 export interface TAplMCAL {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bALNumber: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bALNumber: number;
     fAllowCmd0: Boolean;
     fAllowCmd1: Boolean;
     fAllowCmd2: Boolean;
@@ -3602,338 +3602,338 @@ export interface TAplMCAL {
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCAlarmInput.xml
 export interface TAplMCAlarmInput {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bInputNum: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bInputNum: number;
     fImmediateDialAtDay: Boolean;
     fImmediateDialAtNight: Boolean;
-    bCurrStatus: Number;
+    bCurrStatus: number;
     fInitMasked: Boolean;
-    SysAddrMaskTZ: String;
+    SysAddrMaskTZ: string;
     fLatched: Boolean;
-    wEntryDelay: Number;
-    wExitDelay: Number;
+    wEntryDelay: number;
+    wExitDelay: number;
     fInitConfigured: Boolean;
     fNormalOpen: Boolean;
     fNormalOpenTamper: Boolean;
-    bDigitAddress: Number;
+    bDigitAddress: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCAlarmPanelAIO16.xml
 export interface TAplMCAlarmPanelAIO16 {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bLUNType: Number;
-    bLUNNumber: Number;
-    bNumberOnPanel: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bLUNType: number;
+    bLUNNumber: number;
+    bNumberOnPanel: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCAlarmPanelAIO168.xml
 export interface TAplMCAlarmPanelAIO168 {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bLUNType: Number;
-    bLUNNumber: Number;
-    bNumberOnPanel: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bLUNType: number;
+    bLUNNumber: number;
+    bNumberOnPanel: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCAlarmPanelAIO8.xml
 export interface TAplMCAlarmPanelAIO8 {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bLUNType: Number;
-    bLUNNumber: Number;
-    bNumberOnPanel: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bLUNType: number;
+    bLUNNumber: number;
+    bNumberOnPanel: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCAlarmPanelAPA15.xml
 export interface TAplMCAlarmPanelAPA15 {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bLUNType: Number;
-    bLUNNumber: Number;
-    bNumberOnPanel: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bLUNType: number;
+    bLUNNumber: number;
+    bNumberOnPanel: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCAlarmPanelAPA16.xml
 export interface TAplMCAlarmPanelAPA16 {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bLUNType: Number;
-    bLUNNumber: Number;
-    bNumberOnPanel: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bLUNType: number;
+    bLUNNumber: number;
+    bNumberOnPanel: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCAlarmPanelAPD16.xml
 export interface TAplMCAlarmPanelAPD16 {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bLUNType: Number;
-    bLUNNumber: Number;
-    bNumberOnPanel: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bLUNType: number;
+    bLUNNumber: number;
+    bNumberOnPanel: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCAlarmRelay.xml
 export interface TAplMCAlarmRelay {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bRelayNum: Number;
-    wPulseTime: Number;
-    bInitMode: Number;
-    SysAddrCtrlTZ: String;
-    bPulseTimeResolution: Number;
-    bCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bRelayNum: number;
+    wPulseTime: number;
+    bInitMode: number;
+    SysAddrCtrlTZ: string;
+    bPulseTimeResolution: number;
+    bCurrStatus: number;
     fAllowResetPulse: Boolean;
     fOfflineMode: Boolean;
     fCOML: Boolean;
     fANYF: Boolean;
     fCTMP: Boolean;
     fPFL: Boolean;
-    bLinkInput0: Number;
-    bLinkInput1: Number;
-    bLinkInput2: Number;
-    bLinkInput3: Number;
-    bLinkInput4: Number;
-    bLinkInput5: Number;
-    bLinkInput6: Number;
-    bLinkInput7: Number;
-    bLinkInput8: Number;
-    bLinkInput9: Number;
-    bLinkInput10: Number;
-    bLinkInput11: Number;
-    bLinkInput12: Number;
-    bLinkInput13: Number;
-    bLinkInput14: Number;
-    bLinkInput15: Number;
+    bLinkInput0: number;
+    bLinkInput1: number;
+    bLinkInput2: number;
+    bLinkInput3: number;
+    bLinkInput4: number;
+    bLinkInput5: number;
+    bLinkInput6: number;
+    bLinkInput7: number;
+    bLinkInput8: number;
+    bLinkInput9: number;
+    bLinkInput10: number;
+    bLinkInput11: number;
+    bLinkInput12: number;
+    bLinkInput13: number;
+    bLinkInput14: number;
+    bLinkInput15: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCALElemElev.xml
 export interface TAplMCALElemElev {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
     fDownloadAL: Boolean;
     fAllowCommands: Boolean;
-    SysAddrReader: String;
-    SysAddrElevAL: String;
+    SysAddrReader: string;
+    SysAddrElevAL: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCALElemNorm.xml
 export interface TAplMCALElemNorm {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
     fDownloadAL: Boolean;
     fAllowCommands: Boolean;
-    SysAddrReader: String;
-    SysAddrCtrlTZ: String;
+    SysAddrReader: string;
+    SysAddrCtrlTZ: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCALElemZoneGroup.xml
 export interface TAplMCALElemZoneGroup {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    SysAddrZoneGroup: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    SysAddrZoneGroup: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCASA72.xml
 export interface TAplMCASA72 {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bLUNType: Number;
-    bLUNNumber: Number;
-    bNumberOnPanel: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bLUNType: number;
+    bLUNNumber: number;
+    bNumberOnPanel: number;
     fEnableBuzzer: Boolean;
     fNeedACKOnOffline: Boolean;
-    bAutoACKEnableTime: Number;
-    bAutoACKRepeatTime: Number;
-    bBuzzerOnTime: Number;
-    bBuzzerOffTime: Number;
-    bEnableBuzzerTime: Number;
-    wFailedACKTO: Number;
-    wACKHoldingOnOffline: Number;
-    SysAddrACKTZ: String;
-    SysAddrACKLogTZ: String;
+    bAutoACKEnableTime: number;
+    bAutoACKRepeatTime: number;
+    bBuzzerOnTime: number;
+    bBuzzerOffTime: number;
+    bEnableBuzzerTime: number;
+    wFailedACKTO: number;
+    wACKHoldingOnOffline: number;
+    SysAddrACKTZ: string;
+    SysAddrACKLogTZ: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCCardFormat.xml
 export interface TAplMCCardFormat {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCardFormat: Number;
-    bFormatNumber: Number;
-    dwFCValue: Number;
-    nCardNumberOffset: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCardFormat: number;
+    bFormatNumber: number;
+    dwFCValue: number;
+    nCardNumberOffset: number;
     f2DigitIssueCode: Boolean;
-    bReferenceIndex1: Number;
-    bReferenceIndex2: Number;
-    bMinStartToRef1: Number;
-    bMinRef1ToRef2: Number;
-    bMinRef2ToEnd: Number;
-    bFCLocation0: Number;
-    bFCLocation1: Number;
-    bFCLocation2: Number;
-    bFCLocation3: Number;
-    bFCLocation4: Number;
-    bFCLocation5: Number;
-    bFCLocation6: Number;
-    bFCLocation7: Number;
-    bFCLocation8: Number;
-    bCardNumberLocation0: Number;
-    bCardNumberLocation1: Number;
-    bCardNumberLocation2: Number;
-    bCardNumberLocation3: Number;
-    bCardNumberLocation4: Number;
-    bCardNumberLocation5: Number;
-    bCardNumberLocation6: Number;
-    bCardNumberLocation7: Number;
-    bCardNumberLocation8: Number;
-    bIssueCodeLocation: Number;
-    bFCAMSLocation0: Number;
-    bFCAMSLocation1: Number;
-    bFCAMSLocation2: Number;
-    bFCAMSLocation3: Number;
-    bFCAMSLocation4: Number;
-    bFCAMSLocation5: Number;
-    bFCAMSLocation6: Number;
-    bFCAMSLocation7: Number;
-    bFCAMSLocation8: Number;
-    bBitsOnCard: Number;
-    bBitsForEven: Number;
-    bBitsForOdd: Number;
-    bNumBitsInFC: Number;
-    bIndexFCBegin: Number;
-    bNumBitsInCardNumber: Number;
-    bIndexCardNumberBegin: Number;
+    bReferenceIndex1: number;
+    bReferenceIndex2: number;
+    bMinStartToRef1: number;
+    bMinRef1ToRef2: number;
+    bMinRef2ToEnd: number;
+    bFCLocation0: number;
+    bFCLocation1: number;
+    bFCLocation2: number;
+    bFCLocation3: number;
+    bFCLocation4: number;
+    bFCLocation5: number;
+    bFCLocation6: number;
+    bFCLocation7: number;
+    bFCLocation8: number;
+    bCardNumberLocation0: number;
+    bCardNumberLocation1: number;
+    bCardNumberLocation2: number;
+    bCardNumberLocation3: number;
+    bCardNumberLocation4: number;
+    bCardNumberLocation5: number;
+    bCardNumberLocation6: number;
+    bCardNumberLocation7: number;
+    bCardNumberLocation8: number;
+    bIssueCodeLocation: number;
+    bFCAMSLocation0: number;
+    bFCAMSLocation1: number;
+    bFCAMSLocation2: number;
+    bFCAMSLocation3: number;
+    bFCAMSLocation4: number;
+    bFCAMSLocation5: number;
+    bFCAMSLocation6: number;
+    bFCAMSLocation7: number;
+    bFCAMSLocation8: number;
+    bBitsOnCard: number;
+    bBitsForEven: number;
+    bBitsForOdd: number;
+    bNumBitsInFC: number;
+    bIndexFCBegin: number;
+    bNumBitsInCardNumber: number;
+    bIndexCardNumberBegin: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCCardFrmtList.xml
 export interface TAplMCCardFrmtList {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bListNumber: Number;
-    SysAddrCardFormat0: String;
-    SysAddrCardFormat1: String;
-    SysAddrCardFormat2: String;
-    SysAddrCardFormat3: String;
-    SysAddrCardFormat4: String;
-    SysAddrCardFormat5: String;
-    SysAddrCardFormat6: String;
-    SysAddrCardFormat7: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bListNumber: number;
+    SysAddrCardFormat0: string;
+    SysAddrCardFormat1: string;
+    SysAddrCardFormat2: string;
+    SysAddrCardFormat3: string;
+    SysAddrCardFormat4: string;
+    SysAddrCardFormat5: string;
+    SysAddrCardFormat6: string;
+    SysAddrCardFormat7: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCContrInput.xml
 export interface TAplMCContrInput {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bInputNum: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bInputNum: number;
     fImmediateDialAtDay: Boolean;
     fImmediateDialAtNight: Boolean;
-    bCurrStatus: Number;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCDownlSpecRec.xml
 export interface TAplMCDownlSpecRec {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bRecNumber: Number;
-    dwNumberOfCards: Number;
-    bCardType: Number;
-    bPinType: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bRecNumber: number;
+    dwNumberOfCards: number;
+    bCardType: number;
+    bPinType: number;
     fPrecisionAccess: Boolean;
     fUse6AL: Boolean;
     fStoreExtByte: Boolean;
@@ -3942,115 +3942,115 @@ export interface TAplMCDownlSpecRec {
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCElevAL.xml
 export interface TAplMCElevAL {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bElevALNum: Number;
-    SysAddrCtrlTZ0: String;
-    SysAddrCtrlTZ1: String;
-    SysAddrCtrlTZ2: String;
-    SysAddrCtrlTZ3: String;
-    SysAddrCtrlTZ4: String;
-    SysAddrCtrlTZ5: String;
-    SysAddrCtrlTZ6: String;
-    SysAddrCtrlTZ7: String;
-    SysAddrCtrlTZ8: String;
-    SysAddrCtrlTZ9: String;
-    SysAddrCtrlTZ10: String;
-    SysAddrCtrlTZ11: String;
-    SysAddrCtrlTZ12: String;
-    SysAddrCtrlTZ13: String;
-    SysAddrCtrlTZ14: String;
-    SysAddrCtrlTZ15: String;
-    SysAddrCtrlTZ16: String;
-    SysAddrCtrlTZ17: String;
-    SysAddrCtrlTZ18: String;
-    SysAddrCtrlTZ19: String;
-    SysAddrCtrlTZ20: String;
-    SysAddrCtrlTZ21: String;
-    SysAddrCtrlTZ22: String;
-    SysAddrCtrlTZ23: String;
-    SysAddrCtrlTZ24: String;
-    SysAddrCtrlTZ25: String;
-    SysAddrCtrlTZ26: String;
-    SysAddrCtrlTZ27: String;
-    SysAddrCtrlTZ28: String;
-    SysAddrCtrlTZ29: String;
-    SysAddrCtrlTZ30: String;
-    SysAddrCtrlTZ31: String;
-    SysAddrCtrlTZ32: String;
-    SysAddrCtrlTZ33: String;
-    SysAddrCtrlTZ34: String;
-    SysAddrCtrlTZ35: String;
-    SysAddrCtrlTZ36: String;
-    SysAddrCtrlTZ37: String;
-    SysAddrCtrlTZ38: String;
-    SysAddrCtrlTZ39: String;
-    SysAddrCtrlTZ40: String;
-    SysAddrCtrlTZ41: String;
-    SysAddrCtrlTZ42: String;
-    SysAddrCtrlTZ43: String;
-    SysAddrCtrlTZ44: String;
-    SysAddrCtrlTZ45: String;
-    SysAddrCtrlTZ46: String;
-    SysAddrCtrlTZ47: String;
-    SysAddrCtrlTZ48: String;
-    SysAddrCtrlTZ49: String;
-    SysAddrCtrlTZ50: String;
-    SysAddrCtrlTZ51: String;
-    SysAddrCtrlTZ52: String;
-    SysAddrCtrlTZ53: String;
-    SysAddrCtrlTZ54: String;
-    SysAddrCtrlTZ55: String;
-    SysAddrCtrlTZ56: String;
-    SysAddrCtrlTZ57: String;
-    SysAddrCtrlTZ58: String;
-    SysAddrCtrlTZ59: String;
-    SysAddrCtrlTZ60: String;
-    SysAddrCtrlTZ61: String;
-    SysAddrCtrlTZ62: String;
-    SysAddrCtrlTZ63: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bElevALNum: number;
+    SysAddrCtrlTZ0: string;
+    SysAddrCtrlTZ1: string;
+    SysAddrCtrlTZ2: string;
+    SysAddrCtrlTZ3: string;
+    SysAddrCtrlTZ4: string;
+    SysAddrCtrlTZ5: string;
+    SysAddrCtrlTZ6: string;
+    SysAddrCtrlTZ7: string;
+    SysAddrCtrlTZ8: string;
+    SysAddrCtrlTZ9: string;
+    SysAddrCtrlTZ10: string;
+    SysAddrCtrlTZ11: string;
+    SysAddrCtrlTZ12: string;
+    SysAddrCtrlTZ13: string;
+    SysAddrCtrlTZ14: string;
+    SysAddrCtrlTZ15: string;
+    SysAddrCtrlTZ16: string;
+    SysAddrCtrlTZ17: string;
+    SysAddrCtrlTZ18: string;
+    SysAddrCtrlTZ19: string;
+    SysAddrCtrlTZ20: string;
+    SysAddrCtrlTZ21: string;
+    SysAddrCtrlTZ22: string;
+    SysAddrCtrlTZ23: string;
+    SysAddrCtrlTZ24: string;
+    SysAddrCtrlTZ25: string;
+    SysAddrCtrlTZ26: string;
+    SysAddrCtrlTZ27: string;
+    SysAddrCtrlTZ28: string;
+    SysAddrCtrlTZ29: string;
+    SysAddrCtrlTZ30: string;
+    SysAddrCtrlTZ31: string;
+    SysAddrCtrlTZ32: string;
+    SysAddrCtrlTZ33: string;
+    SysAddrCtrlTZ34: string;
+    SysAddrCtrlTZ35: string;
+    SysAddrCtrlTZ36: string;
+    SysAddrCtrlTZ37: string;
+    SysAddrCtrlTZ38: string;
+    SysAddrCtrlTZ39: string;
+    SysAddrCtrlTZ40: string;
+    SysAddrCtrlTZ41: string;
+    SysAddrCtrlTZ42: string;
+    SysAddrCtrlTZ43: string;
+    SysAddrCtrlTZ44: string;
+    SysAddrCtrlTZ45: string;
+    SysAddrCtrlTZ46: string;
+    SysAddrCtrlTZ47: string;
+    SysAddrCtrlTZ48: string;
+    SysAddrCtrlTZ49: string;
+    SysAddrCtrlTZ50: string;
+    SysAddrCtrlTZ51: string;
+    SysAddrCtrlTZ52: string;
+    SysAddrCtrlTZ53: string;
+    SysAddrCtrlTZ54: string;
+    SysAddrCtrlTZ55: string;
+    SysAddrCtrlTZ56: string;
+    SysAddrCtrlTZ57: string;
+    SysAddrCtrlTZ58: string;
+    SysAddrCtrlTZ59: string;
+    SysAddrCtrlTZ60: string;
+    SysAddrCtrlTZ61: string;
+    SysAddrCtrlTZ62: string;
+    SysAddrCtrlTZ63: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCEscortGroupList.xml
 export interface TAplMCEscortGroupList {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bListNum: Number;
-    SysAddrVisitorGroup0: String;
-    SysAddrVisitorGroup1: String;
-    SysAddrVisitorGroup2: String;
-    SysAddrVisitorGroup3: String;
-    SysAddrVisitorGroup4: String;
-    SysAddrVisitorGroup5: String;
-    SysAddrVisitorGroup6: String;
-    SysAddrVisitorGroup7: String;
-    SysAddrVisitorGroup8: String;
-    SysAddrVisitorGroup9: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bListNum: number;
+    SysAddrVisitorGroup0: string;
+    SysAddrVisitorGroup1: string;
+    SysAddrVisitorGroup2: string;
+    SysAddrVisitorGroup3: string;
+    SysAddrVisitorGroup4: string;
+    SysAddrVisitorGroup5: string;
+    SysAddrVisitorGroup6: string;
+    SysAddrVisitorGroup7: string;
+    SysAddrVisitorGroup8: string;
+    SysAddrVisitorGroup9: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCHoliday.xml
 export interface TAplMCHoliday {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dHolidayDate: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dHolidayDate: string;
     fType1: Boolean;
     fType2: Boolean;
     fPermanent: Boolean;
@@ -4058,373 +4058,373 @@ export interface TAplMCHoliday {
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCHostInput.xml
 export interface TAplMCHostInput {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bInputNum: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bInputNum: number;
     fImmediateDialAtDay: Boolean;
     fImmediateDialAtNight: Boolean;
-    bCurrStatus: Number;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCIV.xml
 export interface TAplMCIV {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bLUNType: Number;
-    bLUNNumber: Number;
-    bHandleType: Number;
-    blobTermsValue: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bLUNType: number;
+    bLUNNumber: number;
+    bHandleType: number;
+    blobTermsValue: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCIVALElevFloors.xml
 export interface TAplMCIVALElevFloors {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bListNumber: Number;
-    blobArgs: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bListNumber: number;
+    blobArgs: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCIVFuncAlarmRelayControl.xml
 export interface TAplMCIVFuncAlarmRelayControl {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bFuncNumber: Number;
-    SysAddrArg: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bFuncNumber: number;
+    SysAddrArg: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCIVFuncAPBControl.xml
 export interface TAplMCIVFuncAPBControl {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bFuncNumber: Number;
-    SysAddrArg: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bFuncNumber: number;
+    SysAddrArg: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCIVFuncChain.xml
 export interface TAplMCIVFuncChain {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bFuncNumber: Number;
-    SysAddrArg: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bFuncNumber: number;
+    SysAddrArg: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCIVFuncDenyElevFloors.xml
 export interface TAplMCIVFuncDenyElevFloors {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bFuncNumber: Number;
-    SysAddrArg: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bFuncNumber: number;
+    SysAddrArg: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCIVFuncEventLog.xml
 export interface TAplMCIVFuncEventLog {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bFuncNumber: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bFuncNumber: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCIVFuncMaskZoneGroup.xml
 export interface TAplMCIVFuncMaskZoneGroup {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bFuncNumber: Number;
-    SysAddrArg: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bFuncNumber: number;
+    SysAddrArg: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCIVFuncReaderBeepControl.xml
 export interface TAplMCIVFuncReaderBeepControl {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bFuncNumber: Number;
-    SysAddrArg: String;
-    bAddParam: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bFuncNumber: number;
+    SysAddrArg: string;
+    bAddParam: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCIVFuncReaderContBeepControl.xml
 export interface TAplMCIVFuncReaderContBeepControl {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bFuncNumber: Number;
-    SysAddrArg: String;
-    bAddParam: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bFuncNumber: number;
+    SysAddrArg: string;
+    bAddParam: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCIVFuncReaderControl.xml
 export interface TAplMCIVFuncReaderControl {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bFuncNumber: Number;
-    SysAddrArg: String;
-    bAddParam: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bFuncNumber: number;
+    SysAddrArg: string;
+    bAddParam: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCIVFuncReaderRelayControl.xml
 export interface TAplMCIVFuncReaderRelayControl {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bFuncNumber: Number;
-    SysAddrArg: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bFuncNumber: number;
+    SysAddrArg: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCIVFuncTestZoneGroupAct.xml
 export interface TAplMCIVFuncTestZoneGroupAct {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bFuncNumber: Number;
-    SysAddrArg: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bFuncNumber: number;
+    SysAddrArg: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCIVFuncTestZoneGroupMsk.xml
 export interface TAplMCIVFuncTestZoneGroupMsk {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bFuncNumber: Number;
-    SysAddrArg: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bFuncNumber: number;
+    SysAddrArg: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCIVFuncToggleZoneGroupMsk.xml
 export interface TAplMCIVFuncToggleZoneGroupMsk {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bFuncNumber: Number;
-    SysAddrArg: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bFuncNumber: number;
+    SysAddrArg: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCIVFuncTZControl.xml
 export interface TAplMCIVFuncTZControl {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bFuncNumber: Number;
-    SysAddrArg: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bFuncNumber: number;
+    SysAddrArg: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCIVInitiator.xml
 export interface TAplMCIVInitiator {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bIVInitType: Number;
-    SysAddrIV: String;
-    bTermNum: Number;
-    bOpCode1: Number;
-    bOpCode2: Number;
-    bOpCode3: Number;
-    bOpCode4: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bIVInitType: number;
+    SysAddrIV: string;
+    bTermNum: number;
+    bOpCode1: number;
+    bOpCode2: number;
+    bOpCode3: number;
+    bOpCode4: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCIVInitiatorAccActiv.xml
 export interface TAplMCIVInitiatorAccActiv {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bIVInitType: Number;
-    SysAddrIV: String;
-    bTermNum: Number;
-    bOpCode1: Number;
-    bOpCode2: Number;
-    bOpCode3: Number;
-    bOpCode4: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bIVInitType: number;
+    SysAddrIV: string;
+    bTermNum: number;
+    bOpCode1: number;
+    bOpCode2: number;
+    bOpCode3: number;
+    bOpCode4: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCIVInitiatorAccDiddle.xml
 export interface TAplMCIVInitiatorAccDiddle {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bIVInitType: Number;
-    SysAddrIV: String;
-    bTermNum: Number;
-    bOpCode1: Number;
-    bOpCode2: Number;
-    bOpCode3: Number;
-    bOpCode4: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bIVInitType: number;
+    SysAddrIV: string;
+    bTermNum: number;
+    bOpCode1: number;
+    bOpCode2: number;
+    bOpCode3: number;
+    bOpCode4: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCIVInitiatorComm.xml
 export interface TAplMCIVInitiatorComm {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bIVInitType: Number;
-    SysAddrIV: String;
-    bTermNum: Number;
-    bOpCode1: Number;
-    bOpCode2: Number;
-    bOpCode3: Number;
-    bOpCode4: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bIVInitType: number;
+    SysAddrIV: string;
+    bTermNum: number;
+    bOpCode1: number;
+    bOpCode2: number;
+    bOpCode3: number;
+    bOpCode4: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCIVInitiatorReader.xml
 export interface TAplMCIVInitiatorReader {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bIVInitType: Number;
-    SysAddrIV: String;
-    bTermNum: Number;
-    bOpCode1: Number;
-    bOpCode2: Number;
-    bOpCode3: Number;
-    bOpCode4: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bIVInitType: number;
+    SysAddrIV: string;
+    bTermNum: number;
+    bOpCode1: number;
+    bOpCode2: number;
+    bOpCode3: number;
+    bOpCode4: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCIVInitiatorZoneAPB.xml
 export interface TAplMCIVInitiatorZoneAPB {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bIVInitType: Number;
-    SysAddrIV: String;
-    bTermNum: Number;
-    bOpCode1: Number;
-    bOpCode2: Number;
-    bOpCode3: Number;
-    bOpCode4: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bIVInitType: number;
+    SysAddrIV: string;
+    bTermNum: number;
+    bOpCode1: number;
+    bOpCode2: number;
+    bOpCode3: number;
+    bOpCode4: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCLED.xml
 export interface TAplMCLED {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bLEDNum: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bLEDNum: number;
     fNeedACKAtDay: Boolean;
     fNeedACKAtNight: Boolean;
     fNeedACKLogAtDay: Boolean;
@@ -4433,34 +4433,34 @@ export interface TAplMCLED {
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCLEDLink.xml
 export interface TAplMCLEDLink {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    SysAddrLinkInput: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    SysAddrLinkInput: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCReader.xml
 export interface TAplMCReader {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bLUNType: Number;
-    bLUNNumber: Number;
-    bNumberOnPanel: Number;
-    bStrikeTime: Number;
-    bHeldOpenTime: Number;
-    bOfflineMode: Number;
-    bInitMode: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bLUNType: number;
+    bLUNNumber: number;
+    bNumberOnPanel: number;
+    bStrikeTime: number;
+    bHeldOpenTime: number;
+    bOfflineMode: number;
+    bInitMode: number;
     fDenyIfDuress: Boolean;
     fElevatorReader: Boolean;
     fRequestHostIfDeny: Boolean;
@@ -4474,9 +4474,9 @@ export interface TAplMCReader {
     fCommandsAccepted: Boolean;
     fPreAlarmWarning: Boolean;
     f2CardControl: Boolean;
-    bDidleThreshold: Number;
-    dwFacilityModeFloorList: Number;
-    dwCypherCode: Number;
+    bDidleThreshold: number;
+    dwFacilityModeFloorList: number;
+    dwCypherCode: number;
     fUseSoftAPB: Boolean;
     fAllowOutputPulseReset: Boolean;
     fEmulateElevator: Boolean;
@@ -4485,64 +4485,64 @@ export interface TAplMCReader {
     fDisableEPB: Boolean;
     fRelayLink: Boolean;
     fUseAuxAsBoltMonitorNew: Boolean;
-    bLocalAPBTime: Number;
-    dwFacilityModeFloorListAdd: Number;
-    wLongStrikeTime: Number;
-    wLongHeldOpenTime: Number;
-    SysAddrDownlRecord: String;
-    SysAddrEmulAlarmPanel0: String;
-    SysAddrEmulAlarmPanel1: String;
-    SysAddrEmulAlarmPanel2: String;
-    SysAddrEmulAlarmPanel3: String;
-    SysAddrCardFormatList: String;
-    SysAddrAPBLeaving: String;
-    SysAddrAPBEntering: String;
-    SysAddrDayModeElevAL: String;
-    bCurrStatus: Number;
-    bDispInpStInterv: Number;
+    bLocalAPBTime: number;
+    dwFacilityModeFloorListAdd: number;
+    wLongStrikeTime: number;
+    wLongHeldOpenTime: number;
+    SysAddrDownlRecord: string;
+    SysAddrEmulAlarmPanel0: string;
+    SysAddrEmulAlarmPanel1: string;
+    SysAddrEmulAlarmPanel2: string;
+    SysAddrEmulAlarmPanel3: string;
+    SysAddrCardFormatList: string;
+    SysAddrAPBLeaving: string;
+    SysAddrAPBEntering: string;
+    SysAddrDayModeElevAL: string;
+    bCurrStatus: number;
+    bDispInpStInterv: number;
     fSendStChangeTable: Boolean;
     fUseFastTurnstileMode: Boolean;
     fUse2DoorLock: Boolean;
     fUseAuxReaderDisable: Boolean;
-    bElevFloorOffset: Number;
-    bMaxVisitorNum: Number;
-    bCmdModeForAuthCmds: Number;
+    bElevFloorOffset: number;
+    bMaxVisitorNum: number;
+    bCmdModeForAuthCmds: number;
     fUseGrantAudioNotify: Boolean;
     fVisitorsFreePass: Boolean;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCReaderCtrlTZ.xml
 export interface TAplMCReaderCtrlTZ {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bStartMode: Number;
-    bEndMode: Number;
-    SysAddrCtrlTZ: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bStartMode: number;
+    bEndMode: number;
+    SysAddrCtrlTZ: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCReaderElev.xml
 export interface TAplMCReaderElev {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bLUNType: Number;
-    bLUNNumber: Number;
-    bNumberOnPanel: Number;
-    bStrikeTime: Number;
-    bHeldOpenTime: Number;
-    bOfflineMode: Number;
-    bInitMode: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bLUNType: number;
+    bLUNNumber: number;
+    bNumberOnPanel: number;
+    bStrikeTime: number;
+    bHeldOpenTime: number;
+    bOfflineMode: number;
+    bInitMode: number;
     fDenyIfDuress: Boolean;
     fElevatorReader: Boolean;
     fRequestHostIfDeny: Boolean;
@@ -4556,9 +4556,9 @@ export interface TAplMCReaderElev {
     fCommandsAccepted: Boolean;
     fPreAlarmWarning: Boolean;
     f2CardControl: Boolean;
-    bDidleThreshold: Number;
-    dwFacilityModeFloorList: Number;
-    dwCypherCode: Number;
+    bDidleThreshold: number;
+    dwFacilityModeFloorList: number;
+    dwCypherCode: number;
     fUseSoftAPB: Boolean;
     fAllowOutputPulseReset: Boolean;
     fEmulateElevator: Boolean;
@@ -4567,682 +4567,682 @@ export interface TAplMCReaderElev {
     fDisableEPB: Boolean;
     fRelayLink: Boolean;
     fUseAuxAsBoltMonitorNew: Boolean;
-    bLocalAPBTime: Number;
-    dwFacilityModeFloorListAdd: Number;
-    wLongStrikeTime: Number;
-    wLongHeldOpenTime: Number;
-    SysAddrDownlRecord: String;
-    SysAddrEmulAlarmPanel0: String;
-    SysAddrEmulAlarmPanel1: String;
-    SysAddrEmulAlarmPanel2: String;
-    SysAddrEmulAlarmPanel3: String;
-    SysAddrCardFormatList: String;
-    SysAddrAPBLeaving: String;
-    SysAddrAPBEntering: String;
-    SysAddrDayModeElevAL: String;
-    bCurrStatus: Number;
-    bDispInpStInterv: Number;
+    bLocalAPBTime: number;
+    dwFacilityModeFloorListAdd: number;
+    wLongStrikeTime: number;
+    wLongHeldOpenTime: number;
+    SysAddrDownlRecord: string;
+    SysAddrEmulAlarmPanel0: string;
+    SysAddrEmulAlarmPanel1: string;
+    SysAddrEmulAlarmPanel2: string;
+    SysAddrEmulAlarmPanel3: string;
+    SysAddrCardFormatList: string;
+    SysAddrAPBLeaving: string;
+    SysAddrAPBEntering: string;
+    SysAddrDayModeElevAL: string;
+    bCurrStatus: number;
+    bDispInpStInterv: number;
     fSendStChangeTable: Boolean;
     fUseFastTurnstileMode: Boolean;
     fUse2DoorLock: Boolean;
     fUseAuxReaderDisable: Boolean;
-    bElevFloorOffset: Number;
-    bMaxVisitorNum: Number;
-    bCmdModeForAuthCmds: Number;
+    bElevFloorOffset: number;
+    bMaxVisitorNum: number;
+    bCmdModeForAuthCmds: number;
     fUseGrantAudioNotify: Boolean;
     fVisitorsFreePass: Boolean;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCReaderInput.xml
 export interface TAplMCReaderInput {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bInputNum: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bInputNum: number;
     fImmediateDialAtDay: Boolean;
     fImmediateDialAtNight: Boolean;
-    bCurrStatus: Number;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCReaderInputAccActiv.xml
 export interface TAplMCReaderInputAccActiv {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bInputNum: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bInputNum: number;
     fImmediateDialAtDay: Boolean;
     fImmediateDialAtNight: Boolean;
-    bCurrStatus: Number;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCReaderInputAux.xml
 export interface TAplMCReaderInputAux {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bInputNum: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bInputNum: number;
     fImmediateDialAtDay: Boolean;
     fImmediateDialAtNight: Boolean;
-    bCurrStatus: Number;
+    bCurrStatus: number;
     fInitMasked: Boolean;
-    SysAddrMaskTZ: String;
+    SysAddrMaskTZ: string;
     fLatched: Boolean;
-    wEntryDelay: Number;
-    wExitDelay: Number;
+    wEntryDelay: number;
+    wExitDelay: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCReaderInputDiddle.xml
 export interface TAplMCReaderInputDiddle {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bInputNum: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bInputNum: number;
     fImmediateDialAtDay: Boolean;
     fImmediateDialAtNight: Boolean;
-    bCurrStatus: Number;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCReaderInputM.xml
 export interface TAplMCReaderInputM {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bInputNum: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bInputNum: number;
     fImmediateDialAtDay: Boolean;
     fImmediateDialAtNight: Boolean;
-    bCurrStatus: Number;
+    bCurrStatus: number;
     fInitMasked: Boolean;
-    SysAddrMaskTZ: String;
+    SysAddrMaskTZ: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCReaderRelay.xml
 export interface TAplMCReaderRelay {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bRelayNum: Number;
-    wPulseTime: Number;
-    bInitMode: Number;
-    SysAddrCtrlTZ: String;
-    bPulseTimeResolution: Number;
-    bCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bRelayNum: number;
+    wPulseTime: number;
+    bInitMode: number;
+    SysAddrCtrlTZ: string;
+    bPulseTimeResolution: number;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCRemContrAHI10R.xml
 export interface TAplMCRemContrAHI10R {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bLUNType: Number;
-    bLUNNumber: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bLUNType: number;
+    bLUNNumber: number;
     fContrActive: Boolean;
     fUseAlternatePort: Boolean;
     fEncripteDate: Boolean;
     fMasterKey: Boolean;
-    bRemotePortNumber: Number;
-    bAddressOnPort: Number;
-    bCurrStatus: Number;
+    bRemotePortNumber: number;
+    bAddressOnPort: number;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCRemContrAIM2DLR.xml
 export interface TAplMCRemContrAIM2DLR {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bLUNType: Number;
-    bLUNNumber: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bLUNType: number;
+    bLUNNumber: number;
     fContrActive: Boolean;
     fUseAlternatePort: Boolean;
     fEncripteDate: Boolean;
     fMasterKey: Boolean;
-    bRemotePortNumber: Number;
-    bAddressOnPort: Number;
-    bCurrStatus: Number;
+    bRemotePortNumber: number;
+    bAddressOnPort: number;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCRemContrAIM2SLR.xml
 export interface TAplMCRemContrAIM2SLR {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bLUNType: Number;
-    bLUNNumber: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bLUNType: number;
+    bLUNNumber: number;
     fContrActive: Boolean;
     fUseAlternatePort: Boolean;
     fEncripteDate: Boolean;
     fMasterKey: Boolean;
-    bRemotePortNumber: Number;
-    bAddressOnPort: Number;
-    bCurrStatus: Number;
+    bRemotePortNumber: number;
+    bAddressOnPort: number;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCRemContrAIM4SLR.xml
 export interface TAplMCRemContrAIM4SLR {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bLUNType: Number;
-    bLUNNumber: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bLUNType: number;
+    bLUNNumber: number;
     fContrActive: Boolean;
     fUseAlternatePort: Boolean;
     fEncripteDate: Boolean;
     fMasterKey: Boolean;
-    bRemotePortNumber: Number;
-    bAddressOnPort: Number;
-    bCurrStatus: Number;
+    bRemotePortNumber: number;
+    bAddressOnPort: number;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCRemContrAMS100R.xml
 export interface TAplMCRemContrAMS100R {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bLUNType: Number;
-    bLUNNumber: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bLUNType: number;
+    bLUNNumber: number;
     fContrActive: Boolean;
     fUseAlternatePort: Boolean;
     fEncripteDate: Boolean;
     fMasterKey: Boolean;
-    bRemotePortNumber: Number;
-    bAddressOnPort: Number;
-    bCurrStatus: Number;
+    bRemotePortNumber: number;
+    bAddressOnPort: number;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCRemContrAnalogAlarm.xml
 export interface TAplMCRemContrAnalogAlarm {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bLUNType: Number;
-    bLUNNumber: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bLUNType: number;
+    bLUNNumber: number;
     fContrActive: Boolean;
     fUseAlternatePort: Boolean;
     fEncripteDate: Boolean;
     fMasterKey: Boolean;
-    bRemotePortNumber: Number;
-    bAddressOnPort: Number;
-    bCurrStatus: Number;
+    bRemotePortNumber: number;
+    bAddressOnPort: number;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCRemContrAP500R.xml
 export interface TAplMCRemContrAP500R {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bLUNType: Number;
-    bLUNNumber: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bLUNType: number;
+    bLUNNumber: number;
     fContrActive: Boolean;
     fUseAlternatePort: Boolean;
     fEncripteDate: Boolean;
     fMasterKey: Boolean;
-    bRemotePortNumber: Number;
-    bAddressOnPort: Number;
-    bCurrStatus: Number;
+    bRemotePortNumber: number;
+    bAddressOnPort: number;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCRemContrAP510_520R.xml
 export interface TAplMCRemContrAP510_520R {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bLUNType: Number;
-    bLUNNumber: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bLUNType: number;
+    bLUNNumber: number;
     fContrActive: Boolean;
     fUseAlternatePort: Boolean;
     fEncripteDate: Boolean;
     fMasterKey: Boolean;
-    bRemotePortNumber: Number;
-    bAddressOnPort: Number;
-    bCurrStatus: Number;
+    bRemotePortNumber: number;
+    bAddressOnPort: number;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCRemContrASA72.xml
 export interface TAplMCRemContrASA72 {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bLUNType: Number;
-    bLUNNumber: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bLUNType: number;
+    bLUNNumber: number;
     fContrActive: Boolean;
     fUseAlternatePort: Boolean;
     fEncripteDate: Boolean;
     fMasterKey: Boolean;
-    bRemotePortNumber: Number;
-    bAddressOnPort: Number;
-    bCurrStatus: Number;
+    bRemotePortNumber: number;
+    bAddressOnPort: number;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCRemContrCommonR.xml
 export interface TAplMCRemContrCommonR {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bLUNType: Number;
-    bLUNNumber: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bLUNType: number;
+    bLUNNumber: number;
     fContrActive: Boolean;
     fUseAlternatePort: Boolean;
     fEncripteDate: Boolean;
     fMasterKey: Boolean;
-    bRemotePortNumber: Number;
-    bAddressOnPort: Number;
-    bCurrStatus: Number;
+    bRemotePortNumber: number;
+    bAddressOnPort: number;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCRemContrCommonRElev.xml
 export interface TAplMCRemContrCommonRElev {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bLUNType: Number;
-    bLUNNumber: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bLUNType: number;
+    bLUNNumber: number;
     fContrActive: Boolean;
     fUseAlternatePort: Boolean;
     fEncripteDate: Boolean;
     fMasterKey: Boolean;
-    bRemotePortNumber: Number;
-    bAddressOnPort: Number;
-    bCurrStatus: Number;
+    bRemotePortNumber: number;
+    bAddressOnPort: number;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCRemContrDigitalAlarm.xml
 export interface TAplMCRemContrDigitalAlarm {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bLUNType: Number;
-    bLUNNumber: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bLUNType: number;
+    bLUNNumber: number;
     fContrActive: Boolean;
     fUseAlternatePort: Boolean;
     fEncripteDate: Boolean;
     fMasterKey: Boolean;
-    bRemotePortNumber: Number;
-    bAddressOnPort: Number;
-    bCurrStatus: Number;
+    bRemotePortNumber: number;
+    bAddressOnPort: number;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCRemContrInput.xml
 export interface TAplMCRemContrInput {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bInputNum: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bInputNum: number;
     fImmediateDialAtDay: Boolean;
     fImmediateDialAtNight: Boolean;
-    bCurrStatus: Number;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCRemContrInputComm.xml
 export interface TAplMCRemContrInputComm {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bInputNum: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bInputNum: number;
     fImmediateDialAtDay: Boolean;
     fImmediateDialAtNight: Boolean;
-    bCurrStatus: Number;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCRemContrPrintUnit.xml
 export interface TAplMCRemContrPrintUnit {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bLUNType: Number;
-    bLUNNumber: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bLUNType: number;
+    bLUNNumber: number;
     fContrActive: Boolean;
     fUseAlternatePort: Boolean;
     fEncripteDate: Boolean;
     fMasterKey: Boolean;
-    bRemotePortNumber: Number;
-    bAddressOnPort: Number;
-    bCurrStatus: Number;
+    bRemotePortNumber: number;
+    bAddressOnPort: number;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCSerialPort.xml
 export interface TAplMCSerialPort {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    strPortName: String;
-    dwBoudRate: Number;
-    bByteSize: Number;
-    bParity: Number;
-    bNumStopBits: Number;
-    bFlowControl: Number;
-    dwReadTo: Number;
-    dwReadToMultiplier: Number;
-    dwReadToConstant: Number;
-    dwWriteToMultiplier: Number;
-    dwWriteToConstant: Number;
-    dwInQueue: Number;
-    dwOutQueue: Number;
-    dwMaxReadTO: Number;
-    dwMaxWriteTO: Number;
-    dwDelayBeforeSend: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    strPortName: string;
+    dwBoudRate: number;
+    bByteSize: number;
+    bParity: number;
+    bNumStopBits: number;
+    bFlowControl: number;
+    dwReadTo: number;
+    dwReadToMultiplier: number;
+    dwReadToConstant: number;
+    dwWriteToMultiplier: number;
+    dwWriteToConstant: number;
+    dwInQueue: number;
+    dwOutQueue: number;
+    dwMaxReadTO: number;
+    dwMaxWriteTO: number;
+    dwDelayBeforeSend: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCSocket.xml
 export interface TAplMCSocket {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    strIPName: String;
-    strIPPortName: String;
-    dwConnectTO: Number;
-    dwReadTO: Number;
-    dwWriteTO: Number;
-    dwInterPartTO: Number;
-    bSockType: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    strIPName: string;
+    strIPPortName: string;
+    dwConnectTO: number;
+    dwReadTO: number;
+    dwWriteTO: number;
+    dwInterPartTO: number;
+    bSockType: number;
     fUseEncryption: Boolean;
-    blobEncryptionKey: String;
+    blobEncryptionKey: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCTypeInfo.xml
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCVisitorGroup.xml
 export interface TAplMCVisitorGroup {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bGroupNum: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bGroupNum: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCZoneAPB.xml
 export interface TAplMCZoneAPB {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bLUNType: Number;
-    bLUNNumber: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bLUNType: number;
+    bLUNNumber: number;
     fMin2Man: Boolean;
     fOpenForAccess: Boolean;
-    bAccessOnClose: Number;
-    SysAddrReader: String;
+    bAccessOnClose: number;
+    SysAddrReader: string;
     fLimitPeople: Boolean;
-    wMaxPeopleNum: Number;
+    wMaxPeopleNum: number;
     fInitialClear: Boolean;
-    wIVMinPeopleNum: Number;
-    wIVMaxPeopleNum: Number;
+    wIVMinPeopleNum: number;
+    wIVMaxPeopleNum: number;
     fGrantOnReaderCmdAuthIfClose: Boolean;
     fToggleOnGrantReaderCmdAuth: Boolean;
-    bCurrStatus: Number;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCZoneGroup.xml
 export interface TAplMCZoneGroup {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bLUNType: Number;
-    bLUNNumber: Number;
-    bInitMaskLevel: Number;
-    bCurrMaskLevel: Number;
-    bMaxMaskLevel: Number;
-    strZoneGroupName: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bLUNType: number;
+    bLUNNumber: number;
+    bInitMaskLevel: number;
+    bCurrMaskLevel: number;
+    bMaxMaskLevel: number;
+    strZoneGroupName: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplMCExtension\Registrar\tAplMCZoneGroupElem.xml
 export interface TAplMCZoneGroupElem {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    SysAddrZone: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    SysAddrZone: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplSCExtension\Registrar\tAplAIM1SLContr.xml
 export interface TAplAIM1SLContr {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
     fActivate: Boolean;
-    bAddress: Number;
-    dwPollInterval: Number;
-    blobUnlockCode: String;
-    wMaxCardNum: Number;
-    bCardType: Number;
-    bPinType: Number;
+    bAddress: number;
+    dwPollInterval: number;
+    blobUnlockCode: string;
+    wMaxCardNum: number;
+    bCardType: number;
+    bPinType: number;
     fStoreTZPerReader: Boolean;
     fStore6AL: Boolean;
     fStore32AL: Boolean;
     fStoreAPBInfo: Boolean;
-    SysAddrResetAPBTZ: String;
-    wCommLossTO: Number;
+    SysAddrResetAPBTZ: string;
+    wCommLossTO: number;
     fPairedReader0: Boolean;
     fPairedReader1: Boolean;
     fUse2DoorLock0: Boolean;
     fUse2DoorLock1: Boolean;
     fUseAuxReaderDisable0: Boolean;
     fUseAuxReaderDisable1: Boolean;
-    bCurrStatus: Number;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplSCExtension\Registrar\tAplAIM2SLContr.xml
 export interface TAplAIM2SLContr {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
     fActivate: Boolean;
-    bAddress: Number;
-    dwPollInterval: Number;
-    blobUnlockCode: String;
-    wMaxCardNum: Number;
-    bCardType: Number;
-    bPinType: Number;
+    bAddress: number;
+    dwPollInterval: number;
+    blobUnlockCode: string;
+    wMaxCardNum: number;
+    bCardType: number;
+    bPinType: number;
     fStoreTZPerReader: Boolean;
     fStore6AL: Boolean;
     fStore32AL: Boolean;
     fStoreAPBInfo: Boolean;
-    SysAddrResetAPBTZ: String;
-    wCommLossTO: Number;
+    SysAddrResetAPBTZ: string;
+    wCommLossTO: number;
     fPairedReader0: Boolean;
     fPairedReader1: Boolean;
     fUse2DoorLock0: Boolean;
     fUse2DoorLock1: Boolean;
     fUseAuxReaderDisable0: Boolean;
     fUseAuxReaderDisable1: Boolean;
-    bCurrStatus: Number;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplSCExtension\Registrar\tAplAIM4SLContr.xml
 export interface TAplAIM4SLContr {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
     fActivate: Boolean;
-    bAddress: Number;
-    dwPollInterval: Number;
-    blobUnlockCode: String;
-    wMaxCardNum: Number;
-    bCardType: Number;
-    bPinType: Number;
+    bAddress: number;
+    dwPollInterval: number;
+    blobUnlockCode: string;
+    wMaxCardNum: number;
+    bCardType: number;
+    bPinType: number;
     fStoreTZPerReader: Boolean;
     fStore6AL: Boolean;
     fStore32AL: Boolean;
     fStoreAPBInfo: Boolean;
-    SysAddrResetAPBTZ: String;
-    wCommLossTO: Number;
+    SysAddrResetAPBTZ: string;
+    wCommLossTO: number;
     fPairedReader0: Boolean;
     fPairedReader1: Boolean;
     fUse2DoorLock0: Boolean;
     fUse2DoorLock1: Boolean;
     fUseAuxReaderDisable0: Boolean;
     fUseAuxReaderDisable1: Boolean;
-    bCurrStatus: Number;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplSCExtension\Registrar\tAplAIM6IntervalTZ.xml
 export interface TAplAIM6IntervalTZ {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bNumber: Number;
-    bIntervalUsed: Number;
-    bStartHour0: Number;
-    bStartHour1: Number;
-    bStartHour2: Number;
-    bStartHour3: Number;
-    bStartHour4: Number;
-    bStartHour5: Number;
-    bStartMinute0: Number;
-    bStartMinute1: Number;
-    bStartMinute2: Number;
-    bStartMinute3: Number;
-    bStartMinute4: Number;
-    bStartMinute5: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bNumber: number;
+    bIntervalUsed: number;
+    bStartHour0: number;
+    bStartHour1: number;
+    bStartHour2: number;
+    bStartHour3: number;
+    bStartHour4: number;
+    bStartHour5: number;
+    bStartMinute0: number;
+    bStartMinute1: number;
+    bStartMinute2: number;
+    bStartMinute3: number;
+    bStartMinute4: number;
+    bStartMinute5: number;
     fDayOfWeekMo0: Boolean;
     fDayOfWeekMo1: Boolean;
     fDayOfWeekMo2: Boolean;
@@ -5285,18 +5285,18 @@ export interface TAplAIM6IntervalTZ {
     fDayOfWeekSu3: Boolean;
     fDayOfWeekSu4: Boolean;
     fDayOfWeekSu5: Boolean;
-    bEndMinute0: Number;
-    bEndMinute1: Number;
-    bEndMinute2: Number;
-    bEndMinute3: Number;
-    bEndMinute4: Number;
-    bEndMinute5: Number;
-    bEndHour0: Number;
-    bEndHour1: Number;
-    bEndHour2: Number;
-    bEndHour3: Number;
-    bEndHour4: Number;
-    bEndHour5: Number;
+    bEndMinute0: number;
+    bEndMinute1: number;
+    bEndMinute2: number;
+    bEndMinute3: number;
+    bEndMinute4: number;
+    bEndMinute5: number;
+    bEndHour0: number;
+    bEndHour1: number;
+    bEndHour2: number;
+    bEndHour3: number;
+    bEndHour4: number;
+    bEndHour5: number;
     fHoliday1_0: Boolean;
     fHoliday1_1: Boolean;
     fHoliday1_2: Boolean;
@@ -5313,102 +5313,102 @@ export interface TAplAIM6IntervalTZ {
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplSCExtension\Registrar\tAplAIMAL.xml
 export interface TAplAIMAL {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bALNumber: Number;
-    SysAddrCtrlTZ0: String;
-    SysAddrCtrlTZ1: String;
-    SysAddrCtrlTZ2: String;
-    SysAddrCtrlTZ3: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bALNumber: number;
+    SysAddrCtrlTZ0: string;
+    SysAddrCtrlTZ1: string;
+    SysAddrCtrlTZ2: string;
+    SysAddrCtrlTZ3: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplSCExtension\Registrar\tAplAIMAPB.xml
 export interface TAplAIMAPB {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bAPBNumber: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bAPBNumber: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplSCExtension\Registrar\tAplAIMCardFormat.xml
 export interface TAplAIMCardFormat {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bCardFormat: Number;
-    bFormatNumber: Number;
-    dwFCValue: Number;
-    nCardNumberOffset: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bCardFormat: number;
+    bFormatNumber: number;
+    dwFCValue: number;
+    nCardNumberOffset: number;
     f2DigitIssueCode: Boolean;
-    bReferenceIndex1: Number;
-    bReferenceIndex2: Number;
-    bMinStartToRef1: Number;
-    bMinRef1ToRef2: Number;
-    bMinRef2ToEnd: Number;
-    bFCLocation0: Number;
-    bFCLocation1: Number;
-    bFCLocation2: Number;
-    bFCLocation3: Number;
-    bFCLocation4: Number;
-    bFCLocation5: Number;
-    bFCLocation6: Number;
-    bFCLocation7: Number;
-    bFCLocation8: Number;
-    bCardNumberLocation0: Number;
-    bCardNumberLocation1: Number;
-    bCardNumberLocation2: Number;
-    bCardNumberLocation3: Number;
-    bCardNumberLocation4: Number;
-    bCardNumberLocation5: Number;
-    bCardNumberLocation6: Number;
-    bCardNumberLocation7: Number;
-    bCardNumberLocation8: Number;
-    bIssueCodeLocation: Number;
-    bFCAMSLocation0: Number;
-    bFCAMSLocation1: Number;
-    bFCAMSLocation2: Number;
-    bFCAMSLocation3: Number;
-    bFCAMSLocation4: Number;
-    bFCAMSLocation5: Number;
-    bFCAMSLocation6: Number;
-    bFCAMSLocation7: Number;
-    bFCAMSLocation8: Number;
-    bBitsOnCard: Number;
-    bBitsForEven: Number;
-    bBitsForOdd: Number;
-    bNumBitsInFC: Number;
-    bIndexFCBegin: Number;
-    bNumBitsInCardNumber: Number;
-    bIndexCardNumberBegin: Number;
+    bReferenceIndex1: number;
+    bReferenceIndex2: number;
+    bMinStartToRef1: number;
+    bMinRef1ToRef2: number;
+    bMinRef2ToEnd: number;
+    bFCLocation0: number;
+    bFCLocation1: number;
+    bFCLocation2: number;
+    bFCLocation3: number;
+    bFCLocation4: number;
+    bFCLocation5: number;
+    bFCLocation6: number;
+    bFCLocation7: number;
+    bFCLocation8: number;
+    bCardNumberLocation0: number;
+    bCardNumberLocation1: number;
+    bCardNumberLocation2: number;
+    bCardNumberLocation3: number;
+    bCardNumberLocation4: number;
+    bCardNumberLocation5: number;
+    bCardNumberLocation6: number;
+    bCardNumberLocation7: number;
+    bCardNumberLocation8: number;
+    bIssueCodeLocation: number;
+    bFCAMSLocation0: number;
+    bFCAMSLocation1: number;
+    bFCAMSLocation2: number;
+    bFCAMSLocation3: number;
+    bFCAMSLocation4: number;
+    bFCAMSLocation5: number;
+    bFCAMSLocation6: number;
+    bFCAMSLocation7: number;
+    bFCAMSLocation8: number;
+    bBitsOnCard: number;
+    bBitsForEven: number;
+    bBitsForOdd: number;
+    bNumBitsInFC: number;
+    bIndexFCBegin: number;
+    bNumBitsInCardNumber: number;
+    bIndexCardNumberBegin: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplSCExtension\Registrar\tAplAIMHoliday.xml
 export interface TAplAIMHoliday {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dHolidayDate: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dHolidayDate: string;
     fType1: Boolean;
     fType2: Boolean;
     fPermanent: Boolean;
@@ -5416,20 +5416,20 @@ export interface TAplAIMHoliday {
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplSCExtension\Registrar\tAplAIMReader.xml
 export interface TAplAIMReader {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    wStrikeTime: Number;
-    wHeldOpenTime: Number;
-    wLongStrikeTime: Number;
-    wLongHeldOpenTime: Number;
-    bOfflineMode: Number;
-    bInitMode: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    wStrikeTime: number;
+    wHeldOpenTime: number;
+    wLongStrikeTime: number;
+    wLongHeldOpenTime: number;
+    bOfflineMode: number;
+    bInitMode: number;
     fActivate: Boolean;
     fUseLocalAccess: Boolean;
     fPreAlarmWarning: Boolean;
@@ -5441,110 +5441,110 @@ export interface TAplAIMReader {
     fDoorBoltMonitor: Boolean;
     fDontWaitUseDoor: Boolean;
     fSoftAPB: Boolean;
-    SysAddrAPBLeaving: String;
-    SysAddrAPBEntering: String;
-    bNumberOnPanel: Number;
-    SysAddrCardFormat0: String;
-    SysAddrCardFormat1: String;
-    SysAddrCardFormat2: String;
-    SysAddrCardFormat3: String;
-    SysAddrCardFormat4: String;
-    SysAddrCardFormat5: String;
-    SysAddrCardFormat6: String;
-    SysAddrCardFormat7: String;
-    bCurrStatus: Number;
+    SysAddrAPBLeaving: string;
+    SysAddrAPBEntering: string;
+    bNumberOnPanel: number;
+    SysAddrCardFormat0: string;
+    SysAddrCardFormat1: string;
+    SysAddrCardFormat2: string;
+    SysAddrCardFormat3: string;
+    SysAddrCardFormat4: string;
+    SysAddrCardFormat5: string;
+    SysAddrCardFormat6: string;
+    SysAddrCardFormat7: string;
+    bCurrStatus: number;
     fUseFastTurnstileMode: Boolean;
     fUseGrantAudioNotify: Boolean;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplSCExtension\Registrar\tAplAIMReaderCtrlTZ.xml
 export interface TAplAIMReaderCtrlTZ {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bStartMode: Number;
-    bEndMode: Number;
-    SysAddrCtrlTZ: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bStartMode: number;
+    bEndMode: number;
+    SysAddrCtrlTZ: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplSCExtension\Registrar\tAplAIMReaderInput.xml
 export interface TAplAIMReaderInput {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
     fInitMasked: Boolean;
-    bInputType: Number;
-    bCurrStatus: Number;
+    bInputType: number;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplSCExtension\Registrar\tAplAIMReaderInputTZ.xml
 export interface TAplAIMReaderInputTZ {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
     fInitMasked: Boolean;
-    bInputType: Number;
-    bCurrStatus: Number;
-    SysAddrInputMaskTZ: String;
+    bInputType: number;
+    bCurrStatus: number;
+    SysAddrInputMaskTZ: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplSCExtension\Registrar\tAplAIMReaderRelay.xml
 export interface TAplAIMReaderRelay {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bRelayNum: Number;
-    wPulseTime: Number;
-    bInitMode: Number;
-    SysAddrCtrlTZ: String;
-    bPulseTimeResolution: Number;
-    bCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bRelayNum: number;
+    wPulseTime: number;
+    bInitMode: number;
+    SysAddrCtrlTZ: string;
+    bPulseTimeResolution: number;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplSCExtension\Registrar\tAplAPN2IntervalTZ.xml
 export interface TAplAPN2IntervalTZ {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bNumber: Number;
-    bIntervalUsed: Number;
-    bStartHour0: Number;
-    bStartHour1: Number;
-    bStartHour2: Number;
-    bStartHour3: Number;
-    bStartHour4: Number;
-    bStartHour5: Number;
-    bStartMinute0: Number;
-    bStartMinute1: Number;
-    bStartMinute2: Number;
-    bStartMinute3: Number;
-    bStartMinute4: Number;
-    bStartMinute5: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bNumber: number;
+    bIntervalUsed: number;
+    bStartHour0: number;
+    bStartHour1: number;
+    bStartHour2: number;
+    bStartHour3: number;
+    bStartHour4: number;
+    bStartHour5: number;
+    bStartMinute0: number;
+    bStartMinute1: number;
+    bStartMinute2: number;
+    bStartMinute3: number;
+    bStartMinute4: number;
+    bStartMinute5: number;
     fDayOfWeekMo0: Boolean;
     fDayOfWeekMo1: Boolean;
     fDayOfWeekMo2: Boolean;
@@ -5587,18 +5587,18 @@ export interface TAplAPN2IntervalTZ {
     fDayOfWeekSu3: Boolean;
     fDayOfWeekSu4: Boolean;
     fDayOfWeekSu5: Boolean;
-    bEndMinute0: Number;
-    bEndMinute1: Number;
-    bEndMinute2: Number;
-    bEndMinute3: Number;
-    bEndMinute4: Number;
-    bEndMinute5: Number;
-    bEndHour0: Number;
-    bEndHour1: Number;
-    bEndHour2: Number;
-    bEndHour3: Number;
-    bEndHour4: Number;
-    bEndHour5: Number;
+    bEndMinute0: number;
+    bEndMinute1: number;
+    bEndMinute2: number;
+    bEndMinute3: number;
+    bEndMinute4: number;
+    bEndMinute5: number;
+    bEndHour0: number;
+    bEndHour1: number;
+    bEndHour2: number;
+    bEndHour3: number;
+    bEndHour4: number;
+    bEndHour5: number;
     fHoliday1_0: Boolean;
     fHoliday1_1: Boolean;
     fHoliday1_2: Boolean;
@@ -5615,110 +5615,110 @@ export interface TAplAPN2IntervalTZ {
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplSCExtension\Registrar\tAplAPN35Contr.xml
 export interface TAplAPN35Contr {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
     fActivate: Boolean;
-    bAddress: Number;
-    dwPollInterval: Number;
-    blobUnlockCode: String;
-    bAPBMode: Number;
-    bFormatType: Number;
-    bNumBitsOnCard: Number;
-    bNumBitsForEven: Number;
-    bNumBitsForOdd: Number;
-    bNumBitsInFC: Number;
-    bIndexToFirstFCBit: Number;
-    bNumBitsInCardNum: Number;
-    bIndexToFirstCardNumBit: Number;
-    bNumDigitsInFC: Number;
-    bOffsetToFirstFCDig: Number;
-    bNumDigitsInCardNum: Number;
-    bOffsetToFirstCardNumDig: Number;
-    bCardDBType: Number;
-    dwMinFCValue: Number;
-    dwMaxFCValue: Number;
-    bCurrStatus: Number;
+    bAddress: number;
+    dwPollInterval: number;
+    blobUnlockCode: string;
+    bAPBMode: number;
+    bFormatType: number;
+    bNumBitsOnCard: number;
+    bNumBitsForEven: number;
+    bNumBitsForOdd: number;
+    bNumBitsInFC: number;
+    bIndexToFirstFCBit: number;
+    bNumBitsInCardNum: number;
+    bIndexToFirstCardNumBit: number;
+    bNumDigitsInFC: number;
+    bOffsetToFirstFCDig: number;
+    bNumDigitsInCardNum: number;
+    bOffsetToFirstCardNumDig: number;
+    bCardDBType: number;
+    dwMinFCValue: number;
+    dwMaxFCValue: number;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplSCExtension\Registrar\tAplAPNAL.xml
 export interface TAplAPNAL {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bALNumber: Number;
-    SysAddrCtrlTZ0: String;
-    SysAddrCtrlTZ1: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bALNumber: number;
+    SysAddrCtrlTZ0: string;
+    SysAddrCtrlTZ1: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplSCExtension\Registrar\tAplAPNCard.xml
 export interface TAplAPNCard {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dwCardNumber: Number;
-    wSlotNumber: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dwCardNumber: number;
+    wSlotNumber: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplSCExtension\Registrar\tAplAPNContrInput.xml
 export interface TAplAPNContrInput {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    SysAddrMaskTZ: String;
-    bInputType: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    SysAddrMaskTZ: string;
+    bInputType: number;
     fInitMasked: Boolean;
-    bCurrStatus: Number;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplSCExtension\Registrar\tAplAPNContrRelay.xml
 export interface TAplAPNContrRelay {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bRelayNum: Number;
-    wPulseTime: Number;
-    bInitMode: Number;
-    SysAddrCtrlTZ: String;
-    bCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bRelayNum: number;
+    wPulseTime: number;
+    bInitMode: number;
+    SysAddrCtrlTZ: string;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplSCExtension\Registrar\tAplAPNHoliday.xml
 export interface TAplAPNHoliday {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    dHolidayDate: String;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    dHolidayDate: string;
     fType1: Boolean;
     fType2: Boolean;
     fPermanent: Boolean;
@@ -5726,88 +5726,88 @@ export interface TAplAPNHoliday {
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplSCExtension\Registrar\tAplAPNReader.xml
 export interface TAplAPNReader {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    bInitMode: Number;
-    bNumberOnPanel: Number;
-    wStrikeTime: Number;
-    wHeldOpenTime: Number;
-    wLongStrikeTime: Number;
-    wLongHeldOpenTime: Number;
-    SysAddrCtrlTZ: String;
-    bCtrlTZMode: Number;
-    bCurrStatus: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    bInitMode: number;
+    bNumberOnPanel: number;
+    wStrikeTime: number;
+    wHeldOpenTime: number;
+    wLongStrikeTime: number;
+    wLongHeldOpenTime: number;
+    SysAddrCtrlTZ: string;
+    bCtrlTZMode: number;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplSCExtension\Registrar\tAplAPNReaderInput.xml
 export interface TAplAPNReaderInput {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    SysAddrMaskTZ: String;
-    bInputType: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    SysAddrMaskTZ: string;
+    bInputType: number;
     fInitMasked: Boolean;
-    bCurrStatus: Number;
+    bCurrStatus: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplSCExtension\Registrar\tAplSCSerialPort.xml
 export interface TAplSCSerialPort {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    strPortName: String;
-    dwBoudRate: Number;
-    bByteSize: Number;
-    bParity: Number;
-    bNumStopBits: Number;
-    bFlowControl: Number;
-    dwReadTo: Number;
-    dwReadToMultiplier: Number;
-    dwReadToConstant: Number;
-    dwWriteToMultiplier: Number;
-    dwWriteToConstant: Number;
-    dwInQueue: Number;
-    dwOutQueue: Number;
-    dwMaxReadTO: Number;
-    dwMaxWriteTO: Number;
-    dwDelayBeforeSend: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    strPortName: string;
+    dwBoudRate: number;
+    bByteSize: number;
+    bParity: number;
+    bNumStopBits: number;
+    bFlowControl: number;
+    dwReadTo: number;
+    dwReadToMultiplier: number;
+    dwReadToConstant: number;
+    dwWriteToMultiplier: number;
+    dwWriteToConstant: number;
+    dwInQueue: number;
+    dwOutQueue: number;
+    dwMaxReadTO: number;
+    dwMaxWriteTO: number;
+    dwDelayBeforeSend: number;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplSCExtension\Registrar\tAplSCSocket.xml
 export interface TAplSCSocket {
-    strClassID: String;
-    sysAddrID: String;
-    strName: String;
-    strDesc: String;
+    strClassID: string;
+    sysAddrID: string;
+    strName: string;
+    strDesc: string;
     IsActive: Boolean;
-    dtCreateTime: String;
-    dtLastModifyTime: String;
-    strAlias: String;
-    strIPName: String;
-    strIPPortName: String;
-    dwConnectTO: Number;
-    dwReadTO: Number;
-    dwWriteTO: Number;
-    dwInterPartTO: Number;
-    bSockType: Number;
+    dtCreateTime: string;
+    dtLastModifyTime: string;
+    strAlias: string;
+    strIPName: string;
+    strIPPortName: string;
+    dwConnectTO: number;
+    dwReadTO: number;
+    dwWriteTO: number;
+    dwInterPartTO: number;
+    bSockType: number;
     fUseEncryption: Boolean;
-    blobEncryptionKey: String;
+    blobEncryptionKey: string;
 }
 
 // C:\Program Files (x86)\APACS 3000 8.2.3\bin\ApcSysExt\AplSCExtension\Registrar\tAplSCTypeInfo.xml
